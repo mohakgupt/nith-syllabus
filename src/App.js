@@ -6,6 +6,7 @@ import SubList from './components/sub-list';
 import UnitList from './components/unit-list';
 import TodoList from './components/todo-list';
 import SharedTodoList from './components/shared-todo-list';
+import Footer from './components/footer';
 import Data from './data.json';
 import { useState, useEffect } from 'react';
 
@@ -44,6 +45,7 @@ export default function App(){
         <Route path='/todolist' element={<TodoList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
         <Route path='/todolist/:keys' element={<SharedTodoList data={Data} addKey={addKey} removeKey={removeKey}/>}></Route>
       </Routes>
+      <Footer/>
       </>
     )
 }

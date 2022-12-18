@@ -13,7 +13,7 @@ export default function ShareButton(props){
                         navigator.share({
                             title: "syllabus.nith",
                             text: "Study with me! Check out my list: ",
-                            url: `https://localhost:3000/todolist/${JSON.stringify(props.keys)}`
+                            url: `https://nithsyllabus.netlify.app/todolist/${JSON.stringify(props.keys)}`
                         })
                     }else{
                         alert("Your browser does not support sharing")

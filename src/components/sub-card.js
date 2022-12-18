@@ -12,7 +12,7 @@ export default function DataCard(props) {
       <Card sx={{ width: 175, height: 116, margin: 0.25, backgroundColor: '#fafafa' }}>
         <CardActionArea>
           <CardContent sx={{ p: 1 }}>
-            <Typography sx={{fontSize: 8, fontWeight: 'bold', padding: "1px 4px", backgroundColor: '#307ada', color: 'white', borderRadius: 2, display: "inline-block" }} color="text.secondary" gutterBottom>
+            <Typography sx={{fontSize: 10, padding: "1px 4px 0px 4px", backgroundColor: '#307ada', color: 'white', borderRadius: 2, display: "inline-block" }} color="text.secondary" gutterBottom>
               {props.code.toUpperCase()}
             </Typography>
             <Typography component="div" sx={{fontSize: 16, color: '#424242', height: '3.9em', overflow: 'hidden'}}>

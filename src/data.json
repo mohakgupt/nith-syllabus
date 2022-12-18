@@ -362,7 +362,7 @@
     {
         "id": 11,
         "code": "ph-101",
-        "title": "Engineering Physics  ",
+        "title": "engineering physics  ",
         "credits": [4,3,1,0],
         "units": [
             {
@@ -400,7 +400,7 @@
     {
         "id": 12,
         "code": "cy-101",
-        "title": "Engineering Chemistry",
+        "title": "engineering chemistry",
         "credits": [4,3,1,0],
         "units": [
             {

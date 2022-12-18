@@ -9,7 +9,7 @@ export default function UnitList(props){
     return(
         <>
         <Typography variant="h6" textAlign={"center"} sx={{background: "linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(71,77,199,1) 42%, rgba(2,0,36,1) 100%);", backgroundClip: "text", color: "transparent"}} gutterBottom>
-            <span style={{border: '1px solid #0d47a1', borderRadius: '1em', padding: '0.25em 1em'}}>{props.data[id-1].title.toUpperCase()}</span>
+            <span style={{display: 'inline-block', border: '1px solid #0d47a1', borderRadius: '1em', padding: '0 1em'}}>{props.data[id-1].title.toUpperCase()}</span>
         </Typography>
         <TableContainer>
             <Table size="small" sx={{width: 200, margin: "1px auto"}}>

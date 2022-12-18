@@ -26,7 +26,7 @@ export default function TodoList(props){
             <Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Add units here by clicking the "+" icon and share it with your friends!</Typography>
             :Object.keys(keys).map((id)=>{
                 return(<>
-                    <Typography sx={{width: '100%', textAlign: 'center', mt:2, mb: 1}}>{props.data[id-1].title.toUpperCase()}</Typography>
+                    <Typography variant="h6" textAlign={'center'} sx={{width: "100%", mt:2, mb:1, background: "linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(71,77,199,1) 42%, rgba(2,0,36,1) 100%);", backgroundClip: "text", color: "transparent"}}><span style={{display: 'inline-block', border: '1px solid #0d47a1', borderRadius: '1em', padding: '0 1em'}}>{props.data[id-1].title.toUpperCase()}</span></Typography>
                     {keys[id].map((unit)=>{
                         const s=id;
                         const inList=((id in keys && keys[id].includes(unit))?true:false)
