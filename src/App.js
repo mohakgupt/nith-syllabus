@@ -28,7 +28,7 @@ export default function App(){
     }
     const removeKey=(s, u)=>{
       let initkeys=JSON.parse(JSON.stringify(keys));
-      initkeys[s] = initkeys[s].filter((x)=>{if(u!==x) return x})
+      initkeys[s] = initkeys[s].filter((x)=>{return u!==x})
       if(initkeys[s].length===0) delete(initkeys[s])
       setKeys((initkeys));
     }

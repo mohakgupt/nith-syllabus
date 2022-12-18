@@ -11,11 +11,7 @@ export default function SubList(props) {
   // console.log(props.keys)
   let searchResults;
   searchResults = props.data && props.data.filter((val) => {
-    if (props.query === "") {
-      return val;
-    } else if (val.title.includes(props.query.toLowerCase()) || val.code.includes(props.query.toLowerCase())) {
-      return val;
-    }
+    return(props.query === "" || val.title.includes(props.query.toLowerCase()) || val.code.includes(props.query.toLowerCase()))
   }).sort((a,b)=> a.title>b.title?1:-1)
   return (
     <>
