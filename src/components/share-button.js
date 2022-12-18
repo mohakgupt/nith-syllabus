@@ -11,8 +11,7 @@ export default function ShareButton(props){
                 onClick={(event)=>{
                     if(navigator.canShare){
                         navigator.share({
-                            title: "syllabus.nith",
-                            text: "Study with me! Check out my list: ",
+                            title: "Study with me! Check out my list: ",
                             url: `https://nithsyllabus.netlify.app/todolist/${JSON.stringify(props.keys)}`
                         })
                     }else{

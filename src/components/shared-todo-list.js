@@ -21,9 +21,9 @@ export default function SharedTodoList(props){
         <Box
             sx={{display: 'flex', justifyContent: 'center', flexWrap: 'wrap'}}
         >
-            <Typography sx={{fontSize: 30, textAlign: 'center', width: '100%'}}>Todo List</Typography>
+            <Typography sx={{fontSize: 30, textAlign: 'center', width: '100%'}}>Shared Todo List</Typography>
             {!Object.keys(keys).length? 
-            <Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Add units here by clicking the "+" icon and share it with your friends!</Typography>
+            <Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Empty list</Typography>
             :Object.keys(keys).map((id)=>{
                 return(
                     keys[id].map((unit)=>{
@@ -35,7 +35,7 @@ export default function SharedTodoList(props){
                         const topics=props.data[id-1].units[unit-1].topics
                         // console.log(s, inList, key, num, title, topics)
                         return(
-                            <UnitCard s={s} inList={inList} key={key} num={num} title={title} topics={topics} addKey={props.addKey} removeKey={props.removeKey} />
+                            <UnitCard s={s} inList={inList} key={key} num={num} title={title} topics={topics} />
                         )
                 })
             )})
