@@ -1,0 +1,21 @@
+html{
+  padding: 1em;
+}
+body{
+  background-color: #eeeeee;
+  margin: 0 auto;
+  max-width: 992px;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+@media(max-width: 992px){
+  body{
+    max-width: 768px;
+  }
+}
+@media(max-width: 768px){
+  body{
+    max-width: 576px;
+  }
+}

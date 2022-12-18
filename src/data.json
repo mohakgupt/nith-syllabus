@@ -1,0 +1,499 @@
+[
+    {
+        "id": 1,
+        "code": "ma-203",
+        "title": "engineering mathematics-iii",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Functions of Complex Variable",
+                "topics": "Applications of De Moivre’s theorem, Exponential, Circular, Hyperbolic and Logarithmic functions of a complex variable, Inverse Hyperbolic functions, Real and imaginary parts of Circular and Hyperbolic functions, Summation of the series-‘C+iS’ method. Limit and derivative of complex functions, Cauchy-Riemann equations, Analytic functions and its applications, Complex integration, Cauchy’s theorem, Cauchy’s integral formula, Series of complex function, Taylor series, singularities and Laurent’s series, Cauchy’s residue theorem and its application for the evaluation of real definite integrals"
+            },
+            {
+                "id": 2,
+                "title": "interpolation",
+                "topics": "Least square curve fit and trigonometric approximations, Finite differences and difference operators, Newton’s interpolation formulae, Gauss forward and backward formulae, Sterling and Bessel's formulae, Lagrange's interpolation"
+            },
+            {
+                "id": 3,
+                "title": "Numerical Integration",
+                "topics": "Integration by trapezoidal and Simpson’s rules 1/3 and 3/8 rule, Romberg integration, and Gaussian quadrature rule, Numerical integration of function of two variables"
+            },
+            {
+                "id": 4,
+                "title": "Numerical Solution of Ordinary Differential Equations",
+                "topics": "Taylor series method, Picard’s method, Euler’s method, Modified Euler’s method, Runge‐Kutta method, Predictor corrector methods, Adam Bashforth and Milne’s method, convergence criteria, Finite difference method"
+            },
+            {
+                "id": 5,
+                "title": "Numerical Solution of Linear and Non Linear Equations",
+                "topics": "Non Linear Equations: Bisection Method, Regula Falsi Method, Newton-Raphson Method, Iteration method, Linear Equations: Jacobi and Gauss Seidal Iteration methods, Relaxation method"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "code": "ec-221",
+        "title": "linear integrated circuits",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Differential And Cascode Amplifiers",
+                "topics": "Emitter coupled differential amplifiers & its circuit configurations, FET differential amplifier, Differential amplifier with swamping resistor, constant current bias & current mirror. Cascade differential amplifier stages. Level translator, Cascode configuration"
+            },
+            {
+                "id": 2,
+                "title": "Introduction to Operational Amplifiers",
+                "topics": "The basic operational amplifier & its schematic symbol, Block diagram representation of OP-AMP, Power supply requirements of an OP-AMP, Evolution of OP-AMP, Specification of a typical OP-AMP(741)"
+            },
+            {
+                "id": 3,
+                "title": "The Practical Op-Amp And Its Frequency Response",
+                "topics": "Input offset voltage, input bias current, input offset current. Total output offset voltage, thermal drift, error voltage, variation of OP-AMP parameter with temperature & supply voltage. Supply voltage rejection ration (SVRR), CMRR-Measurement of OP-AMP parameters, Frequency response of compensator networks, Open loop voltage gain as a function of frequency, Slew rate, causes of slew rates and its effects in application"
+            },
+            {
+                "id": 4,
+                "title": "Operational Amplifier Configurations & Linear Application",
+                "topics": "Open loop OP-AMP configurations- The differential amplifier, inverting amplifier, non-inverting amplifier, negative feedback configurations - inverting and non-inverting amplifiers, voltage followers & high input impedance configuration, differential amplifiers, closed loop frequency response & circuit stability, single supply operation of OP-AMP, summing, scaling and averaging amplifier, voltage to current & current to voltage converters, integrators & differentiators, logarithmic & anti logarithmic amplifiers"
+            },
+            {
+                "id": 5,
+                "title": "Active Filters & Oscillators",
+                "topics": "Advantages of active filters, classification of filters, response characteristics of butter worth, chebyshev, causal filters, first order and second order butter worth filters- low pass and high pass types. Band pass & band reject filters. Oscillator principles, types of oscillators - phase shift, Wien Bridge & quadrature. Square wave, triangular wave and saw tooth wave generators, voltage controlled oscillator"
+            },
+            {
+                "id": 6,
+                "title": "Comparators & Converters",
+                "topics": "Basic comparator & its characteristics, zero crossing detector, voltage limiters, clippers & clampers, small signal half wave & full wave rectifiers, sample and hold circuit, ADC, DAC"
+            },
+            {
+                "id": 7,
+                "title": "Voltage Regulators",
+                "topics": "Fixed Voltage Regulator, Adjustable voltage regulators, Switching regulators, special regulators"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "code": "ec-222",
+        "title": "analog communication systems",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Modulation Techniques",
+                "topics": "Various Frequency Bands Used for Communication, Types of Communication and Need of Modulation. Introduction to AM, FM, PM, Frequency Spectrum of AM Waves, Representation of AM, Power Relation in AM Waves, Need and Description of SSB, Suppression of Carrier, Suppression of Unwanted Side-bands, Independent Sideband System, Vestigial Sideband System, Mathematical Representation of FM, Frequency Spectrum of AM Waves, Phase Modulation, Comparison Between Analog and Digital Modulation, Wideband and Narrow Band FM"
+            },
+            {
+                "id": 2,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 3,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 4,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 5,
+                "title": "",
+                "topics": ""
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "code": "ec-212",
+        "title": "analog electronics",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "high frequency response of amplifiers",
+                "topics": " Discrete Probability Theory, Continuous Random Variables, Statistically Independent Random Variables, Probability Density Functions of Sums, Transformation of Density Functions, Ergodic Process, Correlation Functions, Spectral Density and White Noise"
+            },
+            {
+                "id": 2,
+                "title": "high frequency response of amplifiers",
+                "topics": " Discrete Probability Theory, Continuous Random Variables, Statistically Independent Random Variables, Probability Density Functions of Sums, Transformation of Density Functions, Ergodic Process, Correlation Functions, Spectral Density and White Noise"
+            },
+            {
+                "id": 3,
+                "title": "high frequency response of amplifiers",
+                "topics": " Discrete Probability Theory, Continuous Random Variables, Statistically Independent Random Variables, Probability Density Functions of Sums, Transformation of Density Functions, Ergodic Process, Correlation Functions, Spectral Density and White Noise"
+            },
+            {
+                "id": 4,
+                "title": "high frequency response of amplifiers",
+                "topics": " Discrete Probability Theory, Continuous Random Variables, Statistically Independent Random Variables, Probability Density Functions of Sums, Transformation of Density Functions, Ergodic Process, Correlation Functions, Spectral Density and White Noise"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "code": "ma-111",
+        "title": "engineering mathematics-i",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Matrix Algebra",
+                "topics": "Matrices, Related matrices, Complex matrices Hermitian and skew-Hermitian matrices, Unitary matrix), Rank of a matrix, Gauss-Jordan method, Normal form of a matrix, Linear dependence and independence of vectors, Consistency of linear system of equations, Solution of linear system of equations, Characteristic equation, Eigen values, Eigen vectors, Properties of eigen values, Cayley-Hamilton theorem and its applications, Reduction to diagonal form, Quadratic form and their reduction to canonical form"
+            },
+            {
+                "id": 2,
+                "title": "Differential Calculus ",
+                "topics": "Review of Limits, Continuity and Differentiability, Mean Value Theorem, Partial Differentiation and its geometrical interpretation, Homogeneous functions, Euler’s theorem and its extension, Total differentials, Composite function, Jacobian, Taylor’s and Maclaurin’s infinite series, Indeterminate forms, Errors and increments, Maxima and minima of functions of two variables, Method of undetermined multipliers. Curve tracing"
+            },
+            {
+                "id": 3,
+                "title": "Integral Calculus",
+                "topics": "Double Integrals (Cartesian and Polar), Change of Order of Integration, Change of Variables, Applications of Double Integrals. Triple integrals, Change of Variables, Applications of Triple Integrals. Beta and Gamma functions"
+            },
+            {
+                "id": 4,
+                "title": "Vector Calculus ",
+                "topics": "Differentiation of vectors, Curves in space, Velocity and acceleration, Relative velocity and acceleration, Scalar and vector point functions, Vector Operator ‘Del’ - Del Applied to Scalar Point Functions (Gradient) and its Geometrical Interpretation - Directional Derivative,  Del Applied to Vector Point Function (Divergence  and Curl) and their Physical Interpretation, Del Applied Twice to Point Function, Del Applied to Products of Point Functions. Integration of Vector, Tangential Line Integral,  Normal Surface Integral, Volume integrals, Theorems of Green, Stokes and Gauss (without proofs) and their verifications and applications,  Irrotational Fields, Solenoidal Fields"
+            },
+            {
+                "id": 5,
+                "title": "Fourier Series",
+                "topics": "Euler’s formula, Dirichlet’s Conditions, Functions Having Points of Discontinuity, Change of interval, Expansion of odd and even periodic functions, Half-range series, Typical wave-forms, Parseval’s formula, Practical harmonic analysis"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "code": "ma-121",
+        "title": "engineering mathematics-ii",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Ordinary Differential Equations ",
+                "topics": "Brief review of ordinary differential equations, Exact equations, Equations reducible to exact equations, Equations of the first order and higher degrees, Clairaut’s equation. Applications of ODEs in concerned engineering branch. Linear differential equations with constant co-efficient, Complimentary functions and particular integral, Method of variation of parameters, Equations reducible to linear equations with constant co-efficient (Cauchy’s and Legendre’s linear equations), Initial and Boundary value problems, Simultaneous linear equations with constant co-efficient, Applications of differential equations in concerned engineering branch"
+            },
+            {
+                "id": 2,
+                "title": "Partial Differential Equations",
+                "topics": "Formulation of Partial Differential Equations (PDE), Solution of PDE, Linear PDE of First Order (Lagrange’s Linear Equation), Non-linear Equation of First Order (Standard Forms), Charpit’s Method, Homogeneous Linear Equations with Constant Coefficients, Non-homogeneous Linear Equations.Applications of PDE: Method of separation of variables, Solution of one dimensional wave and heat equation and two dimensional Laplace’s equation"
+            },
+            {
+                "id": 3,
+                "title": "Transforms Theory",
+                "topics": "Laplace Transform: Laplace Transforms of standard functions and their properties, Inverse Laplace Transforms, General Properties of inverse Laplace transforms and Convolution Theorem, Laplace Transforms of periodic functions, Dirac-delta Function, Heaviside’s Unit Function, Solution of ODE and linear simultaneous differential equations using Laplace transforms. Fourier Transform: Fourier integral representation, Fourier sine, cosine and complex transform, Finite Fourier Transforms and their applications. Z – Transforms: Z–Transforms & its properties, inversion of Z – transform and applications of Z – transform"
+            },
+            {
+                "id": 4,
+                "title": "Probability and Statistics",
+                "topics": "Review of probability, Conditional probability and sampling theorems, Discrete and Continuous Probability Distribution, Probability Mass & Probability Density Functions, Distribution function, Discrete and Continuous probability distributions, Binomial, Poisson and Normal distributions"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "code": "cs-101",
+        "title": "computer programming",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Programming Fundamentals",
+                "topics": "Introduction to computer, block diagram and organization of computer, number system and binary arithmetic, processing data, hardware, software, firmware, types of programming language-Machine language, Assembly level language, higher level language, source file, object file, translatorsassembler, compiler, interpreter. Evolution and classification of programming languages"
+            },
+            {
+                "id": 2,
+                "title": "Programming Techniques",
+                "topics": "Steps in program development, algorithm, flowchart, pseudo code"
+            },
+            {
+                "id": 3,
+                "title": "C Language",
+                "topics": "'C’ character set, literals, keywords, identifiers, data types and size, variable declaration, expression, labels, statements, formatted input output statements, types of operators, data type conversion, mixed mode arithmetics, control structures"
+            },
+            {
+                "id": 4,
+                "title": "Data Structures",
+                "topics": "Storage classes, scope rules and visibility, arrays,  pointers, dynamic storage allocation, structures and unions, self-referential structures. Relationship between pointers and arrays, dynamic arrays: Introduction to dynamic datastructures- linked lists, stack, and binary trees"
+            },
+            {
+                "id": 5,
+                "title": "Functions and File Handling",
+                "topics": "‘C’ functions, library functions, parameter passing, recursion, ‘C’ files, function for file handling, ‘C’ pre-processors and command line arguments, macros and conditional compiler directives"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "code": "hs-101",
+        "title": "communication skills",
+        "credits": [3,2,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Role of Effective Communication Skills for an Engineer, Theories of acquiring and learning English as a Second language, Challenges in learning language and means to overcome these"
+            },
+            {
+                "id": 2,
+                "title": "Communication process",
+                "topics": "Types and modes of communication, Formal and Informal Communication,  Process, Channels and levels of communication in Organizations ,  Intrapersonal and interpersonal communication, Common frame of reference and Context for effective communication, Verbal and Non verbal communication,  Interpreting non-verbal communication, Barriers to effective communication "
+            },
+            {
+                "id": 3,
+                "title": "Effective Listening Skills",
+                "topics": "What does listening mean? Types of listening, Strategies for effective listening, Listening for specific purposes, Listening process and barriers to listening, Leadership and role of effective listening, Problems in comprehension and retention, note taking, Exposure to recorded audio/visual text for listening "
+            },
+            {
+                "id": 4,
+                "title": "Effective Speaking Skills",
+                "topics": "Interviews and Group discussion: Telephonic and personal interviews, Pre-Interview planning SWOT analysis, Building self-confidence, Developing Emotional intelligence, Preparing for current topics, Group Discussion as an interviewing tool Public speaking: Become aware of personal speech habits and characteristics. Improving non-verbal cues, voice, diction and other mechanics of speech.  Speech preparation and presentation techniques, Audience awareness and self-awareness, Cultivating poise and self-confidence. Presenting a variety of speeches (informative, persuasive, demonstrative, special occasion, etc.)"
+            },
+            {
+                "id": 5,
+                "title": "Reading Skills",
+                "topics": "Need and process, Approach to different reading materials, Purposes of reading,Different reading strategies: Skimming, Scanning Predicting, Inferring from the context Reading,Comprehension, Vocabulary expansion through reading"
+            },
+            {
+                "id": 6,
+                "title": "Writing Skills",
+                "topics": "Need and  strategy, Developing Style of Writing, Role of appropriateness, brevity and clarity in writing, Cohesion and Coherence, Paragraph writing, Vocabulary building (roots, prefixes, suffixes) SOP, Resume/CV, Job applications Report writing: Importance of Technical Report Writing, Types of Reports, Objectivity in Report Writing, Collection of Data for Report writing"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "code": "me-101",
+        "title": "engineering graphics",
+        "credits": [3,1,0,3],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Importance of Engineering Drawing, Engineering Drawing Instruments and uses, B.I.S and I.S.O. Conventions for drawings, Use of plane scales and Representative Fraction"
+            },
+            {
+                "id": 2,
+                "title": "Projection of Points and Straight Lines",
+                "topics": "Introduction to principal planes, Notation System, Projection of line parallel/ perpendicular to principal plane, Concept of true length of line"
+            },
+            {
+                "id": 3,
+                "title": "Projection of Planes",
+                "topics": "Concept of different planes, Projections of planes with its inclination to one principal plane and with two principal planes. Concept of auxiliary plane method for projections of the plane"
+            },
+            {
+                "id": 4,
+                "title": "Projection of Solids and Sections of Solids",
+                "topics": "Classifications of Solids, Projections of right and regular solids with their axis Parallel to two and Perpendicular to one of the principal planes, axis parallel to one and inclined to two principal planes, axis inclined to all the three principal planes. Section of solids"
+            },
+            {
+                "id": 5,
+                "title": "Orthographic Projections & Isometric Projection",
+                "topics": "Principle of projection,Principal planes of projection, Projections from the pictorial view of the object on the principal planes using first angle projection method and third angle projection method, Full Sectional View, Isometric projection"
+            },
+            {
+                "id": 6,
+                "title": "Autocad’s Workspaces And User Interface",
+                "topics": "The Drawing Area, Accessing Autocad Commands, Starting, Saving, And Opening Drawings, Closed User Interface, User Interface And Startup Tutorial, Coordinates, World Coordinate System/User Coordinate System, Coordinate Systems Tutorial, Drawing Using Coordinates Tutorial, Drawing Commands, Text & Modifying Commands, Object Snap Commands"
+            },
+            {
+                "id": 7,
+                "title": "Conventional Engineering Drawing",
+                "topics": "Preparation of drawing sheet related to Scales and Representative Fraction. Preparation of drawing sheet related to Projection of Points and Straight Lines. Preparation of drawing sheet related to Projection of Planes. Preparation of drawing sheet related to Projection and Section of Solids. Preparation of drawing sheet related to Orthographic Projections. Preparation of drawing sheet related to Isometric Projections"
+            },
+            {
+                "id": 8,
+                "title": "Computer Aided Graphics ",
+                "topics": "Learning of drawing software, utility of drawing commands, built in directory and tools. Learning of drawing units, sheet setting, practice of different drawing commands. Learning of text command layers block, insert blocks and dimensioning techniques"
+            },
+            {
+                "id": 9,
+                "title": "Computer Aided Modeling ",
+                "topics": "Drawing of 2D and 3D models. Isometric drawings with different views. Complex solid models and wire frame models"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "code": "me-102",
+        "title": "engineering workshop",
+        "credits": [3,1,0,3],
+        "units": [
+            {
+                "id": 1,
+                "title": "Department of Mechanical Engineering ",
+                "topics": "Importance of Engineering Workshop and description about each shop. Brief Introduction of Engineering materials like Metals, Ceramics, Polymers and Composites. Brief description of machining operations and study about construction and working of Lathe Machine. Brief description of various joining processes. Brief description about Arc Welding and Gas Welding processes and their common applications. Brief description about tools used in foundry shop and methods of preparation of Green Sand mould. Brief description of tools used in carpentry shop and introduction to different joints used in carpentry shop. Brief description of various fitting operations and related tools"
+            },
+            {
+                "id": 2,
+                "title": "Department of Civil Engineering",
+                "topics": "Introduction of Joinery details of plumbing fixtures for sanitary and water supply system Types, quality and strength characteristics of various building materials: cement, sand, aggregates, bricks. Introduction to non-destructive testing. Concept and detailing of reinforcement of various structural elements: beam, column, slab and footings/Types of Truss and its connection details"
+            },
+            {
+                "id": 3,
+                "title": "Department of Electrical Engineering",
+                "topics": "Introduction to electrical tools, wires used and safety measures. Concept of soldering and design aspects of regulated power supply. Operation and maintenance of domestic electrical appliances"
+            },
+            {
+                "id": 4,
+                "title": "Mechanical Engineering Workshop",
+                "topics": "Preparation of job as per given drawing using Lathe Machine. Preparation of job as per given drawing using Arc/Gas Welding Setup. Preparation of Green Sand Mould using tools of Foundry Shop. Preparation of job as per drawing related to Joints used in Carpentry Shop using Carpentry Tools. Preparation of job as per given drawing related to Fitting Shop. Preparation of job as per given drawing of Bolts and Nuts using tools of Smithy Shop"
+            },
+            {
+                "id": 5,
+                "title": "Civil Engineering Workshop",
+                "topics": "Assembly of conduit fittings: Elbow joining, T joining, Tap and pipe, Union and reducer, trap and sanitary pipe fitting. Testing of samples: cement–lump formation, sand–sieve analysis, aggregates–sieve analysis, bricksCompressive strength. Preparation of cubes for testing of concrete. Assembly of reinforcement of beam, column, slab and footings with binding wire. Assembly of truss element with bolts and nuts"
+            },
+            {
+                "id": 6,
+                "title": "Electrical Engineering Workshop",
+                "topics": "Wiring of fluorescent tube lamp for staircase lighting system. To assemble adjustable voltage power supply by soldering electronic components. To open, disconnect and re-connect internal wiring system of domestic electrical appliances     "
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "code": "ph-101",
+        "title": "Engineering Physics  ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Semiconductor Device Physics",
+                "topics": "Energy bands in solids, the E-k diagram, Density of states, Occupation probability, Fermi level and quasi Fermi levels, Fermi-Dirac Statistic, Effective mass, Conductivity as a function of temperature p-n junctions, Schottky junction and Ohmic contacts"
+            },
+            {
+                "id": 2,
+                "title": "Laser Physics",
+                "topics": "Concepts of laser, spontaneous and stimulated emission, elementary idea about Lasers, basic principles involves in laser, three and four level laser system, coherence, characteristics of laser light; ruby, He-Ne, CO2 and semiconductor lasers, application of lasers"
+            },
+            {
+                "id": 3,
+                "title": "Fibers Optics and Photonics",
+                "topics": "Optical Fiber, physical structure and basic theory, modes in optical fibers, step index and graded index fibers, losses in optical fibers, sources and sensors for optical fibers, applications of optical fibers in communication"
+            },
+            {
+                "id": 4,
+                "title": "Fibers Optics and Photonics",
+                "topics": "Gauss’s Law in dielectric medium, Equation of continuity, displacement current, Maxwell’s equations, wave equation for electromagnetic radiation, electromagnetic wave propagation in free space and isotropic dielectric medium, Poynting theorem & Poynting vector"
+            },
+            {
+                "id": 5,
+                "title": "Quantum Mechanics",
+                "topics": "Need of quantum mechanics, Compton effect, Born’s concept of wave function, eigen function and eigen values, operators in quantum mechanics, expectation values, time independent,time dependant Schrodinger’s wave equations and its applications viz., particle in one dimensional potential well"
+            },
+            {
+                "id": 5,
+                "title": "Superconductivity and Ultrasonics",
+                "topics": "Introduction and discovery of superconductivity, superconducting materials, Meissner effect, critical magnetic field and critical current, type-1 and type-2 superconductors, isotope effect, theory of superconductivity, ultrasonics, generation, properties and applications"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "code": "cy-101",
+        "title": "Engineering Chemistry",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Environmental Science ",
+                "topics": "Specifications of domestic and industrial water, water treatment, water quality parameters, waste/sewage water treatment, BOD, COD, Air quality standard, air pollution and its control, smog formation, photochemical smog, green house effect and Global Warming, Chemical pollutants, Carbon credit, Climate Change, Introduction to Environmental impact assessment "
+            },
+            {
+                "id": 2,
+                "title": "Characterisation Techniques  ",
+                "topics": "Introduction to spectroscopy, UV-Visible spectroscopy-  Absorption laws, Instrumentation, formation of absorption bands, Chromophore and auxochrome concept, application of UVVisible spectroscopy; IR spectroscopy - Principle, selection rules, spectral features of some classes of compounds, important features of IR spectroscopy and application; Introduction to Thermal methods, instrumentation and applications (TGA, DTA, DSC) "
+            },
+            {
+                "id": 3,
+                "title": "Nanochemistry ",
+                "topics": "Introduction to nanochemistry: dependence of optical, electrical and magnetic properties on size of materials, various nanostructures; spherical nanoparticles, nanotubes, nanofibers, nanorods, etc, synthesis, properties and applications of following nanomaterials -  Carbon based nanostructures – CNTs and graphene, semiconductors nanoparticles- TiO2. Characterization of nanomaterials: atomic force microscopy (AFM), scanning electron microscopy (SEM) "
+            },
+            {
+                "id": 4,
+                "title": "Corrosion and its Control  ",
+                "topics": "Introduction, Types of corrosion-chemical and electrochemical, Mechanisms of corrosion, factors affecting corrosion and different protection methods for corrosion control"
+            },
+            {
+                "id": 5,
+                "title": "Lubricants  ",
+                "topics": "Introduction, Mechanisms of lubrication, Types of lubricants, properties and different methods for testing of lubricant oils and greases"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "code": "",
+        "title": "",
+        "credits": [3,2,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 2,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 3,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 4,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 5,
+                "title": "",
+                "topics": ""
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "code": "",
+        "title": "",
+        "credits": [3,2,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 2,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 3,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 4,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 5,
+                "title": "",
+                "topics": ""
+            }
+        ]
+    }
+]
