@@ -43,9 +43,10 @@ export default function App(){
         <Route path='/' element={<SubList data={Data} query={query} setQuery={setQuery} keys={keys}/>}></Route>
         <Route path='/sub/:id' element={<UnitList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
         <Route path='/todolist' element={<TodoList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
-        <Route path='/todolist/:keys' element={<SharedTodoList data={Data} addKey={addKey} removeKey={removeKey}/>}></Route>
+        <Route path='/todolist/:keys' element={<SharedTodoList data={Data}/>}></Route>
       </Routes>
       <Footer/>
+      
       </>
     )
 }

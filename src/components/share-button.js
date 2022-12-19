@@ -7,7 +7,7 @@ export default function ShareButton(props){
             <Fab
                 color="primary"
                 aria-label="todo-list"
-                sx={{ position: 'fixed', right: '2em', bottom: '7em' }}
+                sx={{ position: 'fixed', right: '2em', bottom: '2em' }}
                 onClick={(event)=>{
                     if(navigator.canShare){
                         navigator.share({

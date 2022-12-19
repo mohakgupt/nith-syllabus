@@ -432,42 +432,164 @@
     },
     {
         "id": 13,
-        "code": "",
-        "title": "",
-        "credits": [3,2,1,0],
+        "code": "ce-101",
+        "title": "applied mechanics ",
+        "credits": [4,3,1,0],
         "units": [
             {
                 "id": 1,
-                "title": "",
-                "topics": ""
+                "title": "Introduction to Statics",
+                "topics": "Particle and Rigid Body, Types of forces, Transmissibility of a force, vector algebra. Two dimensional force system:  Resolution of forces,  Moment of forces, Couple, Resolution of a coplanar force by its equivalent force-couple system, Resultant of forces, free body diagram, equilibrium"
             },
             {
                 "id": 2,
-                "title": "",
-                "topics": ""
+                "title": "Centre of Gravity and Moments of inertia",
+                "topics": "Centroid of plane, curve, area, volume and composite bodies MI with respect to different axis, Parallel axis theorem, Mass moment of inertia. Virtual work and Energy method: Principle of virtual work; Applications of virtual work principle to machines; Mechanical efficiency; Work of a force/couple, Potential energy and equilibrium. Concept of Friction: Laws of Coulomb friction, Angle of Repose, Coefficient of friction, large and small contact surfaces, Belt friction, Equilibrium of a belt, Bearing friction "
             },
             {
                 "id": 3,
-                "title": "",
-                "topics": ""
+                "title": "Kinematics of Rigid Body",
+                "topics": "Introduction, Plane Motion of Rigid Body, Velocity and Acceleration under Translation and Rotational Motion, Relative Velocity, Kinetics of Rigid Body: Introduction, Force, Mass and Acceleration, Work and Energy, Impulse and Momentum, D’Alembert’s Principles and Dynamic Equilibrium"
             },
             {
                 "id": 4,
-                "title": "",
-                "topics": ""
+                "title": "Impulse Momentum Principle",
+                "topics": "Impulsive force, Conservation of Linear momentum and Angular momentum. Impact between bodies"
             },
             {
                 "id": 5,
-                "title": "",
-                "topics": ""
+                "title": "Simple stresses and strains",
+                "topics": "Normal stress, Shear stress, Bearing stress, Normal strain, Shearing strain; Hooke’s law; Poisson’s ratio; Factor of safety. Bending stress of Beams: Introduction, Simple Bending Theory, Stress in beams of different cross sections, shear stress, combined stresses"
+            },
+            {
+                "id": 6,
+                "title": "Torsion, Analysis of Truss, Analysis of frames",
+                "topics": "Introduction, Torsion of shafts of circular section, torque and twist, shear stress due to torque. Method of joints, Method of Sections. Shear force and bending moment diagram of determinate beams and frame"
             }
         ]
     },
     {
         "id": 14,
-        "code": "",
+        "code": "ms-101",
+        "title": "materials science and engineering ",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Why study materials science and engineering? Review of basic types of interatomic bonds, Classification of materials, Processing/structure/properties/ performance correlations "
+            },
+            {
+                "id": 2,
+                "title": "Structure and Imperfections",
+                "topics": "Lattices, Unit cells,Miller indices of directions and planes for cubic and hexagonal systems, Closepacking in solids, Common metallic structures,Voidsin close-packed structures, Common ceramics structures – NaCl, CsCl, Diamond Cubic, Zinc Blende, Wurtzite, Rutile, Fluorite, Fullerenes, Spinel, Perovskite, etc., Polycrystalline materials, X-Ray diffraction for determination of crystal structures,Solid state diffusion – Ficks laws of diffusion, Diffusion mechanisms, Temperature dependendence of diffusivity, Defects in crystals - Point defects, Dislocations, Grain boundaries and Surfaces, Noncrystalline solids, Polymeric materials"
+            },
+            {
+                "id": 3,
+                "title": "Phase Diagrams",
+                "topics": "Phase rule, Solid solutions, Hume-Rothery rules, Intermediate phases and compounds, Unary and binary phase diagrams, Isomorphous and eutectic systems, Lever rule, Typical phasediagrams: Fe-C, Cu-Ni, Cu-Zn, Al-Cu, Al-Si and Pb-Sn."
+            },
+            {
+                "id": 4,
+                "title": "Phase Transformations and Heat Treatment",
+                "topics": "Classification of phase transformations, Liquid to solid transformation, Homogeneous and heterogeneous Nucleation, Kinetic considerations in solid state transformations, Microstructure and property changes in iron-carbon alloys, Isothermal transformation diagrams, Continuous cooling diagrams, Annealing, normalizing, hardening andtempering of steels and their effect on properties, Hardness andhardenability. Quenching media, Martempering and austempering, Surface hardening— carburizing, nitriding, carbonitriding, flame and induction hardening, Precipitation and age hardening "
+            },
+            {
+                "id": 5,
+                "title": "Properties of Materials",
+                "topics": "Mechanical Properties: Stress-strain response of metallic, ceramic and polymermaterials, yield strength, tensile strength and modulus of elasticity, toughness, plastic deformation, fatigue, creep and fracture; Electronic Properties: Free electron theory, Fermi energy, density of states, elementsof band theory, semiconductors, Hall effect, dielectric behaviour, piezo, ferro,pyroelectricmaterials, Magnetic Properties: Origin of magnetism in metallic and ceramic materials, paramagnetism, diamagnetism, ferro andferrimagnetism; Thermal Properties: Specific heat, thermal conductivity and thermal expansion,thermoelectricity. Optical Properties: Refractive index, absorption and transmission of electromagnetic radiation in solids, electrooptic and magnetoopticmaterials, spontaneous and stimulated emission, gas and solid state lasers"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "code": "ec-101",
+        "title": "basic electronics engineering",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Semi-Conductors and Diodes",
+                "topics": "Introduction, Insulators, Semiconductors and Metals, Mobility and Conductivity, Intrinsic and Extrinsic Semiconductors, Charge Density, Current Components in Semiconductors, Continuity Equation, PN Junction Diode- Characteristics and Analysis; Types of Diodes- Zener Diode, Photodiodes, LED, Varactor Diode, Tunnel Diodes"
+            },
+            {
+                "id": 2,
+                "title": "Diode Applications",
+                "topics": "Rectifiers and Filter Circuit: Half Wave Rectifier, Full Wave Rectifier, Bridge Rectifier and their Analysis, L,C and Pi Filters; Series and Shunt Diode Clippers, Clipping at Two Independent Levels, Clamping Operation, Clamping Circuit; Practical Clamping Circuits, Basic Regulator Supply using Zener Diode"
+            },
+            {
+                "id": 3,
+                "title": "Bipolar Junction Transistors",
+                "topics": "Construction and Characteristics of BJT, Transistor Configuration: CB, CE, CC Configuration; Transistor at Low Frequency, Small Signal Low Frequency Transistor Model (H-Parameters), Analysis of Transistor Amplifier using HParameters"
+            },
+            {
+                "id": 4,
+                "title": "Transistor Biasing",
+                "topics": "Transistor Biasing and Bias Stabilization: Operating Point, Stability Factor, Analysis of Fixed Bias, Collector to Base Bias, Emitter Resistance Bias Circuit and Self Bias Circuit, Bias Compensation Techniques Transistor Switch and Transistor amplifier"
+            },
+            {
+                "id": 5,
+                "title": "Field Effect Transistor",
+                "topics": "Construction and Characteristics of JFET, JFET Biasing Circuit, JFET Amplifier, MOSFET Construction and Characteristics"
+            },
+            {
+                "id": 6,
+                "title": "Basics of Communication System",
+                "topics": "Introduction to Analog and Digital Communication Systems, Block Diagram Representation of Communication System, Basic idea of Transmitter and Receiver used for radio communication, Various Frequency bands used for Communication, Need of Modulation and Introduction to Cellular Communication"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "code": "ee-101",
+        "title": "basic electrical engineering ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Analysis of DC Circuits",
+                "topics": "Linear and non-linear circuits, circuit elements, various sources and source transformation, star delta transformation, solution of DC circuits using Kirchoff's laws, signal wave forms and passive elements specifications, Network theorems, response of first order circuits for DC excitation"
+            },
+            {
+                "id": 2,
+                "title": "AC Circuits, Domestic Electric Wiring & Storage Batteries",
+                "topics": "Generation of AC sinusoidal voltage and currents, average and r.m.s. values, Form factor and peak factor, phasor representation  in polar, rectangular and exponential forms, terminal relationship for pure passive elements and their combination in series and parallel, analysis of single phase series, parallel and series-parallel circuits, active and reactive power, power factor and volt-amperes, frequency response and Q-factor, analysis of balanced three phase AC circuits, concept of voltage, current and power in three phase balanced circuits, Basics of  Domestic Electric Wiring and Storage Batteries"
+            },
+            {
+                "id": 3,
+                "title": "Electromagnetic Circuits and Transformer",
+                "topics": "Magnetic circuit concept, B-H curves characteristics of magnetic materials, practical magnetic circuits, magnetic circuits with DC and AC excitation, hysteresis and eddy current losses, Magnetic force, self and mutual inductances, Faraday’s laws, Lenz’s Law, statically and dynamically induced emfs, energy stored in magnetic fields, Principle of Transformer operation, construction and equivalent circuit of transformer"
+            },
+            {
+                "id": 4,
+                "title": "Measuring Instruments",
+                "topics": "Introduction to galvanometer (Moving coil and moving iron), ammeter, voltmeter, wattmeter, energy meter, use of shunt and multiplier"
+            },
+            {
+                "id": 5,
+                "title": "Electrical Machines",
+                "topics": "Fundamentals of DC and AC machines"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "code": "cs-102",
+        "title": "computer programming lab ",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "Familiarity with Windows utilities and basic Linux commands. Programs related to operators and evaluation of expressions. Programs to illustrate use of arrays. Programs on operations over strings. Programs related to use of functions. Using pointers in programs. Programs on logical operators. Programs making use of structures and unions. Programs to perform operations over various data structures viz, linked lists, stacks, trees, etc.. Programs that read/write data from/to files. Programs using preprocessor directives. Use of command line arguments in program. Programs using graphics tools"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "code": "hs-102",
         "title": "",
-        "credits": [3,2,1,0],
+        "credits": [4,3,1,0],
         "units": [
             {
                 "id": 1,

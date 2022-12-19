@@ -11,9 +11,9 @@ export default function UnitCard(props) {
   const { s, num, title, topics, inList } = props;
   return (title &&
     <Card sx={{ width: 400, margin: 0.25, mb: 1, backgroundColor: '#fafafa', position: 'relative'}}>
-        <IconButton aria-label="add" onClick={inList?()=>{props.removeKey(s,num)}:()=>{props.addKey(s,num)}} sx={{position: 'absolute', right: '0.25em', top: '0.25em'}}>
+        {props.addKey!==undefined?<IconButton aria-label="add" onClick={inList?()=>{props.removeKey(s,num)}:()=>{props.addKey(s,num)}} sx={{position: 'absolute', right: '0.25em', top: '0.25em'}}>
           {inList?<RemoveIcon/>:<AddIcon />}
-        </IconButton>
+        </IconButton>:""}
         <CardContent sx={{p:2}}>
           <Typography sx={{ fontSize: 10, fontWeight: 'bold', padding: "3px 6px 1px 6px", backgroundColor: '#307ada', color: 'white', borderRadius: 4, display: "inline-block"}} color="text.secondary">
             {`UNIT-${num}`}

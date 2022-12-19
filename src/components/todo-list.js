@@ -1,6 +1,5 @@
 import UnitCard from "./unit-card";
 import { Box } from "@mui/system";
-import BackButton from "./back-button";
 import { Typography } from "@mui/material";
 import ShareButton from "./share-button";
 
@@ -43,7 +42,6 @@ export default function TodoList(props){
             }
         </Box>
         <ShareButton keys={keys}></ShareButton>
-        <BackButton></BackButton>
         </>
     )
 }

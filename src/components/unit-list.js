@@ -1,7 +1,7 @@
 import UnitCard from "./unit-card";
 import { Box } from "@mui/system";
-import BackButton from "./back-button";
 import { useParams } from "react-router-dom";
+import ListButton from './list-button'
 import { Typography, TableContainer, Table, TableRow, TableCell } from "@mui/material";
 
 export default function UnitList(props){
@@ -36,7 +36,7 @@ export default function UnitList(props){
                         )
             })}
         </Box>
-        <BackButton/>
+        <ListButton/>
         </>
     )
 }
