@@ -588,33 +588,65 @@
     {
         "id": 18,
         "code": "hs-102",
-        "title": "",
+        "title": "communication skills lab ",
         "credits": [4,3,1,0],
         "units": [
             {
                 "id": 1,
-                "title": "",
-                "topics": ""
-            },
+                "title": "List of Experiments ",
+                "topics": "Sky Pronunciation: Introduction to the Speech Sounds of English. Sky Pronunciation: Syllable and Organs of Speech. Sky Pronunciation: Vowel and Consonant Sounds. Sky Pronunciation: Similar sounds and test . Word Stress and Intonation using available software. Listening and Comprehension using available software. Listening to Native speakers of English language. Watching short talks for learning effective presentation skills. Presentation skills using technology enabled slides. Just a Minute (JAM) Sessions. Describing Objects/Situations/People. Interview skills using available software/interview videos"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "code": "ph-102",
+        "title": "engineering physics lab ",
+        "credits": [1, 0,0,2],
+        "units": [
             {
-                "id": 2,
-                "title": "",
-                "topics": ""
-            },
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "To determine the specific resistance of a material wire using a post office box.. To find the area of a rectangle (or height of an inaccessible object) using a sextant.. Conversion of a galvanometer into Ammeter and Voltmeter of given range. To verify the inverse square law of magnetism. Study the variation of magnetic field with distance along the axis of a circular coil carrying current and to find the radius of the coil. To determine the refractive index of a glass/  liquid (water) using Spectrometer. To determine the wavelength of light using Newton’s ring apperatus. To verify the inverse square law for the intensity of radiation from a source of light. To determine the wavelength of the Laser light using diffraction method. To find magnifying power of a telescope by linear method. To measure Young’s modulus by bending of beam method. Study of the attenuation and propagation characteristics of an optical fiber cable. Other experiments as and when made available time to time"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "code": "cy-102",
+        "title": "engineering chemistry lab ",
+        "credits": [1, 0,0,2],
+        "units": [
             {
-                "id": 3,
-                "title": "",
-                "topics": ""
-            },
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "Estimation of residual Chlorine in a given sample of water. Estimation of chloride content in a given sample of water by Mohr’s method (Argentometrically). Estimation of concentration of hydroxyl, carbonate, bicarbonate and total alkalinity in a given sample of water. Estimation of Hardness (Temporary and Permanent) in a given sample of water 5. Determination of quantity of Ferrous ions in a sample of water by KMnO4 titration. Estimation of concentration of iron in an iron ore by dichrometry.. Estimation of Cu in a given sample of brass. Determination of Viscosity of unknown liquid by Ostwald’s viscometer. Determination of surface tension of unknown liquid by drop number method.. Estimation of calcium in Limestone or Dolomite. Verification of the absorption laws by using Colorimetric method. Determination of the concentration of nickel using Absorption technique"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "code": "ec-102",
+        "title": "electronics engineering lab ",
+        "credits": [1, 0,0,2],
+        "units": [
             {
-                "id": 4,
-                "title": "",
-                "topics": ""
-            },
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "Familiarization of electronic components and equipments like CRO, function generator and power supplies etc.. To study the V-I characteristics of p-n junction diode and determine its static and dynamic resistance.. To study the characteristics of Zener diode and hence, calculate the dynamic resistance.. To study voltage regulator circuit using Zener diode.. To study and plot the waveform of half wave and full wave rectifier with and without capacitor filter.. To study and plot the input and output characteristics of CE (Common Emitter) transistor configuration and calculate its input and output resistance.. To study and plot the input and output characteristics of CB (Common Base) transistor configuration and calculate its input and output resistance.. To study and plot the input and output characteristics of CC (Common Collector) transistor configuration and calculate its input and output resistance.. To study the characteristics of FET (Field Effect Transistor) and calculate its dynamic resistance (rd), mutual conductance (gm) and amplification factor (µ).. To study the frequency response of single stage CE amplifier circuit using BJT and calculate the bandwidth (3 dB).. To study the frequency response of single stage amplifier circuit using FET and calculate the bandwidth (3 dB).. To study self bias circuit and calculate zero signal value of current and voltage"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "code": "ee-102",
+        "title": "electrical engineering lab ",
+        "credits": [1, 0,0,2],
+        "units": [
             {
-                "id": 5,
-                "title": "",
-                "topics": ""
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "To verify Ohm’s law for BPLL (Bilateral Passive Linear Lumped) element.. To find for a filament lamp: (i) Variation of resistance with voltage (ii) Variation of power with voltage.. To find minimum fusing current and fuse constant of a given fuse wire.. To calibrate a given voltmeter with the help of standard ammeter and resistance. To calibrate a given ammeter with the help of standard voltmeter and resistance.. To find voltage current relationship in R-L series circuit and to determine power factor of the circuit.. To calibrate given wattmeter by direct loading.. To calibrate single phase energy meter by direct loading.. Verification of Kirchhoff’s Laws: (i) KVL (Kirchhoff’s Voltage Law) (ii) KCL (Kirchhoff’s Current Law). Determination of inductance of a coil using voltmeter, ammeter methods.. To verify total resistance 𝑅 of the series connected resistances 𝑅=𝑅1+𝑅2+𝑅3"
             }
         ]
     }
