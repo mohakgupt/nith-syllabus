@@ -1,6 +1,7 @@
 html{
   padding: 1em;
   padding-bottom: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 body{
   background-color: #eeeeee;
