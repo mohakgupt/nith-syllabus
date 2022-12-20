@@ -24,6 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script async src="https://api.countapi.xyz/hit/nithsyllabus.netlify.app/visits?callback=liveViews"></script>
     <title>nith syllabus</title>
   </head>
   <body>
@@ -39,5 +40,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
   </body>
+  <!-- <script language="JavaScript">var fhsh = document.createElement('script');var fhs_id_h = "3372917";
+    fhsh.src = "//freehostedscripts.net/ocount.php?site="+fhs_id_h+"&name=&a=1";
+    document.head.appendChild(fhsh);document.write("<span id='h_"+fhs_id_h+"' style='font-size: smaller;'></span>");
+    </script> -->
+    <script>
+      function liveViews(response) {
+          document.getElementById('visits').innerText = response.value;
+      }
+    </script>
 </html>
