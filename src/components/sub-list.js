@@ -17,7 +17,7 @@ export default function SubList(props) {
   if(props.year!=='al'){
     searchResults = searchResults.filter((sub)=>{return(sub.code[3] === props.year)})
   }
-  searchResults = searchResults.sort((a,b)=> a.title>b.title?1:-1)
+  searchResults = searchResults.sort((a,b)=> a.title.toLowerCase()>b.title.toLowerCase()?1:-1)
   return (
     <>
     <SearchBox query={props.query} f={event=>{props.setQuery(event.target.value)}}></SearchBox>
