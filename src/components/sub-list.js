@@ -7,12 +7,9 @@ import Filter from "./filter";
 
 
 export default function SubList(props) {
-  // console.log(props.data)
-  // console.log(props.query)
-  // console.log(props.keys)
   let searchResults;
   searchResults = props.data && props.data.filter((val) => {
-    return(props.query === "" || val.title.includes(props.query.toLowerCase()) || val.code.includes(props.query.toLowerCase()))
+    return(props.query === "" || val.title.toLowerCase().includes(props.query.toLowerCase()) || val.code.includes(props.query.toLowerCase()))
   })
   if(props.branch!=='al'){
     searchResults = searchResults.filter((sub)=>{return(sub.code.slice(0, 2) === props.branch)})
