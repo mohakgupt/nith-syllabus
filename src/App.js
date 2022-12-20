@@ -47,6 +47,7 @@ export default function App(){
         <Route path='/todolist' element={<TodoList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
         <Route path='/todolist/:keys' element={<SharedTodoList data={Data}/>}></Route>
       </Routes>
+      <div style={{height: "2em"}}></div>
       <Footer/>
       
       </>
