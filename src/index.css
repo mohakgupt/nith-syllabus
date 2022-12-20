@@ -9,7 +9,7 @@ body{
 }
 #root{
   position: relative;
-  min-height: 97vh;
+  min-height: 94vh;
 }
 body::-webkit-scrollbar{
   display: none;

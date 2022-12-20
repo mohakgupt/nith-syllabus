@@ -13,6 +13,8 @@ import { useState, useEffect } from 'react';
 
 export default function App(){
     const [query, setQuery] = useState("");
+    const [branch, setBranch] = useState("al");
+    const [year, setYear] = useState("al");
     let ckeys;
     if(localStorage.getItem("keys")){
       ckeys=JSON.parse(localStorage.getItem("keys"));
@@ -40,7 +42,7 @@ export default function App(){
     <>
     <Header/>
       <Routes>
-        <Route path='/' element={<SubList data={Data} query={query} setQuery={setQuery} keys={keys}/>}></Route>
+        <Route path='/' element={<SubList data={Data} query={query} setQuery={setQuery} branch={branch} setBranch={setBranch} year={year} setYear={setYear} keys={keys}/>}></Route>
         <Route path='/sub/:id' element={<UnitList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
         <Route path='/todolist' element={<TodoList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
         <Route path='/todolist/:keys' element={<SharedTodoList data={Data}/>}></Route>
