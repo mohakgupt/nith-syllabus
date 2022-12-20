@@ -88,23 +88,23 @@
             },
             {
                 "id": 2,
-                "title": "",
-                "topics": ""
+                "title": "AM Transmitters and Receivers ",
+                "topics": "AM Transmitters: Generation of AM, Low Level and High Level Modulation, AM Transmitter Block Diagram, Collector Class C Modulator, Base Modulator, Transistor Vander Bill Modulator, DSB S/C Modulator. AM Receiver: Tuned Radio Frequency (TRF) Receiver. Super Heterodyne Receiver, RF Section and Characteristics, Mixers, Frequency Changing and Tracking, IF Rejection and IF Amplifiers. Detection and Automatic Gain Control (AGC), AM Receiver Characteristics"
             },
             {
                 "id": 3,
-                "title": "",
-                "topics": ""
+                "title": "FM Transmitters and Receivers ",
+                "topics": "FM Transmitters: Basic Requirements and Generation of FM, FM Modulation Methods: Direct Methods, Variable Capacitor Modulator, Varactor Diode Modulator, FET Reactance Modulator, Transistor Reactance Modulator, Pre-emphasis, Direct FM Modulator, AFC in Reactance Modulator, Disadvantages of Direct Method, Indirect Modulators, RC Phase Shift Modulators, Armstrong FM Systems. FM Receivers: Limiters, Single and Double-Tuned Demodulators, Balanced Slope Detector, Foster-Seeley or Phase Discriminator, De-emphasis, Ratio Detector, Block Diagram of FM Receivers, RF Amplifiers, FM Receiver Characteristics"
             },
             {
                 "id": 4,
-                "title": "",
-                "topics": ""
+                "title": "SSB Transmitters and Receivers ",
+                "topics": "Generator of SSB, Balanced Modulator Circuit, Filter Method, Phase Shift Method, Third Method, Phase Cancellation Method, Demodulation of SSB, Product Demodulator, Diode Detection Technique of SSB"
             },
             {
                 "id": 5,
-                "title": "",
-                "topics": ""
+                "title": "Pulse Modulation Techniques ",
+                "topics": "Pulse Amplitude Modulation and Demodulation, Pulse Width Modulation and Demodulation, Pulse Position Modulation and Demodulation, Sampling Theorem, Time Division Multiplexing, Frequency Division Multiplexing"
             }
         ]
     },
@@ -646,7 +646,178 @@
             {
                 "id": 1,
                 "title": "List of Experiments ",
-                "topics": "To verify Ohm’s law for BPLL (Bilateral Passive Linear Lumped) element.. To find for a filament lamp: (i) Variation of resistance with voltage (ii) Variation of power with voltage.. To find minimum fusing current and fuse constant of a given fuse wire.. To calibrate a given voltmeter with the help of standard ammeter and resistance. To calibrate a given ammeter with the help of standard voltmeter and resistance.. To find voltage current relationship in R-L series circuit and to determine power factor of the circuit.. To calibrate given wattmeter by direct loading.. To calibrate single phase energy meter by direct loading.. Verification of Kirchhoff’s Laws: (i) KVL (Kirchhoff’s Voltage Law) (ii) KCL (Kirchhoff’s Current Law). Determination of inductance of a coil using voltmeter, ammeter methods.. To verify total resistance 𝑅 of the series connected resistances 𝑅=𝑅1+𝑅2+𝑅3"
+                "topics": "To verify Ohm’s law for BPLL (Bilateral Passive Linear Lumped) element.. To find for a filament lamp: (i) Variation of resistance with voltage (ii) Variation of power with voltage.. To find minimum fusing current and fuse constant of a given fuse wire.. To calibrate a given voltmeter with the help of standard ammeter and resistance. To calibrate a given ammeter with the help of standard voltmeter and resistance.. To find voltage current relationship in R-L series circuit and to determine power factor of the circuit.. To calibrate given wattmeter by direct loading.. To calibrate single phase energy meter by direct loading.. Verification of Kirchhoff’s Laws: (i) KVL (Kirchhoff’s Voltage Law) (ii) KCL (Kirchhoff’s Current Law). Determination of inductance of a coil using voltmeter and ammeter methods.. To verify total resistance 𝑅 of the series connected resistances 𝑅=𝑅1+𝑅2+𝑅3"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "code": "ec-224",
+        "title": "VLSI Technology ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to VLSI",
+                "topics": "Concept Miniaturization of Electronic Systems & its impact on characterization"
+            },
+            {
+                "id": 2,
+                "title": "Monolithic Fabrication Techniques",
+                "topics": "Crystal growth: Source of silicon; Single crystalline and Poly crystalline; Requirement of purity for electronics industry; Electronics grade silicon production; Crystal growth techniques: Bridgeman method, Float zone method, Czocharalski method, Modified Czocharalski method; refining; Silicon Wafer Preparation & Crystal Defects. Epitaxial Process: Need of epitaxial layer; vapors phase epitaxy -reactor design, Chemistry of epitaxial process, Transport mechanism doping & auto doping; selective epitaxy, Epitaxial process induced defects, Molecular beam epitaxy, Merits and demerits among epitaxial processes; recent trends in Epitaxy. Oxidation: Importance of oxidation; types of oxidation techniques; growth mechanism & kinetics; factors affecting the growth mechanisms; silicon oxidation model, dry & wet oxidation; oxidation induced faults; recent trends in oxidation. Lithography: Basic steps in lithography; Lithography techniques-optical lithography, Electron beam lithography, X-ray lithography, Ion beam lithography; resists and mask preparation of respective lithographies, Printing techniques-contact, Proximity printing and projection printing; merits and demerits of lithographies; recent trends in lithography at nano regime. Etching: Performance metrics of etching; types of etching- wet and dry etching;  dry etching techniques-ion beam or ion-milling, Sputter ion plasma etching and reactive ion etching (RIE); merits and demerits of etching; etching induced defects; recent trends in epitaxy. Diffusion and Ion Implantation: Diffusion mechanisms; diffusion reactor;    diffusion profile; diffusion kinetics; parameters affecting diffusion profile; Dopants and their behavior, choice of dopants; Ion Implantation- reactor design, impurity distribution profile, Properties of ion implantation, Low energy and high energy ion implantation.  Metallization: Desired properties of metallization for VLSI; metallization choices; metallization techniques – vacuum evaporation, Sputtering"
+            },
+            {
+                "id": 3,
+                "title": "Packaging of VLSI Chip",
+                "topics": "Introduction to packaging; packaging process; package design considerations, Various packages types"
+            },
+            {
+                "id": 4,
+                "title": "Isolation Techniques in Monolithic Components",
+                "topics": "Isolation techniques in Diodes, BJT and MOSFETs (Enhancement and depletion mode)"
+            },
+            {
+                "id": 5,
+                "title": "Monolithic Components- Prototype Fabrication",
+                "topics": "Prototype fabrication of Diodes, npn BJT, pnp BJT, MOSFETs (Enhancement and depletion mode), n-MOS, p-MOS, CMOS, Resistors and Capacitors"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "code": "ec-223",
+        "title": "Electromagnetic Field Theory",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Fundamental of vector algebra, Scalar &vector fields, Introduction and transformation on different coordinate systems: (rectangular, cylindrical and spherical coordinate system), introduction to line, Surface and volume integrals, Definition of gradient, Divergent and curl of a vector and their physical significance"
+            },
+            {
+                "id": 2,
+                "title": "Electrostatics",
+                "topics": "Principle of Coulomb's law, Definition of electric field intensity from point charges, Field due to continuous distribution of charges on an infinite and finite line, Electric Field due to an infinite uniformly charged sheet, Gauss’s law and its applications, Electric flux density, Potential fields duo to electric dipole, Laplace’s and Poison’s equations"
+            },
+            {
+                "id": 3,
+                "title": "Magnetostatics",
+                "topics": "Definition and explanation on Magnetic Field intensity due to a finite and infinite wire carrying current, Magnetic field intensity on rectangular loop carrying current, Ampere’s Circuital law and its applications, Biot-Savart’s law, Lorentz force equation for a moving charge, Magnetic Vector Potential"
+            },
+            {
+                "id": 4,
+                "title": "Time Varying EM Field",
+                "topics": "Maxwell’s equation in differential and integral vector form and their interpretations, Continuity of currents, Conduction and displacement current, Boundary conditions, Helmholtz equations, uniform plane wave in dielectric and conductor media, Skin effect and depth of penetration, reflection and refraction of plane waves at boundaries for normal incidence and surface impedance, Energy Flow and Poynting theorem"
+            },
+            {
+                "id": 5,
+                "title": "Transmission Lines",
+                "topics": "Transmission line model, Parameters and properties of transmission line equations, Reflections in transmission lines, Voltage, current and impedance relations-open, Short circuit and matched lines, Standing wave ratio, Impedance matching, Quarter and half wave lines, Single stub and double stub matching; Circle diagram – Smith-chart"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "code": "ec-225",
+        "title": "Linear Integrated Circuits Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 1,
+                "title": "List of Experiments",
+                "topics": "To demonstrate the relationship between input and output in for the inverting and non-inverting configuration of the Op-Amp. 741.. To verify the function of OP-Amp’s a summer and as a difference amplifier.. To perform the mathematical operation of differentiation using basic and practical circuit of Op-Amp’s.. To perform the mathematical operation of integration using basic and practical circuit of Op-Amp’s.. To study the half wave and full wave rectifier circuits using Op-Amp’s.. To design a first order butter worth low pass and high pass filter and determining its frequency response.. To plot the frequency response of the band pass filter for a specified frequency range.. To design a square, triangular and sawtooth wave generator using Op-Amp’s.. To design the Wien Bridge oscillator using Op-Amp’s. To study the clipping and clamping circuits using operational amplifiers"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "code": "ec-226",
+        "title": "Analog Communication Lab ",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "Amplitude Modulation and Demodulation. DSB SC Modulation and Demodulation . SSB SC Modulation and Demodulation . Frequency Modulation and Demodulation  . To Observe and Measure Frequency Deviation and Modulation Index.. Pre Emphasis - De Emphasis.. PAM Generation and Reconstruction . PWM Generation and Reconstruction. PPM Generation and Reconstruction. Verification of Sampling Theorem. Time Division and Frequency. Phase Locked Loop"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "code": "ec-227",
+        "title": "Circuit Design and Simulation Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 1,
+                "title": "List of Experiments",
+                "topics": "Introduction to Tanner and Cadence EDA simulation tool.. To study the time and frequency response of series RLC circuit.. To study the frequency response of common emitter configuration of BJT.. To simulate N-MOS transistor and obtain its transfer and output characteristics.. To simulate-MOS transistor and obtain its transfer and output characteristics.. To simulate MOS inverter using resistive load, CMOS inverter, pseudo NMOS inverter and enhancement mode CMOS inverter and obtain their VTC.. To simulate NAND and NOR logic gate using CMOS and study its performance.. To simulate EX-OR and EX-NOR logic gate using CMOS and study its performance.. To simulate half adder and Full adder using CMOS and study its performance.. Introduction to Physical simulation and TCAD.. Build a simulation mesh for diode and study its characteristics.. Build a simulation mesh for BJT and study its characteristics.. Build a simulation mesh for MOSFET and study its characteristics.. To study the CMOS inverter characterization using proto-type fabricated NMOS and PMOS"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "code": "ec-321",
+        "title": "Microcontroller And Embedded Systems",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Microcontroller",
+                "topics": "Introduction to Microcontrollers, Evolution, Architectures, Implementations, Background and History of Embedded Systems, Characteristics of ES, Hardware/Software CoDesign, RISC vs CISC, MCS-51 Family Overview, Important Features, Architecture, 8051 Pin Functions, Architecture, Addressing Modes, Instruction Set, Instruction Types, Applications of ASIC and FPGA in ES"
+            },
+            {
+                "id": 2,
+                "title": "Programming",
+                "topics": "Assembly Programming, Timer Registers, Timer Modes, Overflow Flags, Clocking Sources, Timer Counter Interrupts, Baud Rate Generation, Serial Port Register, Modes of Operation, Processing Interrupts, Interrupt Service Routines, Look-up Tables"
+            },
+            {
+                "id": 3,
+                "title": "Embedded Software Development",
+                "topics": "Software development flow, Polling, Interrupt driven, Multitasking systems, Architecture of an RTOS, Important features of RTOS, Embedded Systems Programming, Locks and Semaphores, Operating System Timers and Interrupts, Exceptions, Tasks, Task states and scheduling, Task structures, Synchronization, Communication and concurrency, Semaphores, Real-time clock"
+            },
+            {
+                "id": 4,
+                "title": "32-Bit Cortex-M Architecture",
+                "topics": "CPU architecture, Memory model, Registers, Modes, Exceptions, Interrupts, Exception handlers, interrupt controllers, Power modes, Hardware features and optimizations, Advanced bus standards like AMBA, The NVIC on ARM Cortex-M"
+            },
+            {
+                "id": 5,
+                "title": "Instruction Set of ARM",
+                "topics": "Syntax, Addressing modes and operands, Memory access instructions, Logical operations, Shift operations, Arithmetic operations, Stack, Functions and control flow, Assembler directives, Thumb and arm instruction differences, Development with Keil and Mbed, Applications like IoT and machine learning with cortex-M"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "code": "ec-322",
+        "title": "",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 2,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 3,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 4,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 5,
+                "title": "",
+                "topics": ""
             }
         ]
     }
