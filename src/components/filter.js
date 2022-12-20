@@ -2,8 +2,6 @@ import * as React from 'react';
 import MenuItem from '@mui/material/MenuItem';
 import { TextField, Typography } from '@mui/material';
 
-const ITEM_HEIGHT = 48;
-const ITEM_PADDING_TOP = 8;
 
 const branches = [
     {
@@ -75,11 +73,9 @@ const years=[
 export default function Filter(props) {
 
   const branchChange = (event) => {
-    console.log(event.target.value);
     props.setBranch(event.target.value);
   };
   const yearChange = (event) => {
-    console.log(event.target.value);
     props.setYear(event.target.value);
   };
 
