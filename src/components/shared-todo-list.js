@@ -5,7 +5,8 @@ import { useParams } from "react-router-dom";
 import { Typography } from "@mui/material";
 
 export default function SharedTodoList(props){
-    const keys=JSON.parse(useParams().keys);
+    const keys=JSON.parse(useParams().keys.replaceAll("i", "ceq").replaceAll("b", "[").replaceAll("c", "]").replaceAll("q", '"').replaceAll("e", ","));
+    console.log(keys)
     // var userList=[];
     // if(keys.length){
     //     for(let s of keys){

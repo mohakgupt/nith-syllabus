@@ -15,9 +15,9 @@ export default function UnitCard(props) {
           {inList?<RemoveIcon/>:<AddIcon />}
         </IconButton>:""}
         <CardContent sx={{p:2}}>
-          <Typography sx={{ fontSize: 10, fontWeight: 'bold', padding: "3px 6px 1px 6px", backgroundColor: '#307ada', color: 'white', borderRadius: 4, display: "inline-block"}} color="text.secondary">
+          {num===0?"":<Typography sx={{ fontSize: 10, fontWeight: 'bold', padding: "3px 6px 1px 6px", backgroundColor: '#307ada', color: 'white', borderRadius: 4, display: "inline-block"}} color="text.secondary">
             {`UNIT-${num}`}
-          </Typography>
+          </Typography>}
           <Typography component="div" sx={{fontSize:20, color: '#616161', fontWeight: 'bold', mt: 1}}  >
             {title.toUpperCase()}
           </Typography>
