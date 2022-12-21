@@ -34,8 +34,8 @@ export default function SharedTodoList(props){
                         const inList=((id in keys && keys[id].includes(unit))?true:false)
                         const key=unit
                         const num=key
-                        const title=props.data[id-1].units[unit-1].title
-                        const topics=props.data[id-1].units[unit-1].topics
+                        const title=props.data[id-1].units.slice(unit-1)[0].title
+                        const topics=props.data[id-1].units.slice(unit-1)[0].topics
                         // console.log(s, inList, key, num, title, topics)
                         return(
                             <UnitCard s={s} inList={inList} key={key} num={num} title={title} topics={topics} />
