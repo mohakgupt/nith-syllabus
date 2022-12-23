@@ -29,6 +29,11 @@
                 "id": 5,
                 "title": "Numerical Solution of Linear and Non Linear Equations",
                 "topics": "Non Linear Equations: Bisection Method, Regula Falsi Method, Newton-Raphson Method, Iteration method, Linear Equations: Jacobi and Gauss Seidal Iteration methods, Relaxation method"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Complex variables and Applications: by R. V. Churchill, T J Brown & R F Verhey McGraw Hill.. A first course in complex analysis with applications: by Dennis D Zill & P D Shanahan Jones and Bartlett.. Numerical Methods for Scientific and Engineering Computations: by M K Jain, S R K Iyenger and R K Jain New Age International Publishers New Delhi. Numerical Methods for Engineers and Scientists (2nd Ed.): by J D Hoffman CRC Press.. Numerical Analysis Mathematics and Scientific computing (3rd ed.): by D Kincaid and W Cheney American Mathematical Society"
             }
         ]
     },
@@ -72,6 +77,11 @@
                 "id": 7,
                 "title": "Voltage Regulators",
                 "topics": "Fixed Voltage Regulator, Adjustable voltage regulators, Switching regulators, special regulators"
+            },
+            {
+                "id": 0,
+                "title":"Books",
+                "topics": "OP-AMP and Linear Integrated Circuits Ramakant A Gayakwad PHI Publication.. Design with Operation Amplifiers and Analog Integrated circuits Sergei Franco TMH.. Integrated Electronics: Analog and Digital Circuits & System Millman & Halkias TMH.. Linear Integrated Circuits D Choudhari S Jain New Age International limited"
             }
         ]
     },
@@ -109,7 +119,7 @@
             {
                 "id": 0,
                 "title": "Books",
-                "topics": "k, k"
+                "topics": "Electronic communication Systems by G. Kennedy, McGraw-Hill Education Publisher._Principals of Communication System by Taub & Schilling, McGraw-Hill Education Publisher._Electronic communication Systems by S. Haykin, Wiley India Pvt. Limited Publisher. "
             }
         ]
     },
@@ -171,6 +181,11 @@
                 "id": 5,
                 "title": "Fourier Series",
                 "topics": "Euler’s formula, Dirichlet’s Conditions, Functions Having Points of Discontinuity, Change of interval, Expansion of odd and even periodic functions, Half-range series, Typical wave-forms, Parseval’s formula, Practical harmonic analysis"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Advanced Engineering Mathematics by E. Kreyszig, John Wiley and Sons, NC, New York._Thomas’ Calculus by G.B. Thomas, M.D. Weir, J. Hass, Pearson Education India._Advanced Engineering Mathematics by C.R. Wylie & L. C. Barrett, McGraw Hill._Vector Calculus by C. E. Weatherburn, John Wiley and Sons, NC, New York._Advanced Engineering Mathematics by R.K. Jain and S.R.K. Iyenger, Narosa Pub. House._Differential & Integral Calculus by N. Piskunov, MIR Publications"
             }
         ]
     },
@@ -199,6 +214,11 @@
                 "id": 4,
                 "title": "Probability and Statistics",
                 "topics": "Review of probability, Conditional probability and sampling theorems, Discrete and Continuous Probability Distribution, Probability Mass & Probability Density Functions, Distribution function, Discrete and Continuous probability distributions, Binomial, Poisson and Normal distributions"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Advanced Engineering Mathematics by E. Kreyszig, John Wiley and Sons, NC, New York._Differential Equations by S. L. Ross, John Wiley & Sons, New York._An Introduction to Probability Theory & its Applications by W. Feller, Wiley._Probability and Statistics for Engineers and Scientists by R.E. Walpole, S. L. Myers and K. Ye, Pearson._Integral Transforms and Their Applications by Lokenath Dennath and Dambaru Bhatta, Chapman and Hall/CRC Press"
             }
         ]
     },
@@ -232,6 +252,11 @@
                 "id": 5,
                 "title": "Functions and File Handling",
                 "topics": "‘C’ functions, library functions, parameter passing, recursion, ‘C’ files, function for file handling, ‘C’ pre-processors and command line arguments, macros and conditional compiler directives"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "C Programming Language by Briain W. Kenigham and Dennis Ritchie, Prentice Hall of India._Programming with C by Byron Gottfried, Tata McGraw Hill._The Complete Reference C by Herbert Schildt, Tata McGraw Hill._Let us C by Yashwant Kanetkar, BPB Publication._A Structured Programming Approach in C by B.A. Forouzan and R.F. Gilberg, Cengage Learning"
             }
         ]
     },
@@ -270,6 +295,11 @@
                 "id": 6,
                 "title": "Writing Skills",
                 "topics": "Need and  strategy, Developing Style of Writing, Role of appropriateness, brevity and clarity in writing, Cohesion and Coherence, Paragraph writing, Vocabulary building (roots, prefixes, suffixes) SOP, Resume/CV, Job applications Report writing: Importance of Technical Report Writing, Types of Reports, Objectivity in Report Writing, Collection of Data for Report writing"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Business Communication Today by Bovee, Courtland, L., John V. Thill and Barbara E. Schatzman: Pearson Education: Delhi._The Definitive Book of Body Language by Allan Pease and Barbara Pease. Manjul Publishing House: New Delhi._Communication for Business by Shirley Taylor. Longman: New Delhi._Technical Communication: Principles and Practice by Meenakshi Raman and Sangeeta Sharma. Oxford University Press: New Delhi"
             }
         ]
     },
@@ -323,6 +353,11 @@
                 "id": 9,
                 "title": "Computer Aided Modeling ",
                 "topics": "Drawing of 2D and 3D models. Isometric drawings with different views. Complex solid models and wire frame models"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "A text book of Engineering Drawing by P.S.Gill, S.K.Kataria & Sons, Delhi._Engineering Drawing and Graphics by K. Venugopal, New Age International_Engineering Drawing with an Introduction to AutoCAD by D.A. Jolhe, Tata McGraw-Hill Publishing Co. Ltd., New Delhi._ Engineering Drawing & Graphics using Auto CAD 2000 by T. Jeyapoovan, Vikas Publishing House Pvt. Ltd., New Delhi"
             }
         ]
     },
@@ -361,6 +396,11 @@
                 "id": 6,
                 "title": "Electrical Engineering Workshop",
                 "topics": "Wiring of fluorescent tube lamp for staircase lighting system. To assemble adjustable voltage power supply by soldering electronic components. To open, disconnect and re-connect internal wiring system of domestic electrical appliances     "
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "A Course in Workshop Technology by B.S. Raghuwanshi,  DhanpatRai & Company(P) Limited._Elements of Workshop Technology by Hajra Choudhary & Nirjhar Roy,  Media Promoters and Publishers Pvt. Ltd. _Plumbing and Sanitary Engineering by J.B. Jindolia, Royal Publishers._Building Materials by S.K. Duggal, New Age International. Publishers._Electrical Wiring Estimating and Costing by S.L. Uppal & G.C. Garg Khanna Publication._Basic Electronics by Mitchel Schultz McGraw Hill Education._Electrical Appliances: The Complete Guide to the Maintenance and Repair of Domestic Electrical Appliances by Graham Dixon Haynes Publishing Group"
             }
         ]
     },
@@ -399,6 +439,11 @@
                 "id": 5,
                 "title": "Superconductivity and Ultrasonics",
                 "topics": "Introduction and discovery of superconductivity, superconducting materials, Meissner effect, critical magnetic field and critical current, type-1 and type-2 superconductors, isotope effect, theory of superconductivity, ultrasonics, generation, properties and applications"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Solid State Electronic Devices by B. G. Streetman, Prentice Hall of India, New Delhi 2006._Introduction to Solid State Physics by Kittle C. John Wiley & Sons, 2005._Lasers Fundamentals and Applications by Ghatak  A. K. & Thyagarajan K, Springer, 2010._Modern Engineering Physics; A.S. Vasudeva, S. Chand & Co. Ltd._Introduction to Electrodynamics  by Griffiths D. J, Pearson Education Pvt. Ltd., New Delhi, 2002_Quantum Mechanics by Ghatak A and Lokanathan S  Mc Millan India Ltd"
             }
         ]
     },
@@ -432,6 +477,11 @@
                 "id": 5,
                 "title": "Lubricants  ",
                 "topics": "Introduction, Mechanisms of lubrication, Types of lubricants, properties and different methods for testing of lubricant oils and greases"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Spectrometric Identification of Organic Compounds by R. M. Silverstein, F. X. Webseter, and D. Kiemle, John Wiley & Sons _Organic Spectroscopy by W. L. Kemp, Palgrave. _Spectroscopy by D. L. Pavia, Cengage.  _Engineering Chemistry by Jain & Jain, Dhanpat Rai Publishing Co. _A text Book of Engineering Chemistry by Shashi Chawla, Dhanpat Rai & Co. _Engineering Chemistry by S.Vairam and S. Ramesh, Wiley. _Nanotechnology, Principles and Practices by Sulabha K .Kulkarni, Capital Publishing Company. _Introduction to Environmental Engineering by M. Davis, D. Cornwell, Mcgraw-hill"
             }
         ]
     },
@@ -470,6 +520,11 @@
                 "id": 6,
                 "title": "Torsion, Analysis of Truss, Analysis of frames",
                 "topics": "Introduction, Torsion of shafts of circular section, torque and twist, shear stress due to torque. Method of joints, Method of Sections. Shear force and bending moment diagram of determinate beams and frame"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Introduction to Solid Mechanics by H. Shames & J. M. Pitarresi, PHI._Mechanics of Materials by E.P. Popov, PHI._Vector Mechanics for Engineers: Statics and Dynamics by F. P. Beer, R. Johnston ,  D. F. Mazure  P. J. Cornwell , S. Sanghi, McGraw Hill Education"
             }
         ]
     },
@@ -503,6 +558,11 @@
                 "id": 5,
                 "title": "Properties of Materials",
                 "topics": "Mechanical Properties: Stress-strain response of metallic, ceramic and polymermaterials, yield strength, tensile strength and modulus of elasticity, toughness, plastic deformation, fatigue, creep and fracture; Electronic Properties: Free electron theory, Fermi energy, density of states, elementsof band theory, semiconductors, Hall effect, dielectric behaviour, piezo, ferro,pyroelectricmaterials, Magnetic Properties: Origin of magnetism in metallic and ceramic materials, paramagnetism, diamagnetism, ferro andferrimagnetism; Thermal Properties: Specific heat, thermal conductivity and thermal expansion,thermoelectricity. Optical Properties: Refractive index, absorption and transmission of electromagnetic radiation in solids, electrooptic and magnetoopticmaterials, spontaneous and stimulated emission, gas and solid state lasers"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Materials Science and Engineering, An Introduction by William D. Callister, Jr. and David G. Rethwisch,John Wiley and Sons, Inc._Materials Science and Engineering by William F. Smith, McGraw Hill Education._Modern Physical Metallurgy by R. E. Smallman, Butterwort- Heinemann._Physical Metallurgy: Principles and Practice by V. Raghvan, PHI Learning Private Ltd"
             }
         ]
     },
@@ -541,6 +601,11 @@
                 "id": 6,
                 "title": "Basics of Communication System",
                 "topics": "Introduction to Analog and Digital Communication Systems, Block Diagram Representation of Communication System, Basic idea of Transmitter and Receiver used for radio communication, Various Frequency bands used for Communication, Need of Modulation and Introduction to Cellular Communication"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Integrated Electronics by J. Millman and C.C. Halkias, McGraw Hill Education, India._Electronics Devices and Circuit Theory by R. Boylestad and L. Nashelsky, Pearson India._Electronics Devices and Circuits-II by U. A. Bakshi and A. P. Godse, Technical Publications._Electronic principles by L. Malvino, Tata McGraw Hill Education._Semiconductor Devices by K. Kano, Prentice Hall Publication._Electronic Communication Systems by G. Kennedy, McGraw Hill Education, India"
             }
         ]
     },
@@ -574,6 +639,11 @@
                 "id": 5,
                 "title": "Electrical Machines",
                 "topics": "Fundamentals of DC and AC machines"
+            },
+            {
+                "id": 0,
+                "title":"Books",
+                "topics": "Fundamental of Electric Circuits by Charles K Alexander and Matthew N. O. Sadiku, TMH Publication._Electrical Engineering Fundamentals by Vincent Del Toro, PHI Publication._Basic Electrical Engineering by V N Mittal & Arvind Mittal, TMH Publication._Basic Electrical Technology by A.E. Fitzgerald, McGraw Hill Publication.  _Electrical Estimating and Costing by N Alagappan and B Ekambaram, TMH Publication"
             }
         ]
     },
@@ -685,6 +755,11 @@
                 "id": 5,
                 "title": "Monolithic Components- Prototype Fabrication",
                 "topics": "Prototype fabrication of Diodes, npn BJT, pnp BJT, MOSFETs (Enhancement and depletion mode), n-MOS, p-MOS, CMOS, Resistors and Capacitors"
+            },
+            {
+                "id":0,
+                "title":"Books",
+                "topics":"VLSI Technology by S.M. Sze, Tata Mc-Graw Hill_VLSI Fabrication Principles by S.K. Gandhi, John Willey & Sons_Integrated Circuits by K. R. Botkar, Khanna Publishers_Micromachined Transducer by G.T.A. Kovacs, McGraw Hill, 1998_Principles of Microelectronics Technology by D. Nagchoudhary, PHI "
             }
         ]
     },
@@ -718,6 +793,11 @@
                 "id": 5,
                 "title": "Transmission Lines",
                 "topics": "Transmission line model, Parameters and properties of transmission line equations, Reflections in transmission lines, Voltage, current and impedance relations-open, Short circuit and matched lines, Standing wave ratio, Impedance matching, Quarter and half wave lines, Single stub and double stub matching; Circle diagram – Smith-chart"
+            },
+            {
+                "id": 0,
+                "title":"Books",
+                "topics":"Elements of Engineering Electromagnetics by Matthew N.O. Sadiku, Oxford University Press._Engineering Electromagnetics by William Hayt, TATA McGraw-Hill._Elements of Engineering Electromagnetics by Narayana Rao, N, Pearson Education._Electromagnetic Waves and Radiating Systems by Jordan and Balmain, PHI, Second Ed._Electromagnetics by J.D. Kraus, McGraw-Hill"
             }
         ]
     },
@@ -790,39 +870,893 @@
                 "id": 5,
                 "title": "Instruction Set of ARM",
                 "topics": "Syntax, Addressing modes and operands, Memory access instructions, Logical operations, Shift operations, Arithmetic operations, Stack, Functions and control flow, Assembler directives, Thumb and arm instruction differences, Development with Keil and Mbed, Applications like IoT and machine learning with cortex-M"
+            },
+            {
+                "id":0,
+                "title":"Books",
+                "topics":"The 8051 Microcontroller and Embedded Systems (2nd Ed.) by Mazidi Muhammad Ali, Pearson publications._The Definitive Guide to ARM Cortex-M3 processors (3rd Ed.) by Joseph Yiu, Newnes publication._Introduction to ARM Cortex-M Microcontrollers, Vol. 1 (5th Ed.) by Jonathan W. Valvano, Create Space._Real-Time Interfacing to ARM Cortex-M Microcontrollers, Vol. 2 (4th Ed.) by Jonathan W. Valvano, Create Space._Real-Time Operating Systems for ARM Cortex-M Microcontrollers, Vol. 3 (2nd Ed.) by Jonathan W. Valvano, Create Space."
             }
         ]
     },
     {
         "id": 29,
         "code": "ec-322",
-        "title": "",
+        "title": "Wireless Communication",
         "credits": [4,3,1,0],
         "units": [
             {
                 "id": 1,
-                "title": "",
-                "topics": ""
+                "title": "Introduction",
+                "topics": "Evolution of wireless communication systems, Examples of wireless communication systems"
             },
             {
                 "id": 2,
-                "title": "",
-                "topics": ""
+                "title": "The Cellular Concept – System Design Fundamentals",
+                "topics": "Concept of frequency reuse, Channel assignment strategies, Handoff strategies, Interference and system capacity, Trunking and grade of service, Improving coverage and capacity in cellular systems"
             },
             {
                 "id": 3,
-                "title": "",
-                "topics": ""
+                "title": "Propagation Models",
+                "topics": "Free space propagation model, Two-ray ground reflection model, Distance power loss, Macrocell propagation model, Micro-cell propagation model, Shadowing model, Multipath effects in mobile communication, Models for multipath reception"
             },
             {
                 "id": 4,
-                "title": "",
-                "topics": ""
+                "title": "Equalization, Diversity and Channel Coding",
+                "topics": "Fundamentals of equalization, Adaptive equalizers, Linear and nonlinear equalization, Algorithms for adaptive equalization, Diversity techniques, Fundamentals of channel coding, Overview of error detection and correction codes"
             },
             {
                 "id": 5,
-                "title": "",
-                "topics": ""
+                "title": "Multiple Access Techniques",
+                "topics": "Introduction to multiple access, Frequency division multiple access, Time division multiple access, Spread spectrum multiple access, Space division multiple access, Packet radio, Orthogonal frequency division multiple access; Introduction to wireless systems and standards"
+            },
+            {
+                "id":0,
+                "title":"Books",
+                "topics":"Wireless Communications: Principles and Practice by Theodore S. Rappaport, Pearson / PHI Publication Wireless Communications and Networks: 3G and Beyond by Iti Saha Misra, Tata McGraw Hill Publication Mobile Cellular Telecommunications: Analog and Digital Systems by William C. Y. Lee, Tata McGraw Hill Publication Wireless Digital Communications by Kamilo Feher, PHI Publication "
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "code": "ec-323",
+        "title": "VLSI Design Techniques ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "MOSFETS",
+                "topics": "Fundamentals of Enhancement Mode MOSFETs, Depletion Mode MOSFETs, Weak & strong Inversion Conditions, Threshold Voltage Concept in MOSFETs, Current-Voltage (IV), Characteristics of a MOSFET, Limitations in IV Model and MOSFET parasitics, Trends & Projections in VLSI Design & Technology, Flow of VLSI Circuit Design, Scaling in MOS devices"
+            },
+            {
+                "id": 2,
+                "title": "VLSI Design Styles",
+                "topics": "NMOS, CMOS Process flow, Noise Margin, Inverter Threshold Voltage, NMOS Inverter design and characteristics, CMOS Inverter Design and Properties, Delay and Power Dissipation, Parallel & Series Equivalent circuits, Static CMOS Circuit Design"
+            },
+            {
+                "id": 3,
+                "title": "VLSI Physical Design",
+                "topics": "Stick Diagrams, Physical Design Rules, Layout Designing, Euler’s Rule for Physical Design, Reliability issues in CMOS VLSI, Latching"
+            },
+            {
+                "id": 4,
+                "title": "High Performance Logics",
+                "topics": "Precharge-Evaluate logic, Dynamic CMOS logic, NORA logic, Complementary Pass Logic (CPL), Transmission gate logic"
+            },
+            {
+                "id": 5,
+                "title": "MOS Memory Design",
+                "topics": "MOS memories: ROM design, SRAM Cell design and DRAMs"
+            },
+            {
+                "id":6,
+                "title": "CMOS Amplifiers",
+                "topics": "Single stage MOS Amplifiers: Common Source amplifier, Common Gate amplifier, Common Drain amplifier "
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "CMOS Digital Integrated Circuits-Analysis & Design by S.M. Kang and Y. Leblebici, TMH._Design of Analog CMOS Integrated Circuits by B. Razavi, TMH._Solid State Electronic Devices by B.G. Streetman and S. Banerjee, PHI._Principles of CMOS VLSI Design- A Systems Perspective by Neil H E Weste and K. Eshraghian. _Introduction to VLSI by K. Eshraghian and Pucknell, PHI"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "code": "ec-324",
+        "title": "Antenna and Wave Propagation ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Electromagnetic radiation",
+                "topics": "Radiation phenomenon from an oscillation dipole in free space, Induction and radiation fields, Retarded potentials, Radiated power and radiation resistance from a short dipole, Half wave dipole and quarter wave monopole"
+            },
+            {
+                "id": 2,
+                "title": "Antenna Fundamentals",
+                "topics": "Directional properties of antennas, Radiation patterns, Antenna gain and aperture, Antenna terminal impedance, Self and mutual impedance, Front to back ratio, Antenna beam width and bandwidth, Antenna efficiency, Antenna beam area, Polarization, Antenna temperature and Reciprocity properties of antennas"
+            },
+            {
+                "id": 3,
+                "title": "Antenna Arrays",
+                "topics": "Classification of arrays, Linear arrays of two point sources, Linear arrays of npoint sources, Pattern multiplication, Array factor, Linear arrays of equal amplitude and spacing (Broad side and end fire arrays) of n-point sources, Directivity and beam width, Non-uniform arrays excitation using Binomial series"
+            },
+            {
+                "id": 4,
+                "title": "Special Antennas",
+                "topics": "VLF and LF antennas(Hertz and Marconi antennas), Rhombic antennas, Loop antennas ,Folded dipole antennas, Yagi-Uda antenna, Horn antennas, Microwave dish antennas, Helical antennas, Microstrip Patch antennas, Fractal antennas"
+            },
+            {
+                "id": 5,
+                "title": "Ground Wave Propagation",
+                "topics": "Characteristics for ground wave propagation, Reflection at the surface of a finitely conducting plane and on earth, Attenuation Calculation of field strength at a distance"
+            },
+            {
+                "id": 6,
+                "title": "Ionosphere Propagation",
+                "topics": "The ionosphere structure, Effective characteristics of the various layers of ionosphere, Reflection and Refraction of waves by ionosphere, Virtual height, Maximum usable frequency, Skip distance, Regular and irregular variation of ionosphere, Fading and Diversity reception. Space Wave Propagation: Space wave range, Troposphere waves-reflection, Refraction, Duct propagation, Troposphere propagation link"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Antennas Theory by C.A. Balanis, Willey Publication._Antennas by J. D. Kraus, McGraw Hill._Antennas and Radio Propagation by R. E. Collins, McGraw-Hill._Electromagnetic waves & radiating System, E. C. Jorden and B. C. Balmann, P.H.I._Antenna & Wave Propagation, K. D. Prasad, Satya Prakashan New Delhi"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "code": "ec-325",
+        "title": "Microprocessor and Microcontroller Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "On 8085 kit find the Factorial of a number. On 8085 kit, find if a number is prime or a perfect square. On 8051 kit write a program to perform serial data transfer. On 8051 kit generate square wave for a given frequency and duty cycle. On cortex M3 write a program to perform LED binking. On cortex M3 write a program to verify Digital out. On cortex M3 write a program to display clock on 7-segment display. On cortex M3 write a program to generate Analog output. On cortex M3 write a program to read in Analog input. On cortex M3 write a program to debug using serial pc . On cortex M3 write a program to generate PWM output. On cortex M3 write a program to perform counting on LCD counter. On cortex M3 write a program to learn Interrupt function. On cortex M3 write a program to understand 12c master and slave communication. On Intel Galileo Gen 2 plot a graph for analog input. On Intel Galileo Gen 2 write an Array in Arduino"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "code": "ec-326",
+        "title": "VLSI Design Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments ",
+                "topics": "Familiarity with Tanner L-EDIT EDA Tools: To study the main features and utilities of the tools for design and physical design of circuits. Report the pros and cons of the tool._To find dc and transient response of a CMOS Inverter Circuit and its Physical Design using minimum dimension criteria. Hence extract various design parameters from simulation results. _To simulate transient response of CMOS NAND Gate (Fig.1). Physical Design the logic gate or design the layout, using minimum dimension criteria. _Simulate firstly minimum dimension CMOS inverter circuit using SPICE. Hence analyze and plot power and delay variations i) with voltage scaling, ii) For dimension, load and frequency variations._Simulate CMOS NAND, NOR and XOR circuits using SPICE. Hence analyze and plot their power and delay variations i)with voltage scaling,  ii)For dimension, load and frequency variations._Design a differential amplifier circuit for a voltage gain of 10. Design its layout._Physical Design of a complex circuit AOI/ OAI, making layout using Euler’s method, for delay, power and area centric designs. _Design a four input CMOS NAND and NOR gates with the constraint propagation delay not exceeding 10ns. Compare LVS._Familiarity with Cadence Familiarization with Cadence EDA Tools. To study the main features and utilities of the tools for design and physical layout design. Report the same in practical file._Design NAND NOR, XOR circuits using Cadence EDA Tools, for delay and power centric design criteria._Physical design a full adder circuit using minimum number of CMOS NAND gates._Design triangular wave generator using OP-Amps in SPICE._Familiarization with COMSOL Multiphysics Tool and its applications for Design and study of 1D Heat Transfer with Radiation model"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "code": "hs-404",
+        "title": "Engineering Economics and Accountancy",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Engineering Economics",
+                "topics": "Definitions, Nature, Scope and application; Difference between Micro Economics and Macro Economics; Theory of Demand & Supply: Meaning, Determinants, Law of Demand, Elasticity of demand, Demand Forecasting, Law of Supply, Equilibrium between Demand & Supply"
+            },
+            {
+                "id": 2,
+                "title": "Production and Cost",
+                "topics": "Production functions, lsoquant, Least Cost combination, Laws of Returns to Scale. Economics and Diseconomies of Scale of production, Cost and Cost curves, Revenue and Revenue curve, Break even analysis"
+            },
+            {
+                "id": 3,
+                "title": "Costing and Appraisal",
+                "topics": "Cost elements, Economic cost, Accounting cost, Standard cost, Actual cost, Overhead cost, Cost control, Criteria of project appraisal, Social cost benefit analysis "
+            },
+            {
+                "id": 4,
+                "title": "Markets",
+                "topics": "Meaning, Types of Markets, Characteristics (Perfect Competition, Monopoly, Monopolistic Competition, Oligopoly) Price and Output Determination; Product Differentiation; Selling Costs; Excess Capacity"
+            },
+            {
+                "id": 5,
+                "title": "Money",
+                "topics": "Meaning, Functions, Types; Monetary Policy- Meaning, Objectives, Tools; Fiscal Policy:-Meaning, Objectives, Tools.Banking: Meaning, Types, Functions, Central Bank: its Functions, concepts CRR, Bank Rate, Repo Rate, Reverse Repo Rate, SLR"
+            },
+            {
+                "id": 6,
+                "title" : "Depreciation",
+                "topics": "Meaning of depreciation, causes, object of providing depreciation, factors affecting depreciation, Methods of Depreciation: Straight line method, Diminishing balance method, Annuity method and Sinking Fund method"
+            },
+            {
+                "id": 7,
+                "title" : "Financial Accounting",
+                "topics": "Double entry system (concept only), Rules of Double entry system, Journal(Sub-division of Journal) , Ledger, Trial Balance  Preparation of final accounts-Trading Account. Profit and Loss account, Balance Sheet"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Principles of Micro Economics by Mceachern & Kaur, Cengage Publication.  _Managerial Economics by Craig Peterson & W Cris Lewis, PHI Publication. _Modern Microeconomics by A. Koutsoyiannis, Macmillan. _Managerial Economics Theory and Applications by D. M. Mithani, Himalaya Publication House. _Fundamental of Managerial Economics by Mark Hirschey, South Western Educational Publishing. _Engineering Economics by Degramo, Prentice Hall._Financial Accounting–A Managerial Perspective by R. Narayanaswamy, PHI._Introduction to Accounting by J.R. Edwards and Marriot, Sage Publication._Cost Accounting by Jawahar Lal, Tata McGraw Hill._Project Planning Analysis, Selection, Implementation and Review by Prasanna Chandra, Tata McGraw Hill"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "code": "ec-421",
+        "title": "Data Communication & Computer Networks ",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Data Communication",
+                "topics": "Goals and Applications of Networks, Wireless Network, Interfaces and services. Reference Models: The OSI reference model, TCP/IP reference model"
+            },
+            {
+                "id": 2,
+                "title": "Physical Layer",
+                "topics": "Analog and Digital, Analog Signals, Digital Signals, Analog versus Digital, Data Rate Limit, Transmission Impairments, Line Coding, Block Coding, Sampling, Transmission Mode, Modulation of Digital Data, Telephone Modems, Modulation of Analog Signal, FDM, WDM, TDM, Guided Media, Unguided Media, Switching"
+            },
+            {
+                "id": 3,
+                "title": "Data Link Layer",
+                "topics": "Data Link Layer Design Issues, Services Provided to Network Layers, Framing, Error Control, Flow Control, Error Detection and Correction, Elementary Data Link Protocols, An Unrestricted Simplex Protocol, A Simplex Stop-and-Wait Protocol, Simplex Protocol for a Noisy Channel, Sliding Window Protocols, A protocol using go-back-N, A Protocol using Selective Repeat, Example Data Link Protocol-HDLC, PPP"
+            },
+            {
+                "id": 4,
+                "title": "Medium Access Sublayer",
+                "topics": "Channel Allocations, Random Access, ALOHA, Carrier Sense Multiple Access Protocols, Collision Free Protocols, Limited Contention Protocols, Controlled Access, Channelization, Wired LANs: Ethernet, Wireless LANs"
+            },
+            {
+                "id": 5,
+                "title": "Network Layer",
+                "topics": "Internetworks, Addressing, Routing, ARP, IP, ICMP, IPV6, Unicast Routing, Unicast Routing Protocol, Multicast Routing, Multicast Routing Protocols"
+            },
+            {
+                "id": 6,
+                "title": "Transport Layer",
+                "topics": "Process to Process Delivery, User Datagram Protocol (UDP), Transmission Control Protocol (TCP), Data Traffic, Congestion, Congestion Control, Quality of Service, Techniques to Improve QOS, Integrated Services, QOS in Switched Networks "
+            },
+            {
+                "id": 7,
+                "title": "Application  Layer",
+                "topics": "Design Issues of the Layer, Domain Name Systems, File Transfer, http, Web Documents, Virtual Terminals"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Data Communications and Networking by Behrouz A Ferouzan, TATA McGraw Hill._Data and Computer Communication by Stallings William, Pearson Education._An Engineering Approach on Computer Networking by S. Keshav, Addison Welsey._Introduction to Data Communications and Networking by Wayne Tomasi, Pearson._Computer Networks by A.S. Tanenbaum, PHI"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "code": "hs-203",
+        "title": "Organizational Behaviour",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Organizational Behavior (OB)",
+                "topics": "Concept, nature, characteristics, conceptual foundations, determinants and importance, management functions, role & skills, disciplines that contribute to the field of OB, Challenges & Opportunities for OB, diversity in Organizations, attitudes & Job satisfaction"
+            },
+            {
+                "id": 2,
+                "title": "Perception",
+                "topics": "Concept, nature, process, importance, management and behavioral applications of perception. Personality: concept, nature, types and theories of personality shaping. Learning; concept and theories of learning"
+            },
+            {
+                "id": 3,
+                "title": "Motivation",
+                "topics": "concept, principles, theories-content, process & contemporary, Monetary and nonmonetary motivation, applications of motivation. Leadership: Concept, functions, styles, and theories of leadership- trait, behavioral, and situational"
+            },
+            {
+                "id": 4,
+                "title": "Group and Interpersonal Relationship",
+                "topics": "Analysis of Interpersonal Relationship, developing interpersonal relationship, Group Dynamic: Definition of Group, stages of Group Development, Punctuated Equilibrium Model, Group Structure, Group Decision Making, understanding work teams"
+            },
+            {
+                "id": 5,
+                "title": "Organizational Power and Politics",
+                "topics": "concept of power, structure of power, classification of power, contrasting leadership & power, dependence a key to power, causes & consequences of political behavior. Organizational conflict: view of conflict, conflict process, negotiation & bargaining strategies"
+            },
+            {
+                "id": 6,
+                "title": "Conflict and Negotiation",
+                "topics": "conflict definition in conflict thought: Traditional view, the Human relation view, interactionist view. Functional versus dysfunctional conflict, conflict process. Negotiation Bargaining strategies, the negotiation process and issues in negotiation"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Robbins, S.P., Organizational Behavior, Prentice Hall of India._Luthans F., Organizational Behavior, McGraw-Hill._Davis K., Human Behavior at Work: Organizational Behavior, Tata McGraw-Hill"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "code": "cs-201",
+        "title": "Data Structures",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Data types, data structures, abstract data types, the running time of a program, the running time and storage cost of algorithms, complexity, asymptotic complexity, big O notation, obtaining the complexity of an algorithm"
+            },
+            {
+                "id": 2,
+                "title": "Development of Algorithms",
+                "topics": "Notations and Analysis, Storage structures for arrays - sparse matrices - structures and arrays of structures, Stacks and Queues: Representations, implementations and applications.Linked Lists: Singly linked lists, Linked stacks and queues, operations on Polynomials, Doubly Linked Lists, Circularly Linked Lists, Operations on linked lists- Insertion, deletion and traversal, dynamic storage management – Garbage collection and compaction"
+            },
+            {
+                "id": 3,
+                "title": "Trees",
+                "topics": "Basic terminology, General Trees, Binary Trees, Tree Traversing: in-order, pre-order and post-order traversal, building a binary search tree, Operations on Binary Trees - Expression Manipulations - Symbol Table construction, Height Balanced Trees(AVL), B-trees, B+-trees"
+            },
+            {
+                "id": 4,
+                "title": "Graphs",
+                "topics": "Basic definitions, representations of directed and undirected graphs, the single-source shortest path problem, the all-pair shortest path problem, traversals of directed and undirected graphs, directed acyclic graphs, strong components, minimum cost spanning tress, articulation points and biconnected components, graph matching"
+            },
+            {
+                "id": 5,
+                "title": "Sorting and Searching Techniques",
+                "topics": "Bubble sorting, Insertion sort, Selection sort, Shell sort, Merge sort, Heap and Heap sort, Quick sort, Radix sort and Bucket sort, Address calculation, Sequential searching, Binary Searching, Index searching, Hash table methods"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "An Introduction to Data Structures with applications by J.P. Tremblay and P.G. Sorenson, Tata McGraw Hill._Data structures, Algorithms ad Applications in C++ by Sartaj  Sahni, WCB/McGraw Hill._Data Structures and Algorithms by Alfred V. Aho, Jeffrey D. Ullman and  John E. Hopcroft, Addison Wesley._Data Structures using C by Y. Langsam, M. J. Augenstein and A. M. Tenenbaum, Pearson Education._Data Structures – A Pseudocode Approach with C by Richard F. Gilberg and Behrouz A. Forouzan, Thomson Brooks /Cole"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "code": "cs-221",
+        "title": "Computer Organization and Architecture ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "General System Architecture",
+                "topics": "Stored  Program  control  concept  (Von-Newman  architecture principle),  Flynn‟s  Classification  of  computers (SIMD, MISD, MIMD), Structure organization (CPU, Caches, Main memory, Secondary memory unit & I/O), Register Transfer Operation, Micro-operation, Instruction Set Architecture (Instruction set based classification of processor i.e. RISC, CISC), Addressing Modes, Operation instruction set (Arithmetic & logical, Data transfer, Control flow), Instruction set format"
+            },
+            {
+                "id": 2,
+                "title": "Processor Design",
+                "topics": "Arithmetic and logic unit, Stack organization, CPU Architecture types, Accumulator Based- Register, Stack-Memory, Register, Detailed data path of a typical register based CPU, Fetch, Decode, and Execute Cycle. Addition and Subtraction, Multiplication Algorithms (Booth’s Multiplication Algorithm), Division Algorithm, Floating point arithmetic operations"
+            },
+            {
+                "id": 3,
+                "title": "Control Design",
+                "topics": "Microprogrammed and Hard-wired control options, Hard-wired design methods, State table method, Multiplier control, CPU control unit. Microprogrammed, Basic concepts, control Memory, Address Sequencing"
+            },
+            {
+                "id": 4,
+                "title": "I/O Organization & Memory Hierarchy",
+                "topics": "Programmed, Interrupt driven & Direct Memory Access, Synchronous & synchronous data transfer, The need for Memory Hierarchy, locality of reference principle, Memory Hierarchy, cache, main and secondary, Memory parameters, access cycle time, cost per unit"
+            },
+            {
+                "id": 5,
+                "title": "Introduction to Parallelism",
+                "topics": "Goals of parallelism, Instruction level parallelism, pipelining, superscaling, Processor level parallelism, Multiprocessor system overview"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Computer Organization and Architecture, Designing for Performance by William Stallings, Pearson Education._Computer System Architecture by M. Morris Mano, Prentice Hall of India._Computer Architecture: A quantitative Approach by David A. Patterson and John. L. Hennessy,  Morgan Kaufmann._Structured Computer Organization by Andrew S. Tanenbaum and Todd Austin, Prentice Hall of India"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "code": "cs-222",
+        "title": "Operating System",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Evolution of Operating Systems",
+                "topics": "Evolution of operating systems, Types of operating systems. The process concept, system programmer's view of processes, operating system's views of processes, operating system services for process management"
+            },
+            {
+                "id": 2,
+                "title": "CPU Scheduling",
+                "topics": "Scheduling concepts, scheduling algorithms, algorithm evaluation, multiple processor scheduling, real time scheduling"
+            },
+            {
+                "id": 3,
+                "title": "Concurrent Programming and Deadlocks",
+                "topics": "Critical regions, Conditional critical regions, Monitors, Interprocess communication, Messages, Pipes, Semaphores, Modularization, Synchronization, Concurrent languages. Deadlocks: Characterization, Prevention, Avoidance, Detection and Recovery, Combined approach to Deadlock Handling, precedence graphs"
+            },
+            {
+                "id": 4,
+                "title": "Memory Management",
+                "topics": "Memory Management, Contiguous allocation, static-swapping, overlays, dynamic partitioned memory allocation, demand paging, page replacement, segmentation. Noncontiguous allocation, paging, Hardware support, Virtual Memory"
+            },
+            {
+                "id": 5,
+                "title": "File Systems",
+                "topics": "A Simple file system, General model of a file system, Symbolic file system, Access control verification, Logical file system, Physical file system, Allocation strategy module, Device strategy module, I/O initiators, Device handlers, Disk scheduling"
+            },
+            {
+                "id": 6,
+                "title": "Networks, Security and Design Principles",
+                "topics": "Network operating system, distributed operating system, external security, operational security, password protection, access control, security kernels, hardware security, layered approach, design principle"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Operating System Concepts by J.L. Peterson and A. Silberchatz, Addison Wesley._An Introduction to Operating System by Harvey M. Dietel, Addison Wesley._Operating Systems - A Design Oriented Approach by C. Crowley, Irwin Publishing._Operating systems by W. Stallings, Prentice Hall._Modern Operating system by A.S. Tanenbaum, Prentice Hall of India"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "code": "cs-223",
+        "title": "Theory of Computation ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Machines",
+                "topics": "Basic machine, FSM, Transition graph, Transition matrix, Deterministic and nondeterministic FSMS, Equivalence of DFA and NDFA, Mealy and Moore machines, minimization of finite automata, Two-way finite automata"
+            },
+            {
+                "id": 2,
+                "title": "Regular Sets and Regular Grammars",
+                "topics": "Alphabet, words, Operations, Regular sets, Finite automata and regular expression, Pumping lemma and regular sets, Application of pumping lemma, closure properties of regular sets"
+            },
+            {
+                "id": 3,
+                "title": "Formal Grammars and Languages",
+                "topics": "Basic definitions and examples of languages, Chomsky hierarchy, Regular grammars, context free & context sensitive grammars, context free languages, non-context free languages, Chomsky normal forms, binary operations on languages. Simplification of CFG, Elimination of Useless symbols, Unit productions, Null productions, Greiback Normal form, Chomsky normal form – Problems related to CNF and GNF"
+            },
+            {
+                "id": 4,
+                "title": "Turing Machines and Pushdown Automata",
+                "topics": "TM model, representation and languages acceptability of TM Design of TM, Universal TM and Other modification, composite and iterated TM, Pushdown automata, Acceptance by PDA"
+            },
+            {
+                "id": 5,
+                "title": "Computability",
+                "topics": "Basic concepts, primitive and partial recursive function, Recursive function, Decidability, Kleene’s theorem. Undecidibility: Properties of recursive & recursively enumerable languages, Universal Turing machine and undecidable problem, Rice‟s theorem, undecidable problems"
+            },
+            {
+                "id": 6,
+                "title": "Computational Complexity Theory",
+                "topics": "Definition, linear speed-up, tape compression & reduction in number of tapes, Hierarchy Theorem, Relation among complexity measures, Transition lemmas and  non-deterministic hierarchies, properties of general complexity measures, the gap, speed-up, union theorem, Automatic complexity theorem"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Introduction to Automata theory, Languages and Computation by John E. Hopcroft and Jeffery Ullman, Narosa Publishers._Introductory Theory of Computer Science by E.V. Krishnamurthy, East West Press._Theory of computer Science by K.L.P. Mishra, Prentice Hall of India._An Introduction to Formal Languages and Automata by Peter Linz, Jones & Bartlett Learning._Introduction to Languages and the Theory of Computation by John C. Martin, Tata McGraw Hill"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "code": "cs-202",
+        "title": "Data Structures Lab ",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "Write a program to sort an array (make a dynamic array) using Bubble sort. Use 1-bit variable FLAG to signal when no interchange take place during pass. If FLAG is 0 after any pass, then list is already sorted and there is no need to continue._Write a program to search an ITEM (integer) in an array using binary search, if FOUND then delete that item from array and if NOT FOUND than insert that item in kth position (Input “k” from user)._Write a program to enter records of Five students, which should contain fields like roll No., name, CGPI, semester. (a) List all record of all students having CGPI greater than k. (b) Insert a new record of student at kth position and print the final record._Implement linked list and insert and delete an element into the list._Evaluate a postfix algebraic expression with the help of stack._Implement a queue using arrays and linked list._Implement a binary tree and implement any traversal technique as you like._Implement a binary Search Tree and insert and delete a node in the BST._Implement Max Priority queue using Max Heap. _Implement a graph and find transpose of a graph where Transpose of a directed graph G is another directed graph on the same set of vertices with all of the edges reversed compared to the orientation of the corresponding edges in G. That is, if G contains an edge (u, v) then the converse/transpose/reverse of G contains an edge (v, u) and vice versa. Implement it with the help of adjacency list and adjacency matrix. _Implement Quick Sort, Merge Sort, Insertion Sort and Selection Sort"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "code": "cs-224",
+        "title": "Computer Organization and Architecture Lab ",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments ",
+                "topics": "Using virtual lab,  implement  i)  Ripple Carry Adder, ii)     Carry-Look-Ahead Adder, iii)     Wallace Tree Adder.._Using virtual lab, implement  i)  Synthesis of Flip Flops, ii)   Registers and Counters. _Using virtual lab implement i) Combinational Multipliers, ii)    Booth's Multiplier._Using  logisim  simulator design  i) 8 bit   Arithmetic Logic Unit, ii) 16 bit Arithmetic Unit._Simulate  Datapath for processor  using procsim simulator. _Design control path using Finite State Machine for CPU._Write a program to understand register and memory allocation in registers for MIPS architecture._Design Memory (Design of a RAM Cell and 4*4 RAM)._Write a program to find the factorial of a number in MIPS, C, FORTRAN and Python. Check the maximum data size for which factorial could be calculated. Find out how the overflow conditions are handled by different processors._Write a program to implement Karnaugh Map _Implement the cache memory  approaches  i) Associative cache Design, ii) Direct Mapped cache Design using ParaCache simulator"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "code": "cs-225",
+        "title": "",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 1,
+                "title": "List of Experiments",
+                "topics": "Practice various commands/utilities in MS Windows and Linux OS for the following: • File management: create, copy, delete, link, display content, printing •Directory handling: create, delete, relocate, display content, sharing •Security features: setting/resetting file permissions to read, write, execute • Network configuration_Learn the top command to display resource utilization statistics of processes. _Simulate various CPU scheduling algorithms (FCFS, SJF-preemptive & no preemptive, Priority Scheduling-preemptive & no preemptive and Round Robin). Run your simulator for each scheduling policy, with a variety of quantum values. For each version of the simulator, for each input data file, for each quantum value, plot the completion time, throughput, average job elapsed time and average job waiting time. Analyze the behavior of your scheduler._Write a program to simulate Banker’s algorithm for deadlock handling._Simulate memory allocation algorithms (First Fit and Best Fit)._Simulate different page replacement strategies (FIFO, LRU and Optimal) and compare their performance._Using the fork(…) system call, write a program in which the parent creates a child and the child creates a grandchild. Synchronize the processes so that the grandchild first displays a message (and then terminates), the child displays a message (and then terminates), and finally the parent displays a message. _Simulate (at least three) disk scheduling protocols._Write a program to display the IP address and MAC address of a machine._Write script to implement background process that will continually print current time in upper right corner of the screen, while user can do his/her normal job at prompt._Write shell script to show various system configuration like • Currently logged user and his logname • Your current shell •Your home directory •Your current path setting •Your current working directory • Show Currently logged number of users • About your OS and version, release number, kernel version •Show all available shells • Show computer CPU information like processor type, speed, etc. •Show memory information •Show hard disk information like size of hard-disk, cache memory, model, etc. • File system (Mounted)_Installation and configuration of MS Windows and Linux OS"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "code": "ma-221",
+        "title": "Linear Algebra & Applications",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "System of Linear Equations",
+                "topics": "Matrices and elementary row operations, Row reduced echelon matrices, Homogeneous system of linear equations, Elementary matrices, LU Decomposition, Some applications giving rise to Linear Systems Problems"
+            },
+            {
+                "id": 2,
+                "title": "Vector Space",
+                "topics": "Fields, fields of numbers, finite fields, Vector Spaces over R and C, subspaces, linear independence, basis and dimension of a vector space, ordered basis and co-ordinates, Application to difference equations and markov chains"
+            },
+            {
+                "id": 3,
+                "title": "Linear Transformation",
+                "topics": "Linear transformations, Rank and Nullity of linear transformation, Algebra of linear transformation, Isomorphism, Invertible linear transformations, Dual and double dual of a vector space and transpose of a linear transformation, Matrix representation of Linear Transformation, eigenvalue and eigenvector of an linear transformation, Discrete dynamical systems, Application to differential equations"
+            },
+            {
+                "id": 4,
+                "title": "Eigen Decomposition",
+                "topics": "Diagonalizability of linear operators of finite dimensional vector spaces, simultaneous triangulization and simultaneous diagonalization, Primary decomposition theorem - diagonal and nilpotent parts, Applications to Image processing and Statistics"
+            },
+            {
+                "id": 5,
+                "title": "Inner Product Spaces",
+                "topics": "Gram-Schmidt orthogonalization, best approximation of a vector by a vector belonging a given subspace and application to least square problems, Adjoint of an operator, hermitian, unitary and normal operators, Singular Value Decomposition and its applications, Spectral decomposition, Applications of Inner product spaces"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Linear algebra and it’s applications by G. Strang, Cengage._Linear Algebra and its Applications by D.C. Lay, Pearson._Linear Algebra by K. Hoffman and R. Kunze, Pearson._Linear Algebra: A Modern Introduction by D. Poole, Brooks/Cole._Linear Algebra: A Geometric Approach by S. Kumaresan, Prentice-Hall of India._Linear algebra (undergraduate text in mathematics) by S. Lang, Springer"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "code": "ma-222",
+        "title": "Statistical Methods",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Data Visualization",
+                "topics": "Measures of central tendency, dispersion, skewness, kurtosis, data representation using Histogram, Pie Chart, Boxplot, Biplot, Multidimensional scaling"
+            },
+            {
+                "id": 2,
+                "title": "Order Statistics",
+                "topics": "Different order statistics and their single and joint distribution, sampling distribution of mean, variance, random number generation, Generation of random numbers following certain distributions"
+            },
+            {
+                "id": 3,
+                "title": "Correlation and Regression",
+                "topics": "Measures of relation between two variables – correlation and Rank correlation – Kendall’s Tau; Partial and Multiple correlation coefficients – Regression – Curve fitting by least squares – linear and quadratic"
+            },
+            {
+                "id": 4,
+                "title": "Hypothesis Testing",
+                "topics": "Types of errors and power - most powerful tests, Test for equality of means and variances – t and F test; Chi-square test for goodness of fit and independence of attributes, Analysis of variance with one–way and two–way classifications"
+            },
+            {
+                "id": 5,
+                "title": "Multiple Comparison Tests",
+                "topics": "Least Significant Difference, Student-Newman–Keuls test, Duncan’s Multiple Range test, Tukey’s test "
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Fundamentals of Mathematical Statistics by S. C. Gupta and V.K. Kapoor, Sultan Chand and Sons._Design and Analysis of Experiments by D.C. Montgomery, John Wiley and Sons._Fundamentals of Applied Statistics by S. C. Gupta and V.K. Kapoor, Sultan Chand._Statistical Inference – Testing of Hypotheses by M. K. Srivastava and N. Srivastava, Prentice Hall of India._An Introduction to Probability and Statistics by V.K. Rohatgi and A. K. Saleh, John Wiley and Sons._Applied Statistics and Probability for Engineers by D.C. Montgomery, G.C. Runger, John Wiley and Sons._Design and Analysis of Experiments by M.N. Das and N.C. Giri, Wiley Eastern Ltd"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "code": "ma-223",
+        "title": "Data Structure ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Data types, data structures, abstract data types, the running time of a program, the running time and storage cost of algorithms, complexity, asymptotic complexity, big O notation, obtaining the complexity of an algorithm. Development of Algorithms: Notations and Analysis"
+            },
+            {
+                "id": 2,
+                "title": "Linear Data Structures and Linked Lists",
+                "topics": "Storage structures for arrays - sparse matrices - structures and arrays of structures. Stacks and Queues: Representations, implementations and applications, Singly linked lists, Linked stacks and queues, operations on Polynomials, Doubly Linked Lists, Circularly Linked Lists, Operations on linked lists- Insertion, deletion and traversal, dynamic storage management – Garbage collection and compaction"
+            },
+            {
+                "id": 3,
+                "title": "Sorting and Searching Techniques",
+                "topics": "Bubble sorting, Insertion sort, Selection sort, Shell sort, Merge sort, Heap and Heap sort, Quick sort, Radix sort and Bucket sort, Sequential searching, Binary Searching "
+            },
+            {
+                "id": 4,
+                "title": "Trees",
+                "topics": "Basic terminology, General Trees, Binary Trees, Tree Traversing: in-order, pre-order and postorder traversal, building a binary search tree, Operations on Binary Trees - Expression Manipulations - Symbol Table construction, Height Balanced Trees(AVL), B-trees, B+ -trees"
+            },
+            {
+                "id": 5,
+                "title": "Graphs",
+                "topics": "Basic definitions, representations of directed and undirected graphs, the single-source shortest path problem, the all-pair shortest path problem, traversals of directed and undirected graphs, directed acyclic graphs, strong components, minimum cost spanning tress, articulation points and biconnected components, graph matching"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Introduction to Algorithms by T.H. Cormen, C. E. Leiserson, R. L. Rivest, C. Stein, MIT Press._An Introduction to Data Structures with applications by .J.P. Tremblay, P.G. Sorenson, Tata McGraw Hill._Data structures, Algorithms and Applications in C++ by by S. Sahni, Tata McGraw Hill._Data Structures using C by Y. Langsam, M. J. Augenstein, A. M. Tenenbaum, Pearson Education._Data Structures and Algorithmic Puzzles by N. Karumanchi, CareerMonk Publications._Data Structures and Algorithms by A.V.  Aho, J.D. Ullman, J.E. Hopcroft, Pearson._Data Structures – A Pseudo code Approach with C by R. F. Gilberg, B. A. Forouzan, Thomson Brooks / COLE"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "code": "ma-224",
+        "title": "Operating System ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Evolution of Operating Systems",
+                "topics": "Evolution of operating systems, Types of operating systems. The process concept, system programmer's view of processes, operating system's views of processes, operating system services for process management CPU Scheduling: Scheduling concepts, scheduling algorithms, algorithm evaluation, multiple processor scheduling, real time scheduling"
+            },
+            {
+                "id": 2,
+                "title": "Concurrent Programming and Deadlocks",
+                "topics": "Critical regions, Conditional critical regions, Monitors, Interprocess communication, Messages, Pipes, Semaphores, Modularization, Synchronization, Concurrent languages. Deadlocks: Characterization, Prevention, Avoidance, Detection and Recovery, Combined approach to Deadlock Handling, precedence graphs"
+            },
+            {
+                "id": 3,
+                "title": "Memory Management",
+                "topics": "Memory Management, Contiguous allocation, static-swapping, overlays, dynamic partitioned memory allocation, demand paging, page replacement, segmentation. Noncontiguous allocation, paging, Hardware support, Virtual Memory"
+            },
+            {
+                "id": 4,
+                "title": "File Systems",
+                "topics": "A Simple file system, General model of a file system, Symbolic file system, Access control verification, Logical file system, Physical file system, Allocation strategy module, Device strategy module, I/O initiators, Device handlers, Disk scheduling"
+            },
+            {
+                "id": 5,
+                "title": "Networks, Security and Design Principles",
+                "topics": "Network operating system, distributed operating system, external security, operational security, password protection, access control, security kernels, hardware security, layered approach, design principle"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Operating System Concepts by J. L. Peterson and A. Silberchatz, Addison Wesley._An Introduction to Operating System by H. M. Dietel, Addison Wesley._Modern Operating system by A.S. Tanenbaum, Prentice Hall of India._Operating Systems - A Design Oriented Approach by C. Crowley, Irwin Publishing_Operating systems by W. Stallings, Prentice Hall of India._The design of the Unix operating systems by M.J. Back, Prentice Hall of India._Operating Systems Principles by Silberschatz, Galvin, Gagne, Wiley; Seventh edition"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "code": "ma-225",
+        "title": "Data Structure Lab ",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "Sorting Algorithms-Non-Recursive._Sorting Algorithms-Recursive._Searching Algorithm._Implementation of Stack using Array._Implementation of Queue using Array._Implementation of Circular Queue using Array._Implementation of Stack using Linked List._Implementation of Queue using Linked List._Implementation of Circular Queue using Linked List._Implementation of Tree Structures, Binary Tree, Tree Traversal, Binary Search Tree, Insertion and Deletion in BST._Graph Implementation, BFS, DFS, Minimum cost spanning tree, shortest path algorithm"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "code": "ma-226",
+        "title": "Statistical Methods Lab ",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "Introduction to SPSS and setting Up a Data File_SPSS Analysis: Windows Method versus Syntax Method and Missing data_Programs to Methods of MULT RESPONSE Procedures, Example of the Multiple-Dichotomy Method, Example of the MultipleResponse Method, Cross-Tabulations_Testing Statistical Significance between Two Correlation Coefficients Obtained from Two Samples_Spearman Rank Order Correlation Coefficient_Prediction Equation of Linear Regression and Multiple regression Analysis_Chi-Square Test for Single Variable Experiments and test of Independence between_t Test for Independent Groups _Paired-Samples t Test_Analysis of Variance – One-way and Two -way _Post Hoc Comparisons of ANOVA_Factorial Analysis of Variance "
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "code": "ma-227",
+        "title": "Operating System Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 1,
+                "title": "List of Experiments ",
+                "topics": "Study of hardware and software requirements of different operating systems (UNIX,LINUX,WINDOWS XP, WINDOWS7/8_Execute various UNIX system calls for i. Process management  ii. File management  iii. Input/output Systems calls_Implement CPU Scheduling Policies: i. SJF ii Priority iii. FCFS  iv. Multi-level Queue_Implement file storage allocation technique: iContiguous(using array)  ii. Linked –list(using linked-list)  iii. Indirect allocation (indexing) Implementation of contiguous allocation techniques: i. Worst-Fit ii) Best- Fit iii)  First- Fit_Calculation of external and internal fragmentation i. Free space list of blocks from system  ii. List process file from the system_Implementation of compaction for the continually changing memory layout and calculate total movement of data  _Implementation of resource allocation graph RAG)_Implementation of Banker’s algorithm_Conversion of resource allocation graph (RAG) to wait for graph (WFG) for each type of method used for storing graph._Implement the solution for Bounded Buffer (producer-consumer)problem using inter process communication techniquesSemaphores_Implement the solutions for Readers-Writers problem using inter process communication technique –Semaphore "
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "code": "ce-221",
+        "title": "Indeterminate Structures",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Static and kinematic indeterminacy"
+            },
+            {
+                "id": 2,
+                "title": "Statically indeterminate structures",
+                "topics": "Force methods, Three-moment equation, Method of consistent deformation, Approximate method of analysis (Portal Frame, Cantilever, Substitute Frame Method)"
+            },
+            {
+                "id": 3,
+                "title": "Kinematically Indeterminate Structures",
+                "topics": "Displacement Methods- slope deflection method, moment distribution method, Kani’s Method"
+            },
+            {
+                "id": 4,
+                "title": "Influence lines for In-determinate structures",
+                "topics": "Muller-Breslau Principle for Influence lines diagram of indeterminate structures: Beams, frame, trusses and two hinged & fixed arches"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Structural Analysis by R.C.Hibbeler,  Pearson._Fundamentals of Structural Analysis by K.M.Leet,C.MingUan, G &A.M.Gilbert,Tata McGraw Hill Education._Structural Analysis by DevdasMenon, Narsoa._Theory of Structures Vol-I&II by G.S.Pandit,S.P.Gupta&R.Gupta, Tata McGraw Hill Education._Structural Analysis by L.S.Negi&R.S.Jangid, TATA McGraw Hill education._Theory of Structures by S.Ramamrutham&R.Narayan, DhanpatRai& Son._Basic Structural Analysis by C.S.ReddyTATA McGraw Hill education._Theory of Structures by B.C.Punmia.Ashok Kumar Jain&Arun Kumar Jain, Laxm_Structural Analysis I&II by S.S.Bhavikatti,Vikas"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "code": "ce-222",
+        "title": "Water Resources Engineering-I",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Hydrological cycle, Water budget equation, Watershed"
+            },
+            {
+                "id": 2,
+                "title": "Abstractions",
+                "topics": "Precipitation- Types, Measurement, Computation of average rainfall over a basin, Evaporation, transpiration, infiltration, Ф-index, weather systems"
+            },
+            {
+                "id": 3,
+                "title": "Runoff",
+                "topics": "Factors affecting, runoff computation, rainfall-runoff correlation, flow mass curve, flow duration curve"
+            },
+            {
+                "id": 4,
+                "title": "Hydrographs",
+                "topics": "Flood hydrograph, base flow separation, Unit and S  hydrograph, Unit Hydrograph from simple and complex storms, synthetic and instantaneous unit hydrograph"
+            },
+            {
+                "id": 5,
+                "title": "Floods",
+                "topics": "Flood discharge estimation, flood control, reservoir and channel routing"
+            },
+            {
+                "id": 6,
+                "title": "Groundwater Hydrology",
+                "topics": "Darcy’s Law – concept and applications, Well Hydraulics – Steady and unsteady state"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Engineering Hydrology by K. Subramanya,_Engineering Hydrology by Ojha, Berndtssson and Bhunia,_Water Resources Engineering by R.K. Linsley and J.B. Franzini, McGraw-Hill Inc, 2000._S.K.Sharma by Design of Irrigation Structures,_Groundwater by H.M Raghunath_Grounwater Hydrology by B.R. Chahar"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "code": "ce-223",
+        "title": "Soil Mechanics",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Soil properties",
+                "topics": "Soil mechanics, rock mechanics ,foundation engineering, soil formation, soil structure, soil map of India. Basic definitions phase diagram, water content, specific gravity, void ratio, porosity, unit weight, weight volume relationships, index properties of soil and their determination, classification of soils, degree of saturation, density index"
+            },
+            {
+                "id": 2,
+                "title": "Permeability, Seepage",
+                "topics": "Darcy’s law and its validity, seepage velocity, discharge velocity, constant and variable head permea meter, pumping in & out tests, permeability of stratified soils, factors affecting permeability, laplace’s equation, flow potential flow net and its properties, different methods of drawing flownets, seepage pressure, quick sand, exit gradient, piping, design of filter, principle of total and effective stresses, capillarity conditions in soil, effective and pore pressures"
+            },
+            {
+                "id": 3,
+                "title": "Stress Distribution",
+                "topics": "Effective and pore pressures,Effective stess principle.Stress distribution in soil, assumptions in elastic theories, Boussinesq’s equation for point, line, circular and rectangular loads, Westergaad’s formula for point load, comparison of Boussinesq’s and Westergaard’s equation, concept and use of pressure bulbs, principle and use of New mark’s influence chart, contact pressure"
+            },
+            {
+                "id": 4,
+                "title": "Compaction",
+                "topics": "Mechanism of compaction, objective of compaction, measurement of compaction, factors affecting compaction, optimum moisture content, Standard Proctor test, Modified Proctor test, effect of moisture content and compactive effort on dry density, zero air void curve, compaction of cohesionless soils, field compaction, field control of compaction"
+            },
+            {
+                "id": 5,
+                "title": "Consolidation",
+                "topics": "Mechanism of consolidation, e log)p) curves, basic definitions, estimation of pre consolidation pressure, normally consolidation and over consolidation ratio, Terzaghi’s theory of one dimensional consolidation, assumptions, governing equation, standard solution, laboratory determination of consolidation properties of soil, magnitude and rate of consolidation, settlements, secondary consolidation, compression characteristics of clays and settlement analysis"
+            },
+            {
+                "id": 6,
+                "title": "Shear strength",
+                "topics": "Normal, shear and principal stresses, Columb’s equation, Mohr’s stress circle, Mohr Columb failure criteria, laboratory determination of shear parameters of soil by direct shear tests, triaxial test, unconfined compression test, Vane shear test, Consolidated drained, consolidated undrained and unconsolidated undrained shear test, pore pressure parameters, Lambe’s p q diagram"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Soil Mechanics and Foundations by B.C. Punmia, Laxmi Publications, New Delhi._Geotechnical Engineering by C.Venkatramaiah, New Age International Publishers, New Delhi._Principles of soil mechanics Addison  Wesley by Ronald F. Scott, Massachusetts._Soil mechanics: Principles and Practice by Graham Barnes, Palgrave Macmillan, New York_Principles ofGeotechnical Engineering by Brij Mohan Das, CENGAGE Learning_Basic and applied soil mechanics by Gopal Ranjon & ASR Rao, New Age International Pvt Ltd Publishers_Modern Geotechnical Engineering by Alam"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "code": "ce-224",
+        "title": "Building Materials and Construction ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Basic Structural Building Materials ",
+                "topics": "Principle properties of Engineering materials: Physical & Mechanical, Clay product - Clay Brick and Tiles: Classification, tiles.  Limes: Classification and applications. Cement: Composition, types, manufacturing of Ordinary Portland Cement, rate of hydration, special types, Fine and Coarse aggregate: Source, Impurities, Classification, Characteristics. Timber: Classification, seasoning, defects, wood product and its applications"
+            },
+            {
+                "id": 2,
+                "title": "Transformed Material ",
+                "topics": "Mortars: classification, characteristics, functions of ingredient, Cement concrete and Special concrete:  Types, physical properties "
+            },
+            {
+                "id": 3,
+                "title": "Service Material ",
+                "topics": "Ceramic products: classification, refractories, glass, properties of ceramic materials. Ferrous and non-ferrous Metals and alloys: Properties, uses. Paints, Distemper & Varnishing: Basic constituents, types, composition, defects, application"
+            },
+            {
+                "id": 4,
+                "title": "Structural Components of building and building specification",
+                "topics": "Foundation: Type, application, Masonry: Stone, Brick and Confined, Types, Bonds, defects. Walls: Design Consideration, constructional details, types of load bearing and non-load bearing walls, Floor and Roofs: type, Ground/Upper: Flat /Slopped.  Beam/Band-Plinth, Sill, Lintel -Types and details, Stairs, Ramps - classification, application. Form work: Requirements, Load applied, Scaffolding"
+            },
+            {
+                "id": 5,
+                "title": "Non Structural Components of building and building specification",
+                "topics": "Plastering, Pointing: Type, methods, defects. Doors and Windows, Ventilators: Locations, sizes, types. Dampness and Water Proofing: Causes, Prevention Methods, damp-proofing treatment, Materials used"
+            },
+            {
+                "id": 6,
+                "title": "Building Service",
+                "topics": "Plumbing- Fitting, Fixture, System, Termite Proof: Materials used and Method of application.  Fire Protection: Fire safety requirement, fire extinguishing equipment. Thermal Insulation: Basic definitions, Materials used, methods. Acoustics & Sound Insulation: characteristics, sound insulation, acoustical design. Ventilation: Functional requirement, Systems"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Building Materials by S.K. Duggal, New Age Int. Publishers._Building Materials by P.C.Varghese, PHI_Engineering Materials by R.K. Rajput, S. Chand Publishers_Building Construction by B.C.Punmia Ashok Kumar Jain &Arun Kumar Jain, Laxmi Publication "
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "code": "ce-225",
+        "title": "Building Materials Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments ",
+                "topics": "Test For Cement : Finess of Cemen (Sieve Analysis, Air Permeability Test), Standard Consistency, Initial and Final Setting Time, Soundness, Compressive Strength, Specific Gravity. _Test for Fine Aggregate: Specific Gravity  (FA), Bulking of  Fine Aggregate, Fineness Modulus, gradation._Test for Course Aggregate: Specific Gravity and Water Absorption, Fineness Modulus and Gradation. _Test for Fresh &Hard Concrete: Workability Test  (Slump Test, Compaction Factor Test, Vee Bee Test), Cube and Cylinder Strength of Concrete, Flexural Tensile Strength._Test for Brick & Stone: Water Absorption/Efflorescence, Compressive Strength"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "code": "ce-226",
+        "title": "Structural Lab ",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments ",
+                "topics": "To verify the Betti’s Law& Maxwell law of reciprocal displacements._Study of a three hinged arch experimentally for a given set of loading and compare with analytical results._To obtain experimental influence line diagram for horizontal thrust in a three hinged arch and compare with theoretical value._To determine the flexural rigidity of a given beam._To study the behavior of different type of struts._To verify moment area theorem for slopes and deflections of a beam_To find the deflection of a pin-connected truss and to verify the results by calculation and graphically._To determine the carry over factors for beam with rigid connections._To determine the rotational stiffness of a beam when far end is (a) fixed (b) pinned._Determine experimentally the horizontal displacement of the roller end of a two hinged arch for a given set of loading and to compare the results with those obtained analytically._To obtain experimental influence line diagram for horizontal thrust in a two hinged arch and compare with theoretical value._To study tensile stress and strain on different materials "
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "code": "ce-227",
+        "title": "Building Construction Drawing",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Drawing Sheet",
+                "topics": "Conventional Representation– Drawing size, layout, title block, scales, lettering and dimensioning_Conventional Signs and symbols- Alphabetic, Sanitary, Plumbing, Drains and Pipes, Doors, windows_Masonry: Brick- Bonds- English, Flemish- 1/1.5  brick, stone-coursed random rubble, Ashlar, Brick Spread Foundations_Damp Proof Course: DPC in external/internal wall, basement, cavity wall  _Floors – Ground floor level with plinth beam / band, Upper Floor - RCC slab on wall, section through a wall_Arches and Lintel – Semicircular / Relieving arch, RCC lintel  _Doors and Windows – Aluminium/Steel paneled glazed door, Glazed window, steel, aluminium sectio_Stairs – Elevation/Plan – Dog legged _Plumbing– Single Stack/ two  pipe system  Sewerage – Manhole, Septic tank , seepage pit_Building Plan/ Elevation/section: Residential _Building Plan/ Elevation/section: Residential on Drafting software "
             }
         ]
     }

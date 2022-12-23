@@ -12,38 +12,38 @@ const branches = [
         name: "Civil",
         code: "ce"
     },
-    {
-        name: "Chemical",
-        code: "ch"
-    },
+    // {
+    //     name: "Chemical",
+    //     code: "ch"
+    // },
     {
         name: "Computer Science",
         code: "cs"
     },
-    {
-        name: "Electrical",
-        code: "ee"
-    },
+    // {
+    //     name: "Electrical",
+    //     code: "ee"
+    // },
     {
         name: "Electronics and Communication",
         code: "ec"
     },
-    {
-        name: "Engineering Physics",
-        code: "ph"
-    },
-    {
-        name: "Material Science",
-        code: "ms"
-    },
+    // {
+    //     name: "Engineering Physics",
+    //     code: "ph"
+    // },
+    // {
+    //     name: "Material Science",
+    //     code: "ms"
+    // },
     {
         name: "Mathematics and Computing",
         code: "ma"
     },
-    {
-        name: "Mechanical",
-        code: "me"
-    }
+    // {
+    //     name: "Mechanical",
+    //     code: "me"
+    // }
 ];
 
 const years=[
@@ -59,14 +59,14 @@ const years=[
         name: "II Year",
         code: "2"
     },
-    {
-        name: "III Year",
-        code: "3"
-    },
-    {
-        name: "IV Year",
-        code: "4"
-    },
+    // {
+    //     name: "III Year",
+    //     code: "3"
+    // },
+    // {
+    //     name: "IV Year",
+    //     code: "4"
+    // },
 ]
 
 
