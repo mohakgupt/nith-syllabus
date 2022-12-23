@@ -9,7 +9,7 @@ import { Divider } from '@mui/material';
 
 export default function UnitCard(props) {
   const { s, num, title, topics, inList } = props;
-  const brick = (num && num!=20)?topics.split(", ").map((w)=>{return(w[0].toUpperCase()+w.slice(1))}).join(" • ").split(". ").join(" • ").split(" • "):topics.split("_");
+  const brick = (num && num!==20)?topics.split(", ").map((w)=>{return(w[0].toUpperCase()+w.slice(1))}).join(" • ").split(". ").join(" • ").split(" • "):topics.split("_");
   return (title &&
     <Card sx={{ width: 400, margin: 0.25, mb: 1, backgroundColor: '#fafafa', position: 'relative'}}>
         {props.addKey!==undefined?<IconButton aria-label="add" onClick={inList?()=>{props.removeKey(s,num)}:()=>{props.addKey(s,num)}} sx={{position: 'absolute', right: '0.25em', top: '0.25em'}}>
