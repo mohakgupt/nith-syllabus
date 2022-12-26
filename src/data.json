@@ -1527,7 +1527,7 @@
         "credits": [1,0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
                 "topics": "Sorting Algorithms-Non-Recursive._Sorting Algorithms-Recursive._Searching Algorithm._Implementation of Stack using Array._Implementation of Queue using Array._Implementation of Circular Queue using Array._Implementation of Stack using Linked List._Implementation of Queue using Linked List._Implementation of Circular Queue using Linked List._Implementation of Tree Structures, Binary Tree, Tree Traversal, Binary Search Tree, Insertion and Deletion in BST._Graph Implementation, BFS, DFS, Minimum cost spanning tree, shortest path algorithm"
             }
@@ -1540,7 +1540,7 @@
         "credits": [1,0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
                 "topics": "Introduction to SPSS and setting Up a Data File_SPSS Analysis: Windows Method versus Syntax Method and Missing data_Programs to Methods of MULT RESPONSE Procedures, Example of the Multiple-Dichotomy Method, Example of the MultipleResponse Method, Cross-Tabulations_Testing Statistical Significance between Two Correlation Coefficients Obtained from Two Samples_Spearman Rank Order Correlation Coefficient_Prediction Equation of Linear Regression and Multiple regression Analysis_Chi-Square Test for Single Variable Experiments and test of Independence between_t Test for Independent Groups _Paired-Samples t Test_Analysis of Variance – One-way and Two -way _Post Hoc Comparisons of ANOVA_Factorial Analysis of Variance "
             }
@@ -1553,7 +1553,7 @@
         "credits": [1,0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
                 "topics": "Study of hardware and software requirements of different operating systems (UNIX,LINUX,WINDOWS XP, WINDOWS7/8_Execute various UNIX system calls for i. Process management  ii. File management  iii. Input/output Systems calls_Implement CPU Scheduling Policies: i. SJF ii Priority iii. FCFS  iv. Multi-level Queue_Implement file storage allocation technique: iContiguous(using array)  ii. Linked –list(using linked-list)  iii. Indirect allocation (indexing) Implementation of contiguous allocation techniques: i. Worst-Fit ii) Best- Fit iii)  First- Fit_Calculation of external and internal fragmentation i. Free space list of blocks from system  ii. List process file from the system_Implementation of compaction for the continually changing memory layout and calculate total movement of data  _Implementation of resource allocation graph RAG)_Implementation of Banker’s algorithm_Conversion of resource allocation graph (RAG) to wait for graph (WFG) for each type of method used for storing graph._Implement the solution for Bounded Buffer (producer-consumer)problem using inter process communication techniquesSemaphores_Implement the solutions for Readers-Writers problem using inter process communication technique –Semaphore "
             }
@@ -1757,6 +1757,82 @@
                 "id": 20,
                 "title": "List of Drawing Sheet",
                 "topics": "Conventional Representation– Drawing size, layout, title block, scales, lettering and dimensioning_Conventional Signs and symbols- Alphabetic, Sanitary, Plumbing, Drains and Pipes, Doors, windows_Masonry: Brick- Bonds- English, Flemish- 1/1.5  brick, stone-coursed random rubble, Ashlar, Brick Spread Foundations_Damp Proof Course: DPC in external/internal wall, basement, cavity wall  _Floors – Ground floor level with plinth beam / band, Upper Floor - RCC slab on wall, section through a wall_Arches and Lintel – Semicircular / Relieving arch, RCC lintel  _Doors and Windows – Aluminium/Steel paneled glazed door, Glazed window, steel, aluminium sectio_Stairs – Elevation/Plan – Dog legged _Plumbing– Single Stack/ two  pipe system  Sewerage – Manhole, Septic tank , seepage pit_Building Plan/ Elevation/section: Residential _Building Plan/ Elevation/section: Residential on Drafting software "
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "code": "ma-321",
+        "title": "Real & Complex Analysis",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Riemann Integration",
+                "topics": "Riemann Integration, Partition and Riemann sums, necessary and sufficient conditions for Riemann integrability of a function, first and second mean value theorems of integral calculus, fundamental theorem of integral calculus"
+            },
+            {
+                "id": 2,
+                "title": "Improper Integrals",
+                "topics": "Improper integrals of first and second type, Beta function, Gamma function, their properties, relation between Beta and Gamma function, Convergence of improper integrals, comparison test, µ-test, Abel’s test, Dirichlet’s test"
+            },
+            {
+                "id": 3,
+                "title": "Metric Spaces",
+                "topics": "Definition and examples, open, closed and bounded sets, Interior, closure and boundary, convergence and completeness, continuity and uniform continuity, connectedness, compactness and Seperability, Heine-Borel theorem"
+            },
+            {
+                "id": 4,
+                "title": "Preliminaries to Complex Analysis",
+                "topics": "Basic properties: convergence, compactness, connectedness, Power series of complex valued function, radius of convergence"
+            },
+            {
+                "id": 5,
+                "title": "Complex Functions",
+                "topics": "Poisson’s integral formula for a circle, Cauchy’s inequality, Fundamental theorem of integral calculus for complex valued function. Fundamental theorem of algebra, argument principle, Rouche’s theorem"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Advanced Engineering Mathematics: by Erwin Kreyszig, John Wiley and Sons._Advanced Engineering Mathematics, R. K. Jain & S. R. K Iyengar, Narosa Pub. House._Complex Analysis for Mathematics and Engineering by J.H. Mathews and R.W. Howell, Narosa Publishing House._Complex Variables and Applications by J.W. Brown and R.V. Churchill, McGraw Hill._Mathematical Analysis by T. M. Apostol,, Addison-Wesley Publishing Company._Mathematical Analysis by S.C. Malik & Savita Arora,, New Age International (P) Ltd"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "code": "ma-322",
+        "title": "Advanced Differential Equations and Applications",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "First Order Ordinary Differential Equations",
+                "topics": "Revisiting basic concepts, Some models arising in ordinary differential equations, Existence and uniqueness of solution: Picard’s Theorem, Solutions to system of linear differential equations, eigenvalue-eigenvector method of finding solutions, Fundamental matrix, Nonhomogeneous equations"
+            },
+            {
+                "id": 2,
+                "title": "Second Order Ordinary Differential Equations",
+                "topics": "Second order differential equations with constant and variable coefficients, Wronskian, reduction of order method of finding solutions,  Series solutions of ordinary differential equations, regular point and singular point, Frobenius method and some special functions"
+            },
+            {
+                "id": 3,
+                "title": "First Order Partial Differential Equations",
+                "topics": "Well-posed problems and classical solutions, Transport equation, Pfaffian Differential equations, Cauchy's Problem for First -order Equations, Characteristics, Cauchy's Method of Characteristics, Compatible Systems of First -order Equations, Jacobi's Method"
+            },
+            {
+                "id": 4,
+                "title": "Second Order Linear Partial Differential Equations",
+                "topics": "Second order partial differential equations in two variables and their classification, reduction of linear partial differential equation to canonical form; Cauchy, Dirichlet and Neumann problems; fundamental solutions of Laplace equations, Heat equation, Duhamel’s principle for inhomogeneous problems "
+            },
+            {
+                "id": 5,
+                "title": "Some Higher Dimensional Partial Differential Equations",
+                "topics": "Solutions of Heat, Wave and Laplace equations in two or higher dimensions using Laplace and Fourier transforms"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Differential Equations and their Applications by Martin Braun, Springer Verlag Berlin._Ordinary Differential Equations by B Rai and D P Choudhary and H I Freedman, Narosa Publication._Partial Differential Equations by L C Evans, American Mathematical Society._Elements of Partial Differential equations by I. N Seneddon, Dover Publications._Partial Differential Equations for Engineers and Scientists by J. N. Sharma and K. Singh,, Narosa  Publishing House"
             }
         ]
     }

@@ -8,6 +8,7 @@ import TodoList from './components/todo-list';
 import SharedTodoList from './components/shared-todo-list';
 import Footer from './components/footer';
 import Data from './data.json';
+import ScrollToTop from './components/scroll-to-top';
 import { useState, useEffect } from 'react';
 
 
@@ -41,6 +42,7 @@ export default function App(){
     return(
     <>
     <Header/>
+      <ScrollToTop/>
       <Routes>
         <Route path='/' element={<SubList data={Data} query={query} setQuery={setQuery} branch={branch} setBranch={setBranch} year={year} setYear={setYear} keys={keys}/>}></Route>
         <Route path='/sub/:id' element={<UnitList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
