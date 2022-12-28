@@ -6,6 +6,8 @@
 - Get a link for your list and share it with anyone (recommended to use a URL shortener)!
 - Create lists for mid-semester exam syllabus and share with the whole class!
 
+If you liked the website please star ⭐ this repo, it really supports me.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 [React Documentation](https://reactjs.org/docs/getting-started.html)
