@@ -25,7 +25,10 @@ export default function TodoList(props){
             <Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Add units here by clicking the "+" icon and share it with your friends!</Typography>
             :Object.keys(keys).map((id)=>{
                 return(<>
-                    <Typography variant="h6" textAlign={'center'} sx={{width: "100%", mt:2, mb:1, background: "linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(71,77,199,1) 42%, rgba(2,0,36,1) 100%);", backgroundClip: "text", color: "transparent"}}><span style={{display: 'inline-block', border: '1px solid #0d47a1', borderRadius: '1em', padding: '0 1em'}}>{props.data[id-1].title.toUpperCase()}</span></Typography>
+                    <Typography variant="h6" textAlign={"center"} sx={{background: "linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(71,77,199,1) 42%, rgba(2,0,36,1) 100%);", backgroundClip: "text", color: "transparent"}} gutterBottom>
+                        <span style={{display: 'block', height: 0}}><span style={{display: 'inline-block', fontSize: 12, backgroundColor: "#eeeeee", color: 'rgba(71,77,199,1)', transform: 'translateY(-19px)', padding: '0 5px'}}>{props.data[id-1].code.toUpperCase()}</span></span>
+                        <span style={{display: 'inline-block', border: '1px solid #0d47a1', borderRadius: '1em', padding: '3px 1em'}}>{props.data[id-1].title.toUpperCase()}</span>
+                    </Typography>
                     {keys[id].map((unit)=>{
                         const s=id;
                         const inList=((id in keys && keys[id].includes(unit))?true:false)
