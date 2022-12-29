@@ -18,7 +18,7 @@ export default function TodoList(props){
     return(
         <>
         
-            <Typography sx={{fontSize: 30, textAlign: 'center', width: '100%'}}>Todo List</Typography>
+            <Typography sx={{border: "solid black", borderWidth: "2px 0", fontSize: 30, textAlign: 'center', width: '100%'}}>Todo List</Typography>
             {!Object.keys(keys).length? 
             <Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Add units here by clicking the "+" icon and share it with your friends!</Typography>
             :Object.keys(keys).map((id)=>{

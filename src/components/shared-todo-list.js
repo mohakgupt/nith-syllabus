@@ -21,7 +21,7 @@ export default function SharedTodoList(props){
     return(
         <>
         
-            <Typography sx={{fontSize: 30, textAlign: 'center', width: '100%'}}>{name}</Typography>
+            <Typography sx={{border: "solid black", borderWidth: "2px 0", fontSize: 30, textAlign: 'center', width: '100%'}}>{name}</Typography>
             {!Object.keys(keys).length? 
             <Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Empty list</Typography>
             :Object.keys(keys).map((id)=>{
