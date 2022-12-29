@@ -16,7 +16,7 @@ export default function ShareButton(props) {
   }
   const share = async() => {
     const encodedParams = new URLSearchParams();
-    encodedParams.append("url", `https://nithsyllabus.netlify.app/list/${name}/${JSON.stringify(props.keys).replaceAll("[", "b").replaceAll("]", "c").replaceAll('"', "q").replaceAll(",", "e").replaceAll("ceq", "i")}`);
+    encodedParams.append("url", `https://nithsyllabus.netlify.app/list/${name.replaceAll(" ", "*!")}/${JSON.stringify(props.keys).replaceAll("[", "b").replaceAll("]", "c").replaceAll('"', "q").replaceAll(",", "e").replaceAll("ceq", "i")}`);
 
     const options = {
       method: 'POST',
