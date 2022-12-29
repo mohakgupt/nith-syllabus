@@ -47,7 +47,7 @@ export default function App(){
         <Route path='/' element={<SubList data={Data} query={query} setQuery={setQuery} branch={branch} setBranch={setBranch} year={year} setYear={setYear} keys={keys}/>}></Route>
         <Route path='/sub/:id' element={<UnitList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
         <Route path='/todolist' element={<TodoList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
-        <Route path='/todolist/:keys' element={<SharedTodoList data={Data}/>}></Route>
+        <Route path='/list/:name/:keys' element={<SharedTodoList data={Data}/>}></Route>
       </Routes>
       <div style={{height: "2em"}}></div>
       <Footer/>
