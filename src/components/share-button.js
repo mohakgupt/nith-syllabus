@@ -1,6 +1,6 @@
 import ShareIcon from '@mui/icons-material/Share';
 import { useState } from 'react';
-import { DialogContentText, Fab, Zoom } from '@mui/material';
+import { Fab, Zoom } from '@mui/material';
 import { Button, TextField } from '@mui/material';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
