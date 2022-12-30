@@ -50,5 +50,8 @@
       function liveViews(response) {
           document.getElementById('visits').innerText = response.value;
       }
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register("/pwabuilder-sw.js");
+      }
     </script>
 </html>
