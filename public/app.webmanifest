@@ -41,6 +41,10 @@
         {
           "src": "todo-icon.ico",
           "sizes": "96x96"
+        },
+        {
+          "src": "todo-icon.ico",
+          "sizes": "any"
         }
       ]
     }
@@ -54,13 +58,19 @@
     },
     {
       "src": "./screenshots/mobile2.png",
-      "sizes": "750x1334",
+      "sizes": "484x1065",
       "type": "image/jpg",
       "platform": "narrow"
     },
     {
       "src": "./screenshots/mobile3.png",
-      "sizes": "750x1334",
+      "sizes": "489x1061",
+      "type": "image/jpg",
+      "platform": "narrow"
+    },
+    {
+      "src": "./screenshots/mobile4.png",
+      "sizes": "488x1064",
       "type": "image/jpg",
       "platform": "narrow"
     },
