@@ -15,32 +15,44 @@ export default function ShareButton(props) {
     setOpen(false);
   }
   const share = async() => {
-    const encodedParams = new URLSearchParams();
-    encodedParams.append("url", `https://nithsyllabus.netlify.app/list/${name.replaceAll(" ", "*!")}/${JSON.stringify(props.keys).replaceAll("[", "b").replaceAll("]", "c").replaceAll('"', "q").replaceAll(",", "e").replaceAll("ceq", "i")}`);
-
-    const options = {
-      method: 'POST',
-      headers: {
-        'content-type': 'application/x-www-form-urlencoded',
-        'X-RapidAPI-Key': '238238dcc3msh5b5a3ffc161fa09p10a53ajsn094e9d7989e7',
-        'X-RapidAPI-Host': 'url-shortener-service.p.rapidapi.com'
-      },
-      body: encodedParams
-    };
-
     setDisabled(true);
-    // document.getElementById("share").innerText="wait";
-    fetch('https://url-shortener-service.p.rapidapi.com/shorten', options)
-      .then(response => response.json())
-      .then(response => {
-        navigator.share({
-          title: "Study with me! Check out my list: ",
-          url: response.result_url
+    const encodedParams = new URLSearchParams();
+    const url=`https://nithsyllabus.netlify.app/list/${name.replaceAll(" ", "*!")}/${JSON.stringify(props.keys).replaceAll("[", "b").replaceAll("]", "c").replaceAll('"', "q").replaceAll(",", "e").replaceAll("ceq", "i")}`
+    encodedParams.append("url", url);
+    if(url.length<69){
+      navigator.share({
+        title: "Study with me! Check out my list: ",
+        url: url
+      })
+    }else{
+      const options = {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/x-www-form-urlencoded',
+          'X-RapidAPI-Key': '238238dcc3msh5b5a3ffc161fa09p10a53ajsn094e9d7989e7',
+          'X-RapidAPI-Host': 'url-shortener-service.p.rapidapi.com'
+        },
+        body: encodedParams
+      };
+
+      // document.getElementById("share").innerText="wait";
+      fetch('https://url-shortener-service.p.rapidapi.com/shorten', options)
+        .then(response => response.json())
+        .then(response => {
+          navigator.share({
+            title: "Study with me! Check out my list: ",
+            url: response.result_url
+          })
         })
-        handleClose();
-        setDisabled(false);
-    })
-      .catch(err => {return encodedParams.url});
+        .catch(err => {
+          navigator.share({
+            title: "Study with me! Check out my list: ",
+            url: url
+          })
+        });
+      }
+      handleClose();
+      setDisabled(false);
   }
   return (Object.keys(props.keys).length ?
     <>

@@ -26,7 +26,7 @@ export default function SharedTodoList(props){
             <Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Empty list</Typography>
             :Object.keys(keys).map((id)=>{
                 return(<>
-                    <Typography variant="h6" textAlign={"center"} sx={{mt: 2, background: "linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(71,77,199,1) 42%, rgba(2,0,36,1) 100%);", backgroundClip: "text", color: "transparent"}} gutterBottom>
+                    <Typography variant="h6" textAlign={"center"} sx={{mt: 4, background: "linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(71,77,199,1) 42%, rgba(2,0,36,1) 100%);", backgroundClip: "text", color: "transparent"}} gutterBottom>
                         <span style={{display: 'block', height: 0}}><span style={{display: 'inline-block', fontSize: 12, backgroundColor: "#eeeeee", color: 'rgba(71,77,199,1)', transform: 'translateY(-19px)', padding: '0 5px'}}>{props.data[id-1].code.toUpperCase()}</span></span>
                         <span style={{display: 'inline-block', border: '1px solid #0d47a1', borderRadius: '1em', padding: '3px 1em'}}>{props.data[id-1].title.toUpperCase()}</span>
                     </Typography>
