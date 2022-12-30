@@ -48,37 +48,22 @@
   "screenshots": [
     {
       "src": "./screenshots/mobile1.png",
-      "sizes": "492x1056",
+      "sizes": "480x1056",
       "type": "image/jpg"
     },
     {
       "src": "./screenshots/mobile2.png",
-      "sizes": "484x1065",
+      "sizes": "480x1056",
       "type": "image/jpg"
     },
     {
       "src": "./screenshots/mobile3.png",
-      "sizes": "489x1061",
+      "sizes": "480x1056",
       "type": "image/jpg"
     },
     {
       "src": "./screenshots/mobile4.png",
-      "sizes": "488x1064",
-      "type": "image/jpg"
-    },
-    {
-      "src": "./screenshots/desktop1.png",
-      "sizes": "1280x800",
-      "type": "image/jpg"
-    },
-    {
-      "src": "./screenshots/desktop2.png",
-      "sizes": "1280x800",
-      "type": "image/jpg"
-    },
-    {
-      "src": "./screenshots/desktop3.png",
-      "sizes": "1280x800",
+      "sizes": "480x1056",
       "type": "image/jpg"
     }
   ],
