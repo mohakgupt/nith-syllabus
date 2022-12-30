@@ -1,6 +1,7 @@
 {
   "short_name": "nith syllabus",
   "name": "nith syllabus",
+  "description": "Search NIT Hamirpur syllabus and create todo lists",
   "icons": [
     {
       "src": "favicon.ico",
