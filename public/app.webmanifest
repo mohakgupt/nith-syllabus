@@ -32,5 +32,55 @@
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#307ada",
-  "background_color": "#4dabf5"
+  "background_color": "#4dabf5",
+  "shortcuts": [
+    {
+      "name": "Todolist",
+      "url": "/todolist",
+      "icons": [
+        {
+          "src": "todo-icon.ico",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "./screenshots/mobile1.png",
+      "sizes": "492x1056",
+      "type": "image/jpg",
+      "platform": "narrow"
+    },
+    {
+      "src": "./screenshots/mobile2.png",
+      "sizes": "750x1334",
+      "type": "image/jpg",
+      "platform": "narrow"
+    },
+    {
+      "src": "./screenshots/mobile3.png",
+      "sizes": "750x1334",
+      "type": "image/jpg",
+      "platform": "narrow"
+    },
+    {
+      "src": "./screenshots/desktop1.png",
+      "sizes": "1280x800",
+      "type": "image/jpg",
+      "platform": "wide"
+    },
+    {
+      "src": "./screenshots/desktop2.png",
+      "sizes": "1280x800",
+      "type": "image/jpg",
+      "platform": "wide"
+    },
+    {
+      "src": "./screenshots/desktop3.png",
+      "sizes": "1280x800",
+      "type": "image/jpg",
+      "platform": "wide"
+    }
+  ]
 }
