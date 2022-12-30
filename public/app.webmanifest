@@ -29,7 +29,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://nithsyllabus.netlify.app",
   "display": "standalone",
   "theme_color": "#307ada",
   "background_color": "#4dabf5",
@@ -40,57 +40,50 @@
       "icons": [
         {
           "src": "todo-icon.ico",
-          "sizes": "96x96"
-        },
-        {
-          "src": "todo-icon.ico",
-          "sizes": "any"
+          "sizes": "192x192"
         }
       ]
     }
   ],
-  "screenshots" : [
+  "screenshots": [
     {
       "src": "./screenshots/mobile1.png",
       "sizes": "492x1056",
-      "type": "image/jpg",
-      "platform": "narrow"
+      "type": "image/jpg"
     },
     {
       "src": "./screenshots/mobile2.png",
       "sizes": "484x1065",
-      "type": "image/jpg",
-      "platform": "narrow"
+      "type": "image/jpg"
     },
     {
       "src": "./screenshots/mobile3.png",
       "sizes": "489x1061",
-      "type": "image/jpg",
-      "platform": "narrow"
+      "type": "image/jpg"
     },
     {
       "src": "./screenshots/mobile4.png",
       "sizes": "488x1064",
-      "type": "image/jpg",
-      "platform": "narrow"
+      "type": "image/jpg"
     },
     {
       "src": "./screenshots/desktop1.png",
       "sizes": "1280x800",
-      "type": "image/jpg",
-      "platform": "wide"
+      "type": "image/jpg"
     },
     {
       "src": "./screenshots/desktop2.png",
       "sizes": "1280x800",
-      "type": "image/jpg",
-      "platform": "wide"
+      "type": "image/jpg"
     },
     {
       "src": "./screenshots/desktop3.png",
       "sizes": "1280x800",
-      "type": "image/jpg",
-      "platform": "wide"
+      "type": "image/jpg"
     }
-  ]
+  ],
+  "launch_handler": {
+    "route_to": "existing-client",
+    "navigate_existing_client": "never"
+  }
 }
