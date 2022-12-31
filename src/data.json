@@ -131,23 +131,43 @@
         "units": [
             {
                 "id": 1,
-                "title": "high frequency response of amplifiers",
-                "topics": " Discrete Probability Theory, Continuous Random Variables, Statistically Independent Random Variables, Probability Density Functions of Sums, Transformation of Density Functions, Ergodic Process, Correlation Functions, Spectral Density and White Noise"
+                "title": "Low Frequency Transistor Amplifier",
+                "topics": "Equivalent Circuit of BJT using h-parameter for CB, CE and CC & configuration, Calculation of Transistor Parameter for CB, CE & CC using hparameters, Comparison of Transistor Amplifier Configuration"
             },
             {
                 "id": 2,
-                "title": "high frequency response of amplifiers",
-                "topics": " Discrete Probability Theory, Continuous Random Variables, Statistically Independent Random Variables, Probability Density Functions of Sums, Transformation of Density Functions, Ergodic Process, Correlation Functions, Spectral Density and White Noise"
+                "title": "Multistage Amplifier",
+                "topics": "General Cascaded System, RC Coupled Amplifier and its Frequency Response, Merits and Demerits, Cascade Amplifier, Darlington Compound Configuration, Multistage Frequency Effect "
             },
             {
                 "id": 3,
-                "title": "high frequency response of amplifiers",
-                "topics": " Discrete Probability Theory, Continuous Random Variables, Statistically Independent Random Variables, Probability Density Functions of Sums, Transformation of Density Functions, Ergodic Process, Correlation Functions, Spectral Density and White Noise"
+                "title": "High Frequency Response of Transistor Amplifier",
+                "topics": "High Frequency Model for CE Configuration, Approximate CE High Frequency Model with Resistive Load, CE Short Circuit Current Gain, HF Current Gain with Resistive Load "
             },
             {
                 "id": 4,
-                "title": "high frequency response of amplifiers",
-                "topics": " Discrete Probability Theory, Continuous Random Variables, Statistically Independent Random Variables, Probability Density Functions of Sums, Transformation of Density Functions, Ergodic Process, Correlation Functions, Spectral Density and White Noise"
+                "title": "Large Signal Amplifier",
+                "topics": "Analysis and Design of class A, B, AB, C Amplifiers, Push-pull Amplifiers, Transformer Less Output Stages, Distortion Calculations "
+            },
+            {
+                "id": 5,
+                "title": "Tuned Amplifier",
+                "topics": "General Behavior of Tuned Amplifiers, Series and Parallel Resonant Circuit, Calculations of Circuit Impedance at Resonance, Variation of Impedance with Frequency, Q Factor of a Circuit & Coil, Bandwidth of Series and Parallel Resonant Circuit, Single Tuned Amplifiers, Voltage Gain and Frequency Response of Single Tuned Amplifiers, Double Tuned Amplifiers "
+            },
+            {
+                "id": 6,
+                "title": "Feedback Amplifier",
+                "topics": "Feedback concept, Characteristics of Negative and Positive Feedback, Effect of Negative and Positive Feedback on Input Impedance, Output Impedance, Gain, Noise and Frequency Response "
+            },
+            {
+                "id": 7,
+                "title": "Oscillators",
+                "topics": "Classification of Oscillators, Frequency Stability of Oscillatory Circuits, Tuned based Oscillators, Hartley Oscillator, Colpitt Oscillators, Clapp Oscillator, Crystal Oscillator, Phase Shift Oscillator and Wien Bridge Oscillator "
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Integrated Electronics: Analog and Digital Circuits and Systems by J. Millman and C. Halkias, McGraw-Hill, Inc._Electronic Devices & Circuit Theory by R. Boylestad and L. Nashelsky, Pearson._Microelectronic Circuits by A. Sedra and K. Smith, Oxford University Press. _Electronic Fundamental Applications: Integrated and Discrete Systems by J.D. Ryder, Prentice Hall"
             }
         ]
     },
@@ -1833,6 +1853,339 @@
                 "id": 0,
                 "title": "Books",
                 "topics": "Differential Equations and their Applications by Martin Braun, Springer Verlag Berlin._Ordinary Differential Equations by B Rai and D P Choudhary and H I Freedman, Narosa Publication._Partial Differential Equations by L C Evans, American Mathematical Society._Elements of Partial Differential equations by I. N Seneddon, Dover Publications._Partial Differential Equations for Engineers and Scientists by J. N. Sharma and K. Singh,, Narosa  Publishing House"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "code": "ma-323",
+        "title": "Time Series Analysis & Forecasting",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Time-series as discrete parameter stochastic process, auto covariance and autocorrelation functions and their properties"
+            },
+            {
+                "id": 2,
+                "title": "Exploratory Time Series Analysis",
+                "topics": "Components of time series, Messurements of trend, Measurement of seasonal fluctuation, Mesurement of cyclic movement, tests for trend and seasonality, exponential and moving average smoothing. Holt and Winters smoothing, forecasting based on smoothing"
+            },
+            {
+                "id": 3,
+                "title": "Models for Stationary Time Series",
+                "topics": "(1) moving average (MA), (2) auto regressive (AR), (3) ARMA and (4) AR integrated MA (ARIMA) models. Box-Jenkins models, choice of AR and MA periods"
+            },
+            {
+                "id": 4,
+                "title": "Modeling Seasonal Time Series",
+                "topics": "Seasonal ARIMA models, estimation and forecasting, Fitting ARIMA models with Box-Jenkins procedure, Identification, Estimation, Verification, Test for white noise, Forecasting with ARMA models. Spectral analysis: Spectral analysis of weakly stationary process, peridogram and correlogram analyses, computations based on Fourier transform"
+            },
+            {
+                "id": 5,
+                "title": "Multivariate Time Series",
+                "topics": "Stationary multivariate time series, Cross-covariance and CrossCorrelation Matrices, Covariance Stationary, Vector white nose process, Moving average representation of a stationary vector process "
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Time Series Analysis: Forecasting and Control by G. Box and Jenkins, Palgrave Macmillan._Introduction to Time Series and Forecasting by P.J. Brockwell and R.A. Davis, Springer._Time Series Analysis by J. D. Hamilton, Princeton University Press"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "code": "ma-324",
+        "title": "Soft Computing",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Soft Computing",
+                "topics": "Concept of computing systems, “Soft” computing versus “Hard” computing, Characteristics of Soft computing, Some applications of Soft computing techniques"
+            },
+            {
+                "id": 2,
+                "title": "Fuzzy Logic",
+                "topics": "Introduction to Fuzzy Logic, Classical and Fuzzy Sets: Overview of Classical Sets, Membership Function, Fuzzy rule generation. Operations on Fuzzy Sets: Compliment, Intersections, Unions, Combinations of Operations, Aggregation Operations. Fuzzy Arithmetic, Fuzzy Logic: Classical Logic, Multivalued Logics, Fuzzy Propositions, Fuzzy Qualifiers, Linguistic Hedges, Fuzzy Inference, Defuzzification techniques, Fuzzy logic controller design, some applications of fuzzy logic"
+            },
+            {
+                "id": 3,
+                "title": "Genetic Algorithms",
+                "topics": "Concept of “Genetics” and “Evolution” and it’s applications to probabilistic search techniques, Basic GA framework and different GA architectures, GA operators: Encoding, Crossover, Selection, Mutation etc., Single objective Optimization problem using GA"
+            },
+            {
+                "id": 4,
+                "title": "Artificial Neural Networks",
+                "topics": "Overview of biological Neuro-system, Mathematical Models of Neurons, ANN architecture, Learning rules, Learning Paradigms-Supervised, Unsupervised and reinforcement Learning, ANN training Algorithms- Training rules, Delta, Back Propagation Algorithm, Multilayer Perceptron Model, Hopfield Networks, Associative Memories, Applications of Artificial Neural Networks"
+            },
+            {
+                "id": 5,
+                "title": "Neuro-fuzzy Modeling",
+                "topics": "Introduction of Neuro-Fuzzy Systems: Architecture of Neuro Fuzzy Networks, Neuro-fuzzy inference system, Rule base structure identification, Neuro fuzzy controls, Application of Neuro-fuzzy hybrid systems"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Principles of Soft Computing by S.N. Sivanandam, S. N. Deepa, John Wiley & Sons._Neural Networks and Learning Machines by S. Haykin, Prentice Hall of India._Genetic Algorithms in Search, Optimization and Machine Learning by D.E. Goldberg, Pearson._Fuzzy Logic with Engineering Applications by T.J. Ross, John Wiley & Sons._Foundations of Neural Networks, Fuzzy systems and Knowledge Engineering by N.K. Kasabov, MIT Press._An Introduction to Genetic Algorithms by M. Mitchell, MIT Press"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "code": "ma-325",
+        "title": "Numerical Computation Lab ",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "To find the roots of non-linear equation using Bisection method_To find the roots of non-linear equation using Regular Falsi method_To find the roots of non-linear equation using Newton-Raphson method_To solve the system of linear equations using Gauss-Elimination method_To solve the system of linear equations using Jacobi iteration method_To solve the system of linear equations using Gauss-Seidal method_To Interpolate the dependent variable by Newton’s interpolation formulae_To Interpolate the dependent variable by Gauss interpolation formulae_To integrate numerically using Trapezoidal rule_To integrate numerically using Simpson’s rules_To integrate numerically using Romberg integration_To find numerical solution of ordinary differential equations by Euler’s method_To find numerical solution of ordinary differential equations by Runge- Kutta method_To find numerical solution of ordinary differential equations by Adam Bashforth predictor corrector method "
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "code": "ma-326",
+        "title": "Time Series Analysis Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "Understanding Time Series Data: descriptive analysis, association techniques._Time Series Decompostion._Autocorreation Function (ACF) & Partial Autocorreation Function (ACF)._Tests for Trend and Seasonality._Exponential smoothing and forecasting based on smoothing._Moving average smoothing and forecasting._Holt and Winter’s Smooting and forecasting._Application of Moving Average (MA) Time Series Models to data._Application of  Autoregrssive (AR) Time Series Models to data._Application of Autoregrssive Moving Average (ARMA) and Autoregressive Integrated Moving Average Time Series Models to data._Application of Seasonal Autoregrssive Moving Average (SARMA) Time Series Models to data._Spectral Analysis of Time Series Data"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "code": "ce-321",
+        "title": "Steel Structure",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Design of connections in steel structures",
+                "topics": "Bolted and welded connections, assumptions, Different types of joints, design of various types of bolted and welded connections subjected to direct loads and Eccentric Loads"
+            },
+            {
+                "id": 2,
+                "title": "Design of tension members",
+                "topics": "Selection of section, I.S. specifications, design of axially loaded tension members, design of members for axial tension and bending, end connections, design of lug angles and tension splices"
+            },
+            {
+                "id": 3,
+                "title": "Design of compression members",
+                "topics": "Theory of buckling, design of column, cross section (single and built up sections), design of angle struts, eccentrically loaded columns, column splices, lacings and battens"
+            },
+            {
+                "id": 4,
+                "title": "Design of beams",
+                "topics": "Lateral stability, design of single and built up beams, plated beams and curtailment of flange plates"
+            },
+            {
+                "id": 5,
+                "title": "Design of column bases and column footings",
+                "topics": "Slab base, gusseted base, and Grillage Foundation subjected to Axial& Eccentric Loads"
+            },
+            {
+                "id": 6,
+                "title": "Design of roof trusses",
+                "topics": "Types of trusses, roofs and side coverage, types of loadings and load combinations, design of members and connections"
+            },
+            {
+                "id": 7,
+                "title": "Design of Plate Girder and Gantry Girder",
+                "topics": "Design of section, stiffeners, splices, design of built up Gantry Girder "
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Design of Steel Structures by  Subramanian,N, Oxford University Press, New Delhi _Design of Steel Structures by Duggal , S.K., Tata Mcgraw Hill, New Delhi _Design of Steel Structures by Limit State  Method As Per Is 800  2007, Bhavikatti,S.S., I.K.InternationalPublishing House, New Delhi _Limit State Design in Structural Steel by M.R.Shiyekar, PHI _Design of Steel Structures by K.S.Sai Ram, Pearson. _IS 800-2007  General Construction in Steel-Code of Practice, BIS _IS 801-1995 Use of cold deformed light gauge steel structural members in general BC"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "code": "ce-322",
+        "title": "Water Resources Engineering -II",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Open Channel Flow",
+                "topics": "Types of open channels, classification of flows, continuity equation, concept of specific energy, critical depth, Chezy’s and Mannings equation, roughness coefficients, equivalent roughness, Hydraulically efficient channel cross sections"
+            },
+            {
+                "id": 2,
+                "title": "Gradually Varied Flow",
+                "topics": "Equations of GVF, Slope Profiles, Computations of GVF Profiles"
+            },
+            {
+                "id": 3,
+                "title": "Rapidly Varied Flow",
+                "topics": "Hydraulic Jump – Concept and computations, Principles of energy dissipation, Jump as Energy dissipaters, tail water rating curve and jump height curves"
+            },
+            {
+                "id": 4,
+                "title": "Irrigation",
+                "topics": "Water requirements of crops: Soil moisture and crop-water relations, Consumptive use of water, duty and delta, irrigation efficiencies, computation of channel and reservoir capacity based on crop water requirements, Irrigation methods, Irrigation scheduling"
+            },
+            {
+                "id": 5,
+                "title": "Canals",
+                "topics": "Canal classification, Design of stable channels, regime theory and design of unlined canals. Water logging: causes, preventive and curative measures"
+            },
+            {
+                "id": 6,
+                "title": "Water Resources Management",
+                "topics": "Water resources availability and demand; Water use sectors – Domestic, Industries and Agriculture; Sustainable water resources development; Integrated Water Resources Management (IWRM)"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Engineering Hydrology by K. Subramanya._Engineering Hydrology by Ojha, Berndtssson and Bhunia._Fundamentals of Irrigation Engineering by Bharat Singh.  _Water Resources Engineering by R.K. Linsley and J.B. Franzini, McGraw-Hill._S.K.Sharma by Design of Irrigation Structures._Irrigation Engineering and Hydraulic Structures by S.K. Garg._Flow in open Channels by K. Subramanya._Open Channel Flow by K.G. Rangaraju"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "code": "ce-323",
+        "title": "Railways and Airports",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Planning of Railways",
+                "topics": "Significance of Road, Rail, Air and Water transports Coordination of all modes to achieve sustainability, Route alignment surveys, Soil suitability analysis, Railway stations and yards, passenger amenities "
+            },
+            {
+                "id": 2,
+                "title": "Railway Design",
+                "topics": "Elements of permanent way Rails, Sleepers, Ballast, rail fixtures and fastenings, Track Stress, coning of wheels, creep in rails, signaling and interlocking, Geometric design of railways, gradient, super elevation, Points and Crossings"
+            },
+            {
+                "id": 3,
+                "title": "Airport Planning",
+                "topics": "Air transport characteristics-airport classification-air port planning: objectives, components, layout characteristics, criteria for airport site selection and ICAO stipulations, Typical airport layouts, Parking and circulation area, Airport Zones, Passenger Facilities and Services "
+            },
+            {
+                "id": 4,
+                "title": "Airport Design",
+                "topics": "Runway Design: Orientation, Wind Rose Diagram, Runway length, Geometric design of runways, Configuration and Pavement Design Principles, Elements of Taxiway Design, Runway and Taxiway Markings and lighting"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "A Course in Railway Engineering by Saxena Subhash C and Satyapal Arora, Dhanpat Rai and Sons._Airport Planning and Design by Khanna S K, Arora M G and Jain S S, Nemchand and Brothers, Roorkee"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "code": "ce-324",
+        "title": "Waste Water Treatment and Management",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Wastewater Generation, Collection & Conveyance",
+                "topics": "Wastewater Quantity - Classification of wastewater - Sewerage system for domestic wastewater and storm water - Collections, and appurtenances - Design and layout of sewerage systems - Maintenance of sewerage systems - Physical, Chemical & Biological characteristics and their significance"
+            },
+            {
+                "id": 2,
+                "title": "Primary Treatment of Wastewater",
+                "topics": "Objectives of Wastewater treatment- Treatment methods: Unit Operations and Processes Design criteria -Design of primary treatment System"
+            },
+            {
+                "id": 3,
+                "title": "Secondary Treatment of Wastewater",
+                "topics": "Concepts of Biological treatment and removal mechanism – Aerobic and Anaerobic systems - Design of suspended and attached growth processes – Introduction to extended aeration processes and waste stabilization pond - Design of anaerobic system"
+            },
+            {
+                "id": 4,
+                "title": "House Drainage & Environmental Sanitation",
+                "topics": "General principles - House drainage system - traps and sanitary fitting - Low cost sanitation system"
+            },
+            {
+                "id": 5,
+                "title": "Wastewater Disposal",
+                "topics": "Alternative disposal methods - Self purification of stream - Standards for disposal alternatives, natural purification of polluted streams"
+            },
+            {
+                "id": 6,
+                "title": "Sludge Handling",
+                "topics": "Quantity and quality of sludge, Methods of sludge treatment: sludge digestion and drying beds – Disposal of sludges"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Sewage Disposal & Air Pollution Engineering by S.K. Garg,Khanna Publishers._Wastewater Engineering by Metcalf & Eddy, McGraw Hill._Wastewater Treatment Plants by Syed R. Qasim, PHI._Wastewater Treatment Concepts & Design Approach by G.L. Karia and R.A. Christian, PHI_Manual for Sewage Treatment by Ministry of Urban Development, Govt of India"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "code": "ce-325",
+        "title": "Environmental Engineering Lab ",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "To  find  the  test  and  odor  of  a  given  sample  of  water._To  find  the  turbidity,  colour, PH, and conductivity  of  a  given  sample  of  water._To  find  out  total  dissolved  solid,  settleable  solids  and  suspended  solids  of  the given sample._To  determine  the  carbonate,  bicarbonate,  and  hydroxide  alkalinity  of  a  sample._To  find  out  the  concentration  of  chlorides  in  the  given  sample  of  water._To  estimate  the  hardness  of  the  given  sample  of  water  by  standard  EDTA  method _To  find  the  optimum  amount  of  coagulant  required  to  treat  the  turbid  water  by Jar Test._To  determine  residual  chlorine  in  a  given  sample  of  water._To  find  the  quantity  of  dissolved  oxygen  (DO)  present  in  the  given  sample._To  determine  biochemical  oxygen  demand  (BOD) and Chemical  oxygen  demand  (COD) of  given  waste  water sample _To determine MPN of coliforms of the given sample. _To determine the metal & metalloids of the given sample"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "code": "ce-326",
+        "title": "Structural Drawing",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "Reinforced concrete Structures: Beam, column, beam-column junction, slab, foundation detail. _Retaining wall:  Counterfort retaining wall. _Water tanks drawing: R.C.C. rectangular, overhead water tank with staging. _Steel Structures: Typical connection details- welded and bolted, splice details, Lacing and battening, Column bases. _Roof trusses and connection details,  _Bridge Superstructure : T beam bridge, Hollow girder deck bridge _Bridges Substructure : Bridge Piers, Abutment, wing wall and approaches, well foundation "
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "code": "ma-323",
+        "title": "",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 2,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 3,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 4,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 5,
+                "title": "",
+                "topics": ""
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": ""
             }
         ]
     }

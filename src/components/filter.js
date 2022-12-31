@@ -59,10 +59,10 @@ const years=[
         name: "II Year",
         code: "2"
     },
-    // {
-    //     name: "III Year",
-    //     code: "3"
-    // },
+    {
+        name: "III Year",
+        code: "3"
+    },
     // {
     //     name: "IV Year",
     //     code: "4"
