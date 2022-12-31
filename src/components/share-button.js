@@ -24,6 +24,8 @@ export default function ShareButton(props) {
         title: "Study with me! Check out my list: ",
         url: url
       })
+      handleClose();
+      setDisabled(false);
     }else{
       const options = {
         method: 'POST',
@@ -43,16 +45,18 @@ export default function ShareButton(props) {
             title: "Study with me! Check out my list: ",
             url: response.result_url
           })
+          handleClose();
+          setDisabled(false);
         })
         .catch(err => {
           navigator.share({
             title: "Study with me! Check out my list: ",
             url: url
           })
+          handleClose();
+          setDisabled(false);
         });
       }
-      handleClose();
-      setDisabled(false);
   }
   return (Object.keys(props.keys).length ?
     <>
