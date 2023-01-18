@@ -33,7 +33,7 @@
             {
                 "id": 0,
                 "title": "Books",
-                "topics": "Complex variables and Applications: by R. V. Churchill, T J Brown & R F Verhey McGraw Hill.. A first course in complex analysis with applications: by Dennis D Zill & P D Shanahan Jones and Bartlett.. Numerical Methods for Scientific and Engineering Computations: by M K Jain, S R K Iyenger and R K Jain New Age International Publishers New Delhi. Numerical Methods for Engineers and Scientists (2nd Ed.): by J D Hoffman CRC Press.. Numerical Analysis Mathematics and Scientific computing (3rd ed.): by D Kincaid and W Cheney American Mathematical Society"
+                "topics": "Complex variables and Applications: by R. V. Churchill, T. J. Brown & R. F. Verhey, McGraw Hill._A first course in complex analysis with applications: by Dennis D. Zill & P. D. Shanahan Jones and Bartlett._Numerical Methods for Scientific and Engineering Computations: by M. K. Jain, S. R. K. Iyenger and R. K. Jain, New Age International Publishers, New Delhi_Numerical Methods for Engineers and Scientists (2nd Ed.): by J. D. Hoffman, CRC Press._Numerical Analysis Mathematics and Scientific computing (3rd ed.): by D. Kincaid and W. Cheney, American Mathematical Society"
             }
         ]
     },
@@ -81,7 +81,7 @@
             {
                 "id": 0,
                 "title":"Books",
-                "topics": "OP-AMP and Linear Integrated Circuits Ramakant A Gayakwad PHI Publication.. Design with Operation Amplifiers and Analog Integrated circuits Sergei Franco TMH.. Integrated Electronics: Analog and Digital Circuits & System Millman & Halkias TMH.. Linear Integrated Circuits D Choudhari S Jain New Age International limited"
+                "topics": "OP-AMP and Linear Integrated Circuits Ramakant A Gayakwad PHI Publication._Design with Operation Amplifiers and Analog Integrated circuits Sergei Franco TMH._Integrated Electronics: Analog and Digital Circuits & System Millman & Halkias TMH._Linear Integrated Circuits D Choudhari S Jain New Age International limited"
             }
         ]
     },
