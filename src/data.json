@@ -674,9 +674,9 @@
         "credits": [1,0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
-                "topics": "Familiarity with Windows utilities and basic Linux commands. Programs related to operators and evaluation of expressions. Programs to illustrate use of arrays. Programs on operations over strings. Programs related to use of functions. Using pointers in programs. Programs on logical operators. Programs making use of structures and unions. Programs to perform operations over various data structures viz, linked lists, stacks, trees, etc.. Programs that read/write data from/to files. Programs using preprocessor directives. Use of command line arguments in program. Programs using graphics tools"
+                "topics": "Familiarity with Windows utilities and basic Linux commands._Programs related to operators and evaluation of expressions._Programs to illustrate use of arrays._Programs on operations over strings._Programs related to use of functions._Using pointers in programs._Programs on logical operators._Programs making use of structures and unions._Programs to perform operations over various data structures viz, linked lists, stacks, trees, etc._Programs that read/write data from/to files._Programs using preprocessor directives. Use of command line arguments in program._Programs using graphics tools"
             }
         ]
     },
@@ -687,9 +687,9 @@
         "credits": [4,3,1,0],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
-                "topics": "Sky Pronunciation: Introduction to the Speech Sounds of English. Sky Pronunciation: Syllable and Organs of Speech. Sky Pronunciation: Vowel and Consonant Sounds. Sky Pronunciation: Similar sounds and test . Word Stress and Intonation using available software. Listening and Comprehension using available software. Listening to Native speakers of English language. Watching short talks for learning effective presentation skills. Presentation skills using technology enabled slides. Just a Minute (JAM) Sessions. Describing Objects/Situations/People. Interview skills using available software/interview videos"
+                "topics": "Sky Pronunciation: Introduction to the Speech Sounds of English._Sky Pronunciation: Syllable and Organs of Speech._Sky Pronunciation: Vowel and Consonant Sounds._Sky Pronunciation: Similar sounds and test._Word Stress and Intonation using available software._Listening and Comprehension using available software._Listening to Native speakers of English language._Watching short talks for learning effective presentation skills._Presentation skills using technology enabled slides._Just a Minute (JAM) Sessions._Describing Objects/Situations/People._Interview skills using available software/interview videos"
             }
         ]
     },
@@ -700,9 +700,9 @@
         "credits": [1, 0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
-                "topics": "To determine the specific resistance of a material wire using a post office box.. To find the area of a rectangle (or height of an inaccessible object) using a sextant.. Conversion of a galvanometer into Ammeter and Voltmeter of given range. To verify the inverse square law of magnetism. Study the variation of magnetic field with distance along the axis of a circular coil carrying current and to find the radius of the coil. To determine the refractive index of a glass/  liquid (water) using Spectrometer. To determine the wavelength of light using Newton’s ring apperatus. To verify the inverse square law for the intensity of radiation from a source of light. To determine the wavelength of the Laser light using diffraction method. To find magnifying power of a telescope by linear method. To measure Young’s modulus by bending of beam method. Study of the attenuation and propagation characteristics of an optical fiber cable. Other experiments as and when made available time to time"
+                "topics": "To determine the specific resistance of a material wire using a post office box.._To find the area of a rectangle (or height of an inaccessible object) using a sextant._Conversion of a galvanometer into Ammeter and Voltmeter of given range._To verify the inverse square law of magnetism._Study the variation of magnetic field with distance along the axis of a circular coil carrying current and to find the radius of the coil._To determine the refractive index of a glass/  liquid (water) using Spectrometer._To determine the wavelength of light using Newton’s ring apperatus._To verify the inverse square law for the intensity of radiation from a source of light._To determine the wavelength of the Laser light using diffraction method._To find magnifying power of a telescope by linear method._To measure Young’s modulus by bending of beam method._Study of the attenuation and propagation characteristics of an optical fiber cable._Other experiments as and when made available time to time"
             }
         ]
     },
@@ -713,9 +713,9 @@
         "credits": [1, 0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
-                "topics": "Estimation of residual Chlorine in a given sample of water. Estimation of chloride content in a given sample of water by Mohr’s method (Argentometrically). Estimation of concentration of hydroxyl, carbonate, bicarbonate and total alkalinity in a given sample of water. Estimation of Hardness (Temporary and Permanent) in a given sample of water 5. Determination of quantity of Ferrous ions in a sample of water by KMnO4 titration. Estimation of concentration of iron in an iron ore by dichrometry.. Estimation of Cu in a given sample of brass. Determination of Viscosity of unknown liquid by Ostwald’s viscometer. Determination of surface tension of unknown liquid by drop number method.. Estimation of calcium in Limestone or Dolomite. Verification of the absorption laws by using Colorimetric method. Determination of the concentration of nickel using Absorption technique"
+                "topics": "Estimation of residual Chlorine in a given sample of water._Estimation of chloride content in a given sample of water by Mohr’s method (Argentometrically)._Estimation of concentration of hydroxyl, carbonate, bicarbonate and total alkalinity in a given sample of water._Estimation of Hardness (Temporary and Permanent) in a given sample of water_Determination of quantity of Ferrous ions in a sample of water by KMnO4 titration._Estimation of concentration of iron in an iron ore by dichrometry._Estimation of Cu in a given sample of brass._Determination of Viscosity of unknown liquid by Ostwald’s viscometer._Determination of surface tension of unknown liquid by drop number method._Estimation of calcium in Limestone or Dolomite._Verification of the absorption laws by using Colorimetric method._Determination of the concentration of nickel using Absorption technique"
             }
         ]
     },
@@ -726,9 +726,9 @@
         "credits": [1, 0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
-                "topics": "Familiarization of electronic components and equipments like CRO, function generator and power supplies etc.. To study the V-I characteristics of p-n junction diode and determine its static and dynamic resistance.. To study the characteristics of Zener diode and hence, calculate the dynamic resistance.. To study voltage regulator circuit using Zener diode.. To study and plot the waveform of half wave and full wave rectifier with and without capacitor filter.. To study and plot the input and output characteristics of CE (Common Emitter) transistor configuration and calculate its input and output resistance.. To study and plot the input and output characteristics of CB (Common Base) transistor configuration and calculate its input and output resistance.. To study and plot the input and output characteristics of CC (Common Collector) transistor configuration and calculate its input and output resistance.. To study the characteristics of FET (Field Effect Transistor) and calculate its dynamic resistance (rd), mutual conductance (gm) and amplification factor (µ).. To study the frequency response of single stage CE amplifier circuit using BJT and calculate the bandwidth (3 dB).. To study the frequency response of single stage amplifier circuit using FET and calculate the bandwidth (3 dB).. To study self bias circuit and calculate zero signal value of current and voltage"
+                "topics": "Familiarization of electronic components and equipments like CRO, function generator and power supplies etc._To study the V-I characteristics of p-n junction diode and determine its static and dynamic resistance._To study the characteristics of Zener diode and hence, calculate the dynamic resistance._To study voltage regulator circuit using Zener diode._To study and plot the waveform of half wave and full wave rectifier with and without capacitor filter._To study and plot the input and output characteristics of CE (Common Emitter) transistor configuration and calculate its input and output resistance._To study and plot the input and output characteristics of CB (Common Base) transistor configuration and calculate its input and output resistance._To study and plot the input and output characteristics of CC (Common Collector) transistor configuration and calculate its input and output resistance._To study the characteristics of FET (Field Effect Transistor) and calculate its dynamic resistance (rd), mutual conductance (gm) and amplification factor (µ)._To study the frequency response of single stage CE amplifier circuit using BJT and calculate the bandwidth (3 dB)._To study the frequency response of single stage amplifier circuit using FET and calculate the bandwidth (3 dB)._To study self bias circuit and calculate zero signal value of current and voltage"
             }
         ]
     },
@@ -739,9 +739,9 @@
         "credits": [1, 0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
-                "topics": "To verify Ohm’s law for BPLL (Bilateral Passive Linear Lumped) element.. To find for a filament lamp: (i) Variation of resistance with voltage (ii) Variation of power with voltage.. To find minimum fusing current and fuse constant of a given fuse wire.. To calibrate a given voltmeter with the help of standard ammeter and resistance. To calibrate a given ammeter with the help of standard voltmeter and resistance.. To find voltage current relationship in R-L series circuit and to determine power factor of the circuit.. To calibrate given wattmeter by direct loading.. To calibrate single phase energy meter by direct loading.. Verification of Kirchhoff’s Laws: (i) KVL (Kirchhoff’s Voltage Law) (ii) KCL (Kirchhoff’s Current Law). Determination of inductance of a coil using voltmeter and ammeter methods.. To verify total resistance 𝑅 of the series connected resistances 𝑅=𝑅1+𝑅2+𝑅3"
+                "topics": "To verify Ohm’s law for BPLL (Bilateral Passive Linear Lumped) element._To find for a filament lamp: (i) Variation of resistance with voltage (ii) Variation of power with voltage._To find minimum fusing current and fuse constant of a given fuse wire._To calibrate a given voltmeter with the help of standard ammeter and resistance_To calibrate a given ammeter with the help of standard voltmeter and resistance._To find voltage current relationship in R-L series circuit and to determine power factor of the circuit._To calibrate given wattmeter by direct loading._To calibrate single phase energy meter by direct loading._Verification of Kirchhoff’s Laws: (i) KVL (Kirchhoff’s Voltage Law) (ii) KCL (Kirchhoff’s Current Law)_Determination of inductance of a coil using voltmeter and ammeter methods._To verify total resistance 𝑅 of the series connected resistances 𝑅=𝑅1+𝑅2+𝑅3"
             }
         ]
     },
@@ -828,9 +828,9 @@
         "credits": [1,0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments",
-                "topics": "To demonstrate the relationship between input and output in for the inverting and non-inverting configuration of the Op-Amp. 741.. To verify the function of OP-Amp’s a summer and as a difference amplifier.. To perform the mathematical operation of differentiation using basic and practical circuit of Op-Amp’s.. To perform the mathematical operation of integration using basic and practical circuit of Op-Amp’s.. To study the half wave and full wave rectifier circuits using Op-Amp’s.. To design a first order butter worth low pass and high pass filter and determining its frequency response.. To plot the frequency response of the band pass filter for a specified frequency range.. To design a square, triangular and sawtooth wave generator using Op-Amp’s.. To design the Wien Bridge oscillator using Op-Amp’s. To study the clipping and clamping circuits using operational amplifiers"
+                "topics": "To demonstrate the relationship between input and output in for the inverting and non-inverting configuration of the Op-Amp. 741._To verify the function of OP-Amp’s a summer and as a difference amplifier._To perform the mathematical operation of differentiation using basic and practical circuit of Op-Amp’s._To perform the mathematical operation of integration using basic and practical circuit of Op-Amp’s._To study the half wave and full wave rectifier circuits using Op-Amp’s._To design a first order butter worth low pass and high pass filter and determining its frequency response._To plot the frequency response of the band pass filter for a specified frequency range._To design a square, triangular and sawtooth wave generator using Op-Amp’s._To design the Wien Bridge oscillator using Op-Amp’s_To study the clipping and clamping circuits using operational amplifiers"
             }
         ]
     },
@@ -841,9 +841,9 @@
         "credits": [1,0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
-                "topics": "Amplitude Modulation and Demodulation. DSB SC Modulation and Demodulation . SSB SC Modulation and Demodulation . Frequency Modulation and Demodulation  . To Observe and Measure Frequency Deviation and Modulation Index.. Pre Emphasis - De Emphasis.. PAM Generation and Reconstruction . PWM Generation and Reconstruction. PPM Generation and Reconstruction. Verification of Sampling Theorem. Time Division and Frequency. Phase Locked Loop"
+                "topics": "Amplitude Modulation and Demodulation._DSB SC Modulation and Demodulation. _ SSB SC Modulation and Demodulation._ Frequency Modulation and Demodulation._ To Observe and Measure Frequency Deviation and Modulation Index._ Pre Emphasis - De Emphasis._ PAM Generation and Reconstruction _ PWM Generation and Reconstruction._ PPM Generation and Reconstruction._ Verification of Sampling Theorem._ Time Division and Frequency._ Phase Locked Loop."
             }
         ]
     },
@@ -1029,9 +1029,9 @@
         "credits": [1,0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments ",
-                "topics": "On 8085 kit find the Factorial of a number. On 8085 kit, find if a number is prime or a perfect square. On 8051 kit write a program to perform serial data transfer. On 8051 kit generate square wave for a given frequency and duty cycle. On cortex M3 write a program to perform LED binking. On cortex M3 write a program to verify Digital out. On cortex M3 write a program to display clock on 7-segment display. On cortex M3 write a program to generate Analog output. On cortex M3 write a program to read in Analog input. On cortex M3 write a program to debug using serial pc . On cortex M3 write a program to generate PWM output. On cortex M3 write a program to perform counting on LCD counter. On cortex M3 write a program to learn Interrupt function. On cortex M3 write a program to understand 12c master and slave communication. On Intel Galileo Gen 2 plot a graph for analog input. On Intel Galileo Gen 2 write an Array in Arduino"
+                "topics": "On 8085 kit find the Factorial of a number._On 8085 kit, find if a number is prime or a perfect square._On 8051 kit write a program to perform serial data transfer._On 8051 kit generate square wave for a given frequency and duty cycle._On cortex M3 write a program to perform LED binking._On cortex M3 write a program to verify Digital out._On cortex M3 write a program to display clock on 7-segment display._On cortex M3 write a program to generate Analog output._On cortex M3 write a program to read in Analog input._On cortex M3 write a program to debug using serial pc._On cortex M3 write a program to generate PWM output._On cortex M3 write a program to perform counting on LCD counter._On cortex M3 write a program to learn Interrupt function._On cortex M3 write a program to understand 12c master and slave communication._On Intel Galileo Gen 2 plot a graph for analog input._On Intel Galileo Gen 2 write an Array in Arduino"
             }
         ]
     },
