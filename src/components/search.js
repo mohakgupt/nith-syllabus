@@ -18,6 +18,7 @@ export default function SearchBox(props) {
         inputProps={{ 'aria-label': 'search subject or code...' }}
         onChange={props.f}
         value={props.query}
+        autoFocus
       />
       <IconButton type="button" sx={{ p: '10px', color: '#2979ff' }} aria-label="search">
         <SearchIcon />

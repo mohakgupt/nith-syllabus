@@ -40,7 +40,7 @@
     {
         "id": 2,
         "code": "ec-221",
-        "title": "linear integrated circuits",
+        "title": "linear integrated circuits (LIC)",
         "credits": [4,3,1,0],
         "units": [
             {
@@ -824,7 +824,7 @@
     {
         "id": 25,
         "code": "ec-225",
-        "title": "Linear Integrated Circuits Lab",
+        "title": "Linear Integrated Circuits (LIC) Lab",
         "credits": [1,0,0,2],
         "units": [
             {
@@ -854,9 +854,9 @@
         "credits": [1,0,0,2],
         "units": [
             {
-                "id": 1,
+                "id": 20,
                 "title": "List of Experiments",
-                "topics": "Introduction to Tanner and Cadence EDA simulation tool.. To study the time and frequency response of series RLC circuit.. To study the frequency response of common emitter configuration of BJT.. To simulate N-MOS transistor and obtain its transfer and output characteristics.. To simulate-MOS transistor and obtain its transfer and output characteristics.. To simulate MOS inverter using resistive load, CMOS inverter, pseudo NMOS inverter and enhancement mode CMOS inverter and obtain their VTC.. To simulate NAND and NOR logic gate using CMOS and study its performance.. To simulate EX-OR and EX-NOR logic gate using CMOS and study its performance.. To simulate half adder and Full adder using CMOS and study its performance.. Introduction to Physical simulation and TCAD.. Build a simulation mesh for diode and study its characteristics.. Build a simulation mesh for BJT and study its characteristics.. Build a simulation mesh for MOSFET and study its characteristics.. To study the CMOS inverter characterization using proto-type fabricated NMOS and PMOS"
+                "topics": "Introduction to Tanner and Cadence EDA simulation tool._ To study the time and frequency response of series RLC circuit._ To study the frequency response of common emitter configuration of BJT._ To simulate N-MOS transistor and obtain its transfer and output characteristics._ To simulate-MOS transistor and obtain its transfer and output characteristics.. To simulate MOS inverter using resistive load, CMOS inverter, pseudo NMOS inverter and enhancement mode CMOS inverter and obtain their VTC._ To simulate NAND and NOR logic gate using CMOS and study its performance._ To simulate EX-OR and EX-NOR logic gate using CMOS and study its performance._ To simulate half adder and Full adder using CMOS and study its performance._ Introduction to Physical simulation and TCAD._ Build a simulation mesh for diode and study its characteristics._ Build a simulation mesh for BJT and study its characteristics._ Build a simulation mesh for MOSFET and study its characteristics._ To study the CMOS inverter characterization using proto-type fabricated NMOS and PMOS"
             }
         ]
     },
@@ -2153,38 +2153,600 @@
     },
     {
         "id": 70,
-        "code": "ma-323",
-        "title": "",
+        "code": "cs-321",
+        "title": "Distributed Systems",
         "credits": [4,3,1,0],
         "units": [
             {
                 "id": 1,
-                "title": "",
-                "topics": ""
+                "title": "Introduction",
+                "topics": "Characterization of Distributed System, Examples of distributed systems, Resource sharing and the World Wide Web, WWW 1.0, 2.0, 3.0, Challenges. System Models: Architectural models, S/w layers, system architecture and variants, Interface and Objects, Design requirements for distributed architectures, Fundamental Models: Interaction Model, Failure Model and Security Model"
             },
             {
                 "id": 2,
-                "title": "",
-                "topics": ""
+                "title": "Interprocess Communication",
+                "topics": "The API for the Internet protocols, characteristics of interprocess communication, Sockets, UDP Datagram communication, TCP stream communication, External data representation and marshalling, Client-server communication, Group communication, IP multicast, Network virtualization, Overlay networks"
             },
             {
                 "id": 3,
-                "title": "",
-                "topics": ""
+                "title": "Distributed Objects and Remote Invocation",
+                "topics": "Indirect Communication, Operating System Support, Distributed File Systems, File service architecture, Andrew File system. File System: Features-File model, File accessing models, File sharing semantics naming: Identifiers, Addresses, Name Resolution, Name Space Implementation, Name Caches, LDAP"
             },
             {
                 "id": 4,
-                "title": "",
-                "topics": ""
+                "title": "Time and Global States",
+                "topics": "Clocks, events and process states, Skew between computer clocks in a distributed system, Coordinated Universal Time (UTC),  physical time and clocks, Clock correctness, Cristian’s method for an asynchronous system, Berkeley algorithm, NTP,  logical time and clocks, vector clocks, global states, distributed garbage collection. Distributed Debugging, Global states and consistent cuts, Snapshot Algorithm"
             },
             {
                 "id": 5,
-                "title": "",
-                "topics": ""
+                "title": "Coordination and Agreement",
+                "topics": "Distributed mutual exclusion, elections, multicast communication, coordination agreement, consensus and related problems. Transactions and Concurrency Control, Transactions, Nested transactions, Locks, Optimistic concurrency control, Timestamp ordering, Atomic Commit protocols, Distributed deadlocks,  Replication"
             },
             {
                 "id": 0,
                 "title": "Books",
+                "topics": "Distributed Systems: Concepts and Design by G. Coulouris, J. Dollimore, and T. Kindberg, Pearson Education._Distributed Systems: Principles and Paradigms by A.Tanenbaum and Maarten van Steen, Prentice Hall of India._Advanced Concepts in Operating Systems by M. Singhal and  N. Shivaratri, Tata McGraw Hill._Distributed Systems - An Algorithmic Approach by Sukumar Ghosh, Chapman and Hall/CRC._Distributed Algorithms: Principles, Algorithms, and Systems by D. Kshemkalyani and M. Singhal, Cambridge University Press"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "code": "cs-322",
+        "title": "Software Engineering",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Problem domain, software engineering challenges, software engineering approach. Software Processes: Software process, characteristics of software process, software development process models, other processes"
+            },
+            {
+                "id": 2,
+                "title": "Software Requirements Analysis and Specification",
+                "topics": "Software requirements, problem analysis, requirements specification, functional specification with use cases, validation, matrices"
+            },
+            {
+                "id": 3,
+                "title": "Software Architecture",
+                "topics": "Role of software architect, architecture views, component and connector view, architecture style for C & C view, discussion and evaluating architectures. Planning a software project: Effort estimation, project scheduling and staffing, software configuration management plan, quality assurance plan, risk management, project monitoring plan"
+            },
+            {
+                "id": 4,
+                "title": "Function Oriented Design",
+                "topics": "Design principles, module level concepts, design notation and specification, structured design methodology, verification, metrics. Object oriented design: OO concepts, design concept, Unified Modeling Language, design methodology, metrics"
+            },
+            {
+                "id": 5,
+                "title": "Detailed Design, Software Measurements, Metrics and Models",
+                "topics": "Detailed design and PDL, verification, Metrics and their scope, Qualities of a good Software metrics, classification of metrics, Cost estimation models COCOMO, Quality attributes, SQA, Quality Standards, ISO 9000 and CMM"
+            },
+            {
+                "id": 6,
+                "title": "Coding",
+                "topics": "Programming principles and guidelines, coding process, refactoring, verification, metrics. Testing: Testing fundamentals, black-box testing, white-box testing, testing process, defect analysis and prevention, metrics - reliability estimation. CASE Tools: Types of CASE tools, advantages and components of CASE tools, Unified Modeling Language (UML)"
+            },
+            {
+                "id": 7,
+                "title": "IPR and Copyright",
+                "topics": "Introduction and the need for intellectual property right (IPR), IPR in India – Genesis and Development, Patents: Searching, Drafting, Filling and Granting of Patents; Copyrights: Coverage and Need; Trademarks: Types, Rights, Kinds of signs of Trademarks; Geographical Indications"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "An Integrated Approach to Software Engineering by Pankaj Jalote, Narosa Publishing._Software Engineering: A Practitioner’s Approach by Roger. S. Pressman, Tata McGraw Hill._Fundamentals of Software Engineering by Rajib Mall, Prentice Hall of India. _UML Bible by Tom Pender, Wiley Dreamtech. _Software Engineering by Ian Sommerville, Addison-Wesley "
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "code": "cs-323",
+        "title": "Digital Image Processing ",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Digital image representation, Fundamental steps in image processing, Elements of Digital Image processing systems, Elements of visual perception, Image model, Sampling and quantization, Relationship between pixels, Imaging geometry"
+            },
+            {
+                "id": 2,
+                "title": "Image Enhancement",
+                "topics": "Enhancement by point processing, Intensity transformation, Histogram processing, Image subtraction, Image averaging, Spatial filtering, Smoothing filters, Sharpening filters, Frequency domain: Low-Pass, High-Pass, Homomorphic filtering"
+            },
+            {
+                "id": 3,
+                "title": "Image Segmentation",
+                "topics": "Detection of discontinuities, Edge linking and boundary detection, Thresholding, Region oriented segmentation, Use of motion in segmentation, Spatial techniques, Frequency domain techniques"
+            },
+            {
+                "id": 4,
+                "title": "Image Restoration",
+                "topics": "A model of the image degradation/restoration process, noise models, restoration in the presence of noise–only spatial filtering, Weiner filtering, constrained least squares filtering, geometric transforms; Introduction to the Fourier transform and the frequency domain, estimating the degradation function. Color Image Processing"
+            },
+            {
+                "id": 5,
+                "title": "Morphological Image Processing",
+                "topics": "Preliminaries, dilation, erosion, open and closing, hit or miss transformation, basic morphological algorithms"
+            },
+            {
+                "id": 6,
+                "title": "Image Compression",
+                "topics": "Coding redundancy, Inter-pixel redundancy, fidelity criteria, image compression models, error-free compression, lossy predictive coding, image compression standards"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Digital Image Processing, by  R. Gonzalez and R. E. Wood, Prentice Hall of India._Digital Image Processing using MATLAB by R. Gonzalez, R. E. Wood and Steven L. Eddins Gatesmark Publishing._Introductory Computer Vision and Image Processing by   Andrian Low. McGraw Hill._Pattern Recognition-Statistical, Structural and neural approach by  Robert Schalkoff, John Willey & Sons._Fundamentals of Digital Image Processing by A K Jain, Prentice Hall"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "code": "cs-324",
+        "title": "Computer Networks",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introductory Concepts",
+                "topics": "Goals and Applications of Networks, LAN, WAN, MAN, Wireless network, Network software: Protocol hierarchies, design issues of layers, Interfaces and services. Reference Model: The OSI reference model, TCP/IP reference model, Example networks: Novell Netware, The ARPANET, The Internet, X-25 Networks, network standards"
+            },
+            {
+                "id": 2,
+                "title": "Physical Layer",
+                "topics": "Fourier analysis, Maximum data rate of a channel, Transmission media, Wireless transmission, Narrowband ISDN, Broadband ISDN and ATM, Virtual circuits, Circuit switching, Communication satellite"
+            },
+            {
+                "id": 3,
+                "title": "Data Link Layer",
+                "topics": "Data link layer design issues, services provided to network layers, Framing, Error control, Flow control, Error detection and correction, Elementary data link protocols, An unrestricted Simplex protocol, A Simplex Stop-and-Wait protocol, Simplex Protocol for a noisy channel, Sliding Window protocols, A one-bit Sliding protocol, A protocol using go-back-N, A protocol using selective repeat, Protocol specification and verification, Example data link protocol-HDLC, PPP and SLIP"
+            },
+            {
+                "id": 4,
+                "title": "Medium Access Sublayer",
+                "topics": "Channel Allocations, Static and dynamic allocation in LAN and MAN, Multiple Access protocols, ALOHA, Carrier Sense multiple access protocols, WDMA protocols, Wireless protocols, Collision free protocols, Limited contention protocols, IEEE standard 802.3 and Ethernet, IEEE standard 802.4, Token bus IEEE standard 802.5, Token Ring, Distributed Queue Dual bus, Logical link control, bridges, High speed LAN, Satellite networks"
+            },
+            {
+                "id": 5,
+                "title": "Network Layer",
+                "topics": "Network Layer design issue, Routing algorithms, Congestion Control Algorithms, Internetworking. Transport Layer: Transport services, Design issues, elements of transport protocols, simple transport protocols, Connection management, TCP, UDP"
+            },
+            {
+                "id": 6,
+                "title": "Session, Presentation and Application Layer",
+                "topics": "Session Layer, Design issues, remote procedure call. Presentation Layer, Design issues, Data compression techniques, cryptography. Application Layer - File Transfer, Access and Management, Electronic mail, Virtual Terminals, Other applications, Example Networks - Internet and Public Networks"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Computer Networks by A.S. Tanenbaum, Prentice Hall of India._Computer Networking: A Top-Down Approach Featuring the Internet by J. Kurose and K.W. Ross, Addison-Wesley._Data and Computer Communication by W. Stallings, Prentice Hall of India"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "code": "cs-325",
+        "title": "Digital Image Processing Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "Implement the spatial image enhancement functions on a bitmap image –Mirroring (Inversion) _Implement the spatial image enhancement functions on a bitmap image –Rotation (Clockwise) _Implement the spatial image enhancement functions on a bitmap image –Enlargement (Double Size) _Implement   i) Low Pass Filter, ii) High Pass Filter _Implement  i) Arithmetic Mean Filter, ii) Geometric Mean Filter_Implement Smoothing and Sharpening of an eight bit color image _Implement  i) Boundary Extraction Algorithm, ii) Graham's Scan Algorithm _Implement i)  Edge Detection, ii) Line Detection_Implement Image segmentation using OSTU and Thresholding Method_Implement data compression using JPEG algorithm"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "code": "cs-325",
+        "title": "Computer Networks Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "To become familiar with networking accessories and facilities in the Department of Computer Science and Engineering: Find out what networking devices are installed in the department; Describe the network type and topology of the department; File and printer sharing in different OSs; Network address configuration in different OSs; Finding IP and MAC address in different OSs; Workgroup and domain configuration; Use of utilities: arp, ipconfig/ifconfig, tracert, nslookup_Examine packets flow across a network segment and see the operation of various Internet protocols across the different layers in TCP/IP stack. (Hint: Use utilities netstat, snoop, tcpdump, …)_Use UNIX sockets to implement a simple client and server that communicate over the network. (Reference: Unix Network Programming by W. Richard Stevens, Prentice Hall)_Simulate various multiple access protocols (Aloha, slotted Aloha, p-persistent and non-persistent) and compare their performance at different loads._Write a program to display the IP address and MAC address of a machine._Implement ARP and RARP protocols for CSE LAN._Install Ethereal on a computer. Set Ethereal to capture with a filter option of your choice. Load a webpage or send an email to a friend and stop capturing. Analyze the packets. See if you can read any or all of the data transmitted. Write down your findings._Write a program to simulate routing using flooding. Each packet should contain a counter that is decremented on each hop. When the counter gets to zero, the packet is discarded. Time is discrete, with each line handling one packet per time interval. Make three versions of the program: all lines are flooded, all lines except the input line are flooded, and only the (statically chosen) best k lines are flooded. Compare flooding with deterministic routing (k = 1) in terms of both delay and the bandwidth used._Write a program that simulates a computer network using discrete time. The first packet on each router queue makes one hop per time interval. Each router has only a finite number of buffers. If a packet arrives and there is no room for it, it is discarded and not transmitted. Instead, there is an end-to-end protocol, complete with timeouts and acknowledgement a packet, which eventually regenerates the packet from the source router. Plot the throughput of the network as a function of the end-to-end timeout interval, parameterized by error rate._Design and implement a chat system that allows multiple groups of users to chat. A chat coordinator resides at a well-known network address, uses UDP for communication with chat clients, sets up chat servers for each chat session, and maintains a chat session directory. There is one chat server per chat session. A chat server uses TCP for communication with clients. A chat client allows users to start, join, and leave a chat session. Design and implement coordinator, server, and client code"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "code": "ee-221",
+        "title": "Electrical Machines – I",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Transformers",
+                "topics": "Construction, Theory and operation, E.M.F. equation, phasor diagram, rating of transformers, equivalent circuit, open and short circuit tests, back to back test, voltage regulation and efficiency, auto-transformers, three winding transformer, parallel operation of single phase and three phase transformers, three phase transformer connections, phasor groups, three phase to two phase and six phase conversion, Harmonics and excitation phenomenon, inrush current phenomenon"
+            },
+            {
+                "id": 2,
+                "title": "Basic Concepts of Rotating Electrical Machines",
+                "topics": "Constructional details of various rotating machines, Introduction to Lap and wave windings, EMF generation, Effect of chording and distribution of winding on EMF, Harmonics in generated emf, MMF produced by distributed winding"
+            },
+            {
+                "id": 3,
+                "title": "Energy Conversion",
+                "topics": "Principle of electromechanical energy conversion, energy stored in a magnetic field system, singly and doubly excited systems"
+            },
+            {
+                "id": 4,
+                "title": "DC Machines",
+                "topics": "Action of commutator, E.M.F. generated in armature, Torque in DC machines, Methods of excitation, armature reaction, MMF and flux density waveform of DC Machines, Commutation process, interpoles and compensating windings, Basic performance equations of DC machine, Magnetization and operating characteristics of DC generators and DC motors, DC motor starting and speed control, Ward Leonard system, losses and efficiency, applications of DC motors"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Electrical Machinery by P.S. Bhimbra, Khanna Publishers, Delhi._Electrical Machinery Fundamentals by S. J. Chapman, McGraw Hill, New York._Electrical Machines by Ashfaq Hussian, Dhanpat Rai & Company"
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "code": "ee-222",
+        "title": "Microprocessor Architecture and Interfacing",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Microprocessors and Microcomputers",
+                "topics": "Evolution of microprocessors, Architectural advancements of microprocessors, single-chip microcomputers, large and small computers, microprocessor applications "
+            },
+            {
+                "id": 2,
+                "title": "Microprocessor Architecture",
+                "topics": "Intel 8085, ALU, timing & control unit, registers, opcode & operands, Instruction cycle: fetch operation; execute operation, machine cycle and state, instruction & data flow. Timing diagram: for op-code fetch cycle, memory read, I/O read, memory write & I/O write, Interrupts in 8085, RST instructions, multiple interrupts and priorities"
+            },
+            {
+                "id": 3,
+                "title": "Instruction Set and Programming",
+                "topics": "Instruction and data formats, Addressing modes, status flags, Classification of instructions: Data transfer group, Arithmetic group, Logical group, Branch, Stack, I/O and Machine control group. Assembly language programs using 8085 instruction set, such as addition, subtraction, shift left, shift right, multiplication, division and involving loops, arrays, subroutines and stacks"
+            },
+            {
+                "id": 4,
+                "title": "Memory Interfacing",
+                "topics": "Types of memory, ROM & its types, RAM & its types, address decoding, interfacing of memories"
+            },
+            {
+                "id": 5,
+                "title": "Peripheral Devices and Interfacing",
+                "topics": "Data transfer schemes: synchronous data transfer, asynchronous data transfer, interrupt driven data transfer, DMA transfer,8257 DMA controller, programmable interrupt controller (PIC) Intel 8259, programmable peripheral interface (PPI) Intel 8255, programmable interval timer Intel 8253, programmable communication interface Intel 8251"
+            },
+            {
+                "id": 6,
+                "title": "Applications of 8085 Microprocessor",
+                "topics": "Introduction, analog to digital Converter (ADC), Interfacing of ADC 0808/0809 and sample and hold to microprocessor 8085, display of decimal numbers and alphanumeric characters, Microprocessor based measurement of Electrical quantities- Frequency, phase angle and power factor, voltage, current. Interfacing of transducers to measure and display the non- electrical quantities such as temperature, water level and speed of motor etc"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Microprocessor Architecture, Programming and Applications with the 8085 by R. S. Gaonkar, Penram International Publishing (India) Pvt Ltd._Introduction to Microprocessors by A. P. Mathur, TMH. _Fundamentals of Microprocessors and Microcomputers B. Ram, Dhanpat Rai & Sons. _Microprocessor Microcomputer and their Applications by A. K. Mukhopadhyay, Narosa Publishing House"
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "code": "ee-223",
+        "title": "Power Electronics",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Characteristics of Various Solid State Devices ",
+                "topics": "Semiconductor Power diodes, Power transistors, MOSFET, SCR Thyristor and its two transistor model, Triac, Gate turn off thyristor (GTO), Insulated gate bipolar transistor (IGBT), Comparison of switching power devices, Static Characteristics and Principles of operation, turn on and turn off characteristics, triggering circuits"
+            },
+            {
+                "id": 2,
+                "title": "AC to DC Converters ",
+                "topics": "Line commutated thyristor based converters, phase controlled rectifiers, bridge converters - fully controlled, half controlled, uncontrolled  ( single phase and three phase  configuration), bidirectional  ac to dc voltage source converters, issues of line current harmonics, power factor, distortion factor and source inductance, Resonant Converters, inverter operation, applications in drives"
+            },
+            {
+                "id": 3,
+                "title": "DC to DC Converters ",
+                "topics": "Thyristor choppers, voltage, current and  load commutation, step up and step down Choppers, basic principles of DC-DC switch mode Converters, buck, boost and buck-boost converters and applications "
+            },
+            {
+                "id": 4,
+                "title": "DC to AC Inverters ",
+                "topics": "DC-AC switched mode converters, Voltage source inverters, single phase and three phase inverter, harmonic reduction techniques and Sinusoidal Pulse Width Modulation, current source inverter"
+            },
+            {
+                "id": 5,
+                "title": "AC to AC Converters ",
+                "topics": "Single phase and 3-phase AC voltage controllers using thyristors , phase control and integral cycle control, AC choppers, single phase cyclo-converters, applications, effects of harmonics and electromagnetic interference, applications in drives "
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Modern Power Electronics by B.K.Bose, IEEE Press, New York._An Introduction to Thyristor and their applications by M.Ramamoorty, East West Press, New Delhi._Power Electronics by P.S.Bhimbra, Khanna Publishers, Delhi._Thyristorised Power Controllers by Dubey, Doradla, Joshi and Sinha, New age International Pub., New Delhi._Power Electronics-Circuits, Devices and Applications by M.H. Rashid, Pearson Education"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "code": "ee-224",
+        "title": "Power System",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Power System, Load Characteristics and Economic Aspects",
+                "topics": "Basic structure of power system, sources of electric energy: conventional and non-conventional; cogeneration, combined heat and power, captive power plants, distributed generation.  Commonly used terms and factors, curves useful in system operation and planning, economics of power factor improvement, interconnection of power stations and tariffs"
+            },
+            {
+                "id": 2,
+                "title": "Transmission Line Parameters",
+                "topics": "Types of conductors, Ampere’s law, inductance of a conductor, inductance of a single phase line, inductance of a three-phase line, inductance of three-phase double circuit line, bundled conductors, skin effect , proximity effect, Guy’s theorem, Capacitance of single phase line, capacitance of a three-phase line, capacitance of  double circuit three phase line, effect of earth on capacitance"
+            },
+            {
+                "id": 3,
+                "title": "Transmission Line Performance ",
+                "topics": "Classification of lines, models, circuit constants of transmission lines: short, medium and long lines; Ferranti effect, power flow through a line, sending and receiving end power circle diagram, reactive power generation/absorption of line, compensation and voltage control"
+            },
+            {
+                "id": 4,
+                "title": "Insulators for Overhead Transmission lines and Mechanical Design of Transmission line",
+                "topics": "Types of insulators, ratings, voltage distribution across suspension insulators, string efficiency, methods to improve string efficiency.  Calculation of sag and tension, equivalent span length and sag, effect of ice and wind loading, stringing chart, sag template, conductor vibrations and vibration dampers"
+            },
+            {
+                "id": 5,
+                "title": "Corona and Radio interference",
+                "topics": "Critical voltages, corona loss, advantages and disadvantages of corona, factors affecting corona loss, effect of corona on line design, radio interference"
+            },
+            {
+                "id": 6,
+                "title": "Distribution System and Insulated Cables",
+                "topics": "Effect of voltage on transmission efficiency, Kelvin’s law, radial and ring main distributors, interconnectors, methods of feeding distributors, ac distribution, three-phase, four wire distribution system, stepped and tapered mains. Cable conductors, insulating materials, insulation resistance, electrostatic stress in cables, grading of cables, capacitance of a three-core cable, dielectric loss, dielectric power factor, classification of cables, cable performance"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Electric Power systems by C.L. Wadhwa, New Age international, New Delhi._Electric Power generation transmission and distribution by S.N. Singh,  Prentice-hall of India, Private Limited, New Delhi._Elements of Power System Analysis by W.B. Stevenson McGraw Hill._Power System Engineering by D.P. Kothari and I.J. Nagrath, Tata McGraw Hill, New Delhi"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "code": "ee-225",
+        "title": "Electrical Machines–I Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "To  conduct open circuit  and short  circuit   test on a  single  phase transformer ._To conduct a polarity test on a single phase transformer._To study the constructional details and working of transformer._To perform back to back test on a single phase transformer._To perform parallel operation on a single phase transformer for the load sharing between them._To perform load test on a single phase transformer._To study the speed control of a D.C  shunt motor by field control method.   _To study the speed control of a D.C  shunt motor by armature control method._To study external load characteristic of D.C shunt generator._To conduct on experiment on a separately excited D.C generator and draw the magnetization characteristic and the  determine the critical field resistance and critical path"
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "code": "ee-226",
+        "title": "Power Electronics Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "To determine the V-I characteristics of silicon controlled rectifier (SCR)._To study the output and transfer characteristics of MOSFET._To study output and transfer characteristics of IGBT._To determine the V-I characteristics of DIAC._To determine the V-I characteristics of TRIAC._To observe output waveform across RC load of a chopper which is a voltage commutated SCR._To study the action of voltage commutated chopper and plot output waveform._To study action of single phase half wave rectifier with resistive load._To study operation of single- phase full wave rectifier._To study the operation of single phase to single phase step down cyclo-converter "
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "code": "ee-227",
+        "title": "Microprocessor Architecture and Interfacing Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "(i) Familiarization with 8085 microprocessor kit, hardware and software commands. (ii) Detailed description of commands: substitute, move, go to and search._To draw a flowchart and write a well-documented assembly language program (ALP) for addition of two 16bit hexadecimal numbers. Provision should exist for storing result and carry generated after addition._To draw a flow chart and write a well-documented assembly language program (alp) for subtraction of 16bit hexadecimal numbers and store the result at some memory location._To draw a flowchart and write an alp for the addition of ‘n’ number of data bytes stored in memory locations consecutively.  Save carry if any generated during addition.  Store the entire sum at two consecutive memory locations._To draw flow chart and write an alp for checking a hex number for odd or even parity, if the parity is odd, store 00 at some given memory location and if the parity is even, store ee at that location._To draw a flow chart and write program for multiplication of two 8-bit numbers by repetitive additions (provision for storing 16-bit result)._To draw a flow chart and write program for division of 16-bit number with an 8-bit number._To draw a flow chart and write program to arrange the given ‘n’ numbers stored in a block of memory locations   in (i) ascending order (ii) descending order._To write an assembly language program for finding the square of the number by lookup table technique. The values of the number whose squares to be found are given to be between the decimal number 1 to 9._To draw a flow chart and write program to find the largest number of the given numbers stored at consecutive memory locations.  Store the largest number at some memory location._To interface relay and opto-isolator with Microprocessor 8085._To interface ADC and DAC with Microprocessor 8085"
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "code": "ee-321",
+        "title": "Control Engineering",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Control system",
+                "topics": "Historical overview, system, servo-mechanism, open loop and closed loop systems, mathematical modelling of physical systems, mechanical and electrical system analogy"
+            },
+            {
+                "id": 2,
+                "title": "Feedback and Non-Feedback Systems",
+                "topics": "Block diagram representation and reduction techniques, Signal flow graphs, Mason Gain Formula, feedback and non-feedback systems, regenerative and degenerative feedback, effect of variation of system parameters on system performance, advantages of feedback, Control Components, general block diagram of a control system, a.c. and d.c. Servomotors, a.c. tachometer, synchro transmitter and receiver, synchro pair as control transformer, a.c and d.c position control system, stepper motor etc"
+            },
+            {
+                "id": 3,
+                "title": "Time Domain Analysis",
+                "topics": "Introduction, standard input signals, Response of 1st and 2nd order systems, time domain specifications i.e. rise time, peak time, delay time, peak overshoot, settling time steady state error etc., different types of feedback systems, Steady state errors for unit step, unit ramp and unit parabolic inputs, Effect of addition of zero to the system"
+            },
+            {
+                "id": 4,
+                "title": "Stability Analysis",
+                "topics": "Introduction, concept of stability, conditions for stable system, asymptotic, relative and marginal stability, Routh-Hurwitz criterion for stability, Root Locus Technique, concepts of root locus, construction of root loci, and various rules pertaining to locus diagram development "
+            },
+            {
+                "id": 5,
+                "title": "Frequency Domain Analysis",
+                "topics": "Introduction, Relation between time and frequency response for 2nd order system, Bode plot, construction procedure for bode plot, gain cross over and phase cross over frequency, gain margin and phase margin, Nyquist plot & Nyquist stability criterion"
+            },
+            {
+                "id": 6,
+                "title": "Control System Design",
+                "topics": "Selection and realization of basic compensators like lead, lag and laglead compensators etc., Introduction to PID Control"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Control System Engineering by I.J. Nagrath and M. Gopal, Wiley Eastern._Modern Control Engineering by K. Ogata, Prentice Hall India._Control System Engineering by N.S. Nise, Wiley India (P) Limited._Automatic control Systems by B.C. Kuo, Prentice Hall India._Digital control and state variable methods by M. Gopal, Tata McGraw Hill"
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "code": "ee-322",
+        "title": "Power System Analysis",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Nature and scope of power system studies, power system restructuring, power system computation and control, Smart grid concept"
+            },
+            {
+                "id": 2,
+                "title": "Power system Components modelling",
+                "topics": "Mathematical model of transmission lines, tap changing transformer, generator and loads"
+            },
+            {
+                "id": 3,
+                "title": "Topological Analysis of Power Networks",
+                "topics": "Primitive impedance and admittance matrices, system graph for transmission network, relevant concepts in graph theory, network representation, network matrices, network reduction"
+            },
+            {
+                "id": 4,
+                "title": "Bus Impedance Algorithm",
+                "topics": "Partial network, addition of link(s), addition of branch(es), removal of elements, implementation of bus building algorithm, 3-phase Z-bus formation"
+            },
+            {
+                "id": 5,
+                "title": "Short Circuit Studies",
+                "topics": "Types of faults, short circuit studies of large power system networks, calculating system conditions after the occurrence of fault, direct short circuit i.e. bolted faults. Comparison between symmetrical components and phase coordinate, method of short-circuit studies"
+            },
+            {
+                "id": 6,
+                "title": "Power Flow Studies",
+                "topics": "Mathematical model of power flow studies, Solution techniques: GaussSeidel method, Newton-Raphson method, fast decoupled load flow method, comparison of solution technique"
+            },
+            {
+                "id": 7,
+                "title": "Stability Studies",
+                "topics": "Types of stability, swing equation, point by point method, mathematical models for transient stability simulation, equal area criteria, direct numerical integration method"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Computer Techniques in Power System Analysis by M.A. Pai, Tata McGraw Hill, New Delhi._Advanced Power System Analysis and Dynamics by L.P. Singh, New Age International_Modern Power System Analysis by DP Kothari and I.J. Nagrath, Tata McGraw Hill, New Delhi"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "code": "ee-323",
+        "title": "Digital Signal Processing",
+        "credits": [4,3,1,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Basic elements of digital signal processing, comparison of analog and digital signal processing, multi-channel and multi-dimensional signals, random and deterministic signals, FIR and IIR systems, recursive and non-recursive systems, correlation of discrete time signals"
+            },
+            {
+                "id": 2,
+                "title": "Discrete Fourier Transform and Fast Fourier Transform",
+                "topics": "Frequency domain sampling and reconstruction of discrete time signals, DFT, DFT as linear transformation, frequency analysis of signals using DFT, properties of DFT, circular convolution, linear filtering methods based on DFT, overlap save and overlap add method, FFT algorithms, decimation in time and decimation in frequency algorithms, applications of FFT algorithms, linear filtering approach to computation of the DFT, Goertzel algorithm"
+            },
+            {
+                "id": 3,
+                "title": "Implementation of Discrete Time Systems",
+                "topics": "Structures for the realization of LTI systems, recursive and non-recursive realization of FIR systems, structures for FIR systems, direct form, cascade form, frequency sampling and lattice structures, structures for IIR systems, direct form, signal flow graphs and transposed structure, cascade, parallel form and lattice structures"
+            },
+            {
+                "id": 4,
+                "title": "Design of FIR Digital Filters",
+                "topics": "Introduction, LTI systems as frequency selective filters, Paley-Wiener theorem, characteristics of frequency selective filters, design of linear phase FIR filters, design of digital filters by placement of poles and zeros in z-plane, digital resonators, Notch filters, Comb filters and all pass filters, design of linear phase FIR filters using windows and by frequency sampling method"
+            },
+            {
+                "id": 5,
+                "title": "Design of IIR Digital Filters",
+                "topics": "Introduction, design of IIR filters from their analog counterparts, design using approximation of derivatives, impulse invariance, bilinear transformation and matched z-transformation, frequency transformations in analog and digital domains, design of digital filters based on least squares method, design of IIR filters in frequency domain"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Digital Signal Processing by J.G. Proakis and D.G. Manolakis, Pearson Education Publisher._Digital Signal Processing by A.V. Oppenheim and R.W. Schafer, Prentice Hall Publisher._Digital Signal and Image Processing by Tamal Bose, John Wiley and Sons Publisher._Digital Signal Processing by Sanjit K. Mitra, Tata McGraw Hill Publisher._A Course in Digital Signal Processing by Boaz Porat"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "code": "ee-324",
+        "title": "Electric Drives",
+        "credits": [3,3,0,0],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction",
+                "topics": "Electric drive system-Introduction, advantages, parts, classification, requirements and choice criteria, Dynamic equations of an electric drive, torque equations, multi-quadrant operation, types of loads, energy loss during transients and load equalization"
+            },
+            {
+                "id": 2,
+                "title": "Selection of Motor Drive Rating",
+                "topics": "Selection of motor rating – thermal model of motor, classes of duty and determination of motor rating for different classes of drive operation duty"
+            },
+            {
+                "id": 3,
+                "title": "DC Motor Drives",
+                "topics": "Starting, braking, speed control using single-phase and three-phase half and fully controlled rectifiers, chopper fed DC drives"
+            },
+            {
+                "id": 4,
+                "title": "Induction Motor Drives",
+                "topics": "Starting and braking methods, speed control of SCIM using ac voltage controllers, VSI and CSI, v/f control, speed control of wound-rotor IM using rotor-resistance variation, slip-power recovery scheme and cyclo converter fed induction motor drives"
+            },
+            {
+                "id": 5,
+                "title": "Synchronous Motor Drives",
+                "topics": "VSI drive, brushless excitation, true synchronous and self-controlled operation, PMSM and BLDC motor drives, synchronous reluctance motor"
+            },
+            {
+                "id": 0,
+                "title": "Books",
+                "topics": "Electric Motor Drives by R. Krishnan, PHI._Electric Drive by M. Chilikin, Medtech._Power Semiconductor Controlled Drives by G. K. Dubey, Prentice Hall._Power Semiconductor Drives by S. B. Dewan, G. R. Slemon, and A. Straughen, John Wiley"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "code": "ee-325",
+        "title": "Control Engineering Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "To study potentiometer based error detector and to draw its characteristics._To study speed control and reversal of stepper motor using microprocessor._To study synchro transmitter – receiver pair and its operation as an error detector._Study of two phase AC servo motor and draw its speed torque characteristics._To study voltage sensitive bridge and to analyze its sensitivity and linearity._To study D.C. position control system and to execute position control through continuous and step command._To design, implement and study the effects of different cascade compensation networks for a given system._To study the Digital control system and to implement digital PID control for a modeled process._To study relay as nonlinear element and effect of dead-zone and hysteresis on the controlled process._To study speed control of DC Servomotor using PID controller. _To study magnetic amplifier and to plot control current versus load current characteristics for series, parallel and selfsaturation mode configuration._To study and perform simple two step open loop control and proportional control on process control simulator kit"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "code": "ee-326",
+        "title": "Power System Analysis Lab",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
+                "topics": "To obtain the ABCD parameters of transmission line model._To measure the breakdown voltage of transformer oil._Determination of power angle characteristics of transmission line._To improve the voltage profile at a load bus using a shunt capacitor._To verify the Ferranti effect in transmission line._To determine the breakdown voltage of solid insulator._To draw the PV characteristics of a transmission Line._To draw the characteristics of a series compensated transmission line._To determine the earth resistance using megger._To study and compare the performance of a 230V, 500m long ring mains and radial distribution systems"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "code": "ee-325",
+        "title": "",
+        "credits": [1,0,0,2],
+        "units": [
+            {
+                "id": 20,
+                "title": "List of Experiments",
                 "topics": ""
             }
         ]

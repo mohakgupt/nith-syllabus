@@ -25,3 +25,12 @@ body::-webkit-scrollbar{
     max-width: 576px;
   }
 }
+
+/* .zoom-body{
+  animation: zoombody 0.2s ease-out;
+}
+@keyframes zoombody {
+  to{
+    transform: none;
+  }
+} */

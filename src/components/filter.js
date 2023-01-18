@@ -20,10 +20,10 @@ const branches = [
         name: "Computer Science",
         code: "cs"
     },
-    // {
-    //     name: "Electrical",
-    //     code: "ee"
-    // },
+    {
+        name: "Electrical",
+        code: "ee"
+    },
     {
         name: "Electronics and Communication",
         code: "ec"

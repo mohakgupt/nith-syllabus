@@ -24,9 +24,17 @@ export default function UnitCard(props) {
           </Typography>
           <Divider sx={{mb:2}}/>
           <Typography variant="body2" sx={{fontSize: 16, color:'#616161' }}>
-            {brick.map((t)=>{
-              return(<Typography display="block">{"• "+t}</Typography>)
-            })}
+            {(num && num!==20)?<ul>
+              {brick.map((t)=>{
+                return(<li>{t}</li>)
+              })}
+            </ul>:
+            <ol>
+              {brick.map((t)=>{
+                return(<li>{t}</li>)
+              })}
+            </ol>}
+            
           </Typography>
         </CardContent>
     </Card>
