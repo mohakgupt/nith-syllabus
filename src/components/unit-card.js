@@ -26,12 +26,12 @@ export default function UnitCard(props) {
           <Typography variant="body2" sx={{fontSize: 16, color:'#616161' }}>
             {(num && num!==20)?<ul>
               {brick.map((t)=>{
-                return(<li>{t}</li>)
+                return(<li style={{marginTop: '5px'}}>{t}</li>)
               })}
             </ul>:
             <ol>
               {brick.map((t)=>{
-                return(<li>{t}</li>)
+                return(<li style={{marginTop: '5px'}}>{t}</li>)
               })}
             </ol>}
             
