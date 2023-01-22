@@ -6,13 +6,14 @@ import { Typography, TableContainer, Table, TableRow, TableCell } from "@mui/mat
 
 export default function UnitList(props){
     const id=parseInt(useParams().id);
+    let t=0
     return(
         <>
-        <Typography variant="h6" textAlign={"center"} sx={{mt:4, background: "linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(71,77,199,1) 42%, rgba(2,0,36,1) 100%);", backgroundClip: "text", color: "transparent"}} gutterBottom>
+        <Typography className="push-container" variant="h6" textAlign={"center"} sx={{mt:4, background: "linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(71,77,199,1) 42%, rgba(2,0,36,1) 100%);", backgroundClip: "text", color: "transparent"}} gutterBottom>
             <span style={{display: 'block', height: 0}}><span style={{display: 'inline-block', fontSize: 12, backgroundColor: "#eeeeee", color: 'rgba(71,77,199,1)', transform: 'translateY(-19px)', padding: '0 5px'}}>{props.data[id-1].code.toUpperCase()}</span></span>
             <span style={{display: 'inline-block', border: '1px solid #0d47a1', borderRadius: '1em', padding: '3px 1em'}}>{props.data[id-1].title.toUpperCase()}</span>
         </Typography>
-        <TableContainer>
+        <TableContainer className="push-container">
             <Table size="small" sx={{width: 200, margin: "1px auto"}}>
                 <TableRow >
                     <TableCell sx={{border:'none'}}>Credits</TableCell>
@@ -32,8 +33,9 @@ export default function UnitList(props){
             <Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Add units here by clicking the "+" icon and share it with your friends!</Typography>
             :
             props.data && props.data[id-1].units.map((unit)=>{
+                t+=10
                 return(
-                        <UnitCard s={id} inList={id in props.keys && props.keys[id].includes(unit.id)?true:false} key={unit.id} num={unit.id} title={unit.title} topics={unit.topics} addKey={props.addKey} removeKey={props.removeKey}/>
+                        <UnitCard t={t} s={id} inList={id in props.keys && props.keys[id].includes(unit.id)?true:false} key={unit.id} num={unit.id} title={unit.title} topics={unit.topics} addKey={props.addKey} removeKey={props.removeKey}/>
                         )
             })}
         </Box>

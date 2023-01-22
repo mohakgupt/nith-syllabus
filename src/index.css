@@ -28,9 +28,13 @@ body::-webkit-scrollbar{
 
 /* .zoom-body{
   animation: zoombody 0.2s ease-out;
-}
-@keyframes zoombody {
-  to{
-    transform: none;
-  }
 } */
+.push-container{
+  animation: move 0.25s ease-out;
+}
+@keyframes move {
+  from{
+    opacity: 0;
+    transform: translateY(1em);
+  }
+}
