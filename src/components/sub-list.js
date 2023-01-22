@@ -28,7 +28,7 @@ export default function SubList(props) {
         sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}
       >
         {searchResults.length?searchResults.map((sub) => {
-            t+=10
+            t+=25
             return (<DataCard key={sub.id} id={sub.id} code={sub.code} title={sub.title} credits={sub.credits} t={t}></DataCard>); 
         }):<Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Either there is no subject or you'll have to wait for it to be added 😉</Typography>}
       </Box>

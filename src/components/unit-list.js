@@ -33,7 +33,7 @@ export default function UnitList(props){
             <Typography sx={{textAlign: 'center', mt:'30vh', color: 'gray'}}>Add units here by clicking the "+" icon and share it with your friends!</Typography>
             :
             props.data && props.data[id-1].units.map((unit)=>{
-                t+=10
+                t+=25
                 return(
                         <UnitCard t={t} s={id} inList={id in props.keys && props.keys[id].includes(unit.id)?true:false} key={unit.id} num={unit.id} title={unit.title} topics={unit.topics} addKey={props.addKey} removeKey={props.removeKey}/>
                         )
