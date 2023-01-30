@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 export default function DataCard(props) {
   const [s,l,t,p] =props.credits;
-  const [cardata, setCardata] = useState("")
+  const [cardata, setCardata] = useState(<div style={{height: 120, width: 178}}></div>)
   setTimeout(() => {
     setCardata(props.title &&
       <Link className="push-container" to={`/sub/${props.id}`} style={{ textDecoration: 'none' }} >
