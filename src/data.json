@@ -684,7 +684,7 @@
         "id": 18,
         "code": "hs-102",
         "title": "communication skills lab ",
-        "credits": [4,3,1,0],
+        "credits": [1,0,0,2],
         "units": [
             {
                 "id": 20,
@@ -932,7 +932,7 @@
             {
                 "id":0,
                 "title":"Books",
-                "topics":"Wireless Communications: Principles and Practice by Theodore S. Rappaport, Pearson / PHI Publication Wireless Communications and Networks: 3G and Beyond by Iti Saha Misra, Tata McGraw Hill Publication Mobile Cellular Telecommunications: Analog and Digital Systems by William C. Y. Lee, Tata McGraw Hill Publication Wireless Digital Communications by Kamilo Feher, PHI Publication "
+                "topics":"Wireless Communications: Principles and Practice by Theodore S. Rappaport, Pearson / PHI Publication_Wireless Communications and Networks: 3G and Beyond by Iti Saha Misra, Tata McGraw Hill Publication_Mobile Cellular Telecommunications: Analog and Digital Systems by William C. Y. Lee, Tata McGraw Hill Publication_Wireless Digital Communications by Kamilo Feher, PHI Publication "
             }
         ]
     },

@@ -6,7 +6,7 @@ import { Typography, TableContainer, Table, TableRow, TableCell } from "@mui/mat
 
 export default function UnitList(props){
     const id=parseInt(useParams().id);
-    let t=0
+    let t=100
     return(
         <>
         <Typography className="push-container" variant="h6" textAlign={"center"} sx={{mt:4, background: "linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(71,77,199,1) 42%, rgba(2,0,36,1) 100%);", backgroundClip: "text", color: "transparent"}} gutterBottom>
