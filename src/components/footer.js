@@ -1,4 +1,4 @@
-import { Typography, Divider } from "@mui/material";
+import { Divider } from "@mui/material";
 import GitHubButton from 'react-github-btn';
 
 export default function Footer(){
