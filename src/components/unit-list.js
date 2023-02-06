@@ -16,15 +16,19 @@ export default function UnitList(props){
         </Typography>
         <TableContainer className="push-container">
             <Table size="small" sx={{width: 200, margin: "1px auto"}}>
-                <TableRow >
-                    <TableCell sx={{border:'none'}}>Credits</TableCell>
-                    <TableCell sx={{border:'none'}}>L</TableCell>
-                    <TableCell sx={{border:'none'}}>T</TableCell>
-                    <TableCell sx={{border:'none'}}>P</TableCell>
-                </TableRow>
-                <TableRow>
-                    {props.data[id-1].credits.map((v)=>{return(<TableCell sx={{border:'none'}}>{v}</TableCell>)})}
-                </TableRow>
+                <thead>
+                    <TableRow >
+                        <TableCell sx={{border:'none'}}>Credits</TableCell>
+                        <TableCell sx={{border:'none'}}>L</TableCell>
+                        <TableCell sx={{border:'none'}}>T</TableCell>
+                        <TableCell sx={{border:'none'}}>P</TableCell>
+                    </TableRow>
+                </thead>
+                <tbody>
+                    <TableRow>
+                        {props.data[id-1].credits.map((v)=>{return(<TableCell sx={{border:'none'}}>{v}</TableCell>)})}
+                    </TableRow>
+                </tbody>
             </Table>
         </TableContainer>
         <Box

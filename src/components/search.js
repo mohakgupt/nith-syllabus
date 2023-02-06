@@ -11,6 +11,7 @@ export default function SearchBox(props) {
     <Paper
       component="form"
       sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', maxWidth: 400, margin: '1em auto', borderRadius: 10, pl: 2, pr:2 }}
+      onSubmit={(e)=>{e.preventDefault()}}
     >
       <InputBase
         sx={{ ml: 1, flex: 1 }}

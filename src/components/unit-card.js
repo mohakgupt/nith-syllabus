@@ -26,7 +26,7 @@ export default function UnitCard(props) {
               {title.toUpperCase()}
             </Typography>
             <Divider sx={{mb:2}}/>
-            <Typography variant="body2" sx={{fontSize: 16, color:'#616161' }}>
+            <div variant="body2" style={{fontSize: 16, color:'#616161', fontFamily: "PT Serif, Serif" }}>
               {(num && num!==20)?<ul>
                 {brick.map((t)=>{
                   return(<li style={{marginTop: '5px'}}>{t}</li>)
@@ -38,7 +38,7 @@ export default function UnitCard(props) {
                 })}
               </ol>}
               
-            </Typography>
+            </div>
           </CardContent>
       </Card>)
   }, props.t);
