@@ -13,10 +13,10 @@ import { useState, useEffect } from 'react';
 
 
 export default function App(){
+    document.title = "nith syllabus"
     const [query, setQuery] = useState("");
     const [branch, setBranch] = useState("al");
     const [year, setYear] = useState("al");
-    const [title, setTitle] = useState("nith syllabus")
     let ckeys;
     if(localStorage.getItem("keys")){
       ckeys=JSON.parse(localStorage.getItem("keys"));
@@ -41,9 +41,6 @@ export default function App(){
       localStorage.setItem("keys", JSON.stringify(keys))
     }, [keys])
 
-    useEffect(()=>{
-      document.title = title;
-    }, [title])
 
     return(
     <>
@@ -51,9 +48,9 @@ export default function App(){
       <ScrollToTop/>
       <Routes>
         <Route path='/' element={<SubList data={Data} query={query} setQuery={setQuery} branch={branch} setBranch={setBranch} year={year} setYear={setYear} keys={keys}/>}></Route>
-        <Route path='/sub/:id' element={<UnitList data={Data} keys={keys} addKey={addKey} removeKey={removeKey} setTitle={setTitle}/>}></Route>
-        <Route path='/todolist' element={<TodoList data={Data} keys={keys} addKey={addKey} removeKey={removeKey} setTitle={setTitle}/>}></Route>
-        <Route path='/list/:name/:keys' element={<SharedTodoList data={Data} setTitle={setTitle}/>}></Route>
+        <Route path='/sub/:id' element={<UnitList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
+        <Route path='/todolist' element={<TodoList data={Data} keys={keys} addKey={addKey} removeKey={removeKey}/>}></Route>
+        <Route path='/list/:name/:keys' element={<SharedTodoList data={Data}/>}></Route>
       </Routes>
       <div style={{height: "1em"}}></div>
       <Footer/>
