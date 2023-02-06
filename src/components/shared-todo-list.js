@@ -7,7 +7,7 @@ import { Typography } from "@mui/material";
 export default function SharedTodoList(props){
     const keys=JSON.parse(useParams().keys.replaceAll("i", "ceq").replaceAll("b", "[").replaceAll("c", "]").replaceAll("q", '"').replaceAll("e", ","));
     const name=useParams().name.replaceAll("*!", " ");
-    console.log(keys)
+    props.setTitle(`${name} - nith syllabus`)
     // var userList=[];
     // if(keys.length){
     //     for(let s of keys){

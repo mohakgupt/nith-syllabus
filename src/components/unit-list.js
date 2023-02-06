@@ -6,6 +6,7 @@ import { Typography, TableContainer, Table, TableRow, TableCell } from "@mui/mat
 
 export default function UnitList(props){
     const id=parseInt(useParams().id);
+    props.setTitle(`${props.data[id-1].title} - nith syllabus`)
     let t=100
     return(
         <>

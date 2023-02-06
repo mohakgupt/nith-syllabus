@@ -15,6 +15,7 @@ export default function TodoList(props){
     //         }
     //     }
     // }
+    props.setTitle("Todo List - nith syllabus")
     return(
         <>
         
