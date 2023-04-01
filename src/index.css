@@ -5,6 +5,10 @@ html{
 }
 body{
   background-color: #eeeeee;
+  /* background-image: url('https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
   margin: 0 auto;
   max-width: 992px;
 }
@@ -29,6 +33,10 @@ body::-webkit-scrollbar{
 /* .zoom-body{
   animation: zoombody 0.2s ease-out;
 } */
+/* .subcard{ */
+
+  /* backdrop-filter: blur(3px); */
+/* } */
 .push-container{
   animation: move 0.25s ease-out;
 }

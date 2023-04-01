@@ -80,7 +80,7 @@ export default function Filter(props) {
   };
 
   return (
-    <div style={{margin: "1em auto", textAlign:'center'}}>
+    <div style={{margin: "1em auto", textAlign:'center', marginTop: 70}}>
         <Typography sx={{fontSize: 12, display: 'inline-block', mt: 0.5, mr: 1}}>Filter by:</Typography>
       {/* <FormControl sx={{ m: 1, width: 300, mt: 3 }} size="small"> */}
         <TextField 

@@ -10,7 +10,7 @@ export default function SearchBox(props) {
   return (
     <Paper
       component="form"
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', maxWidth: 400, margin: '1em auto', borderRadius: 10, pl: 2, pr:2 }}
+      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 300, margin: '1em auto', borderRadius: 10, pl: 2, pr:2, position: "fixed", zIndex: 4, left: "50%", transform: "translateX(-50%)", top: 50 }}
       onSubmit={(e)=>{e.preventDefault()}}
     >
       <InputBase

@@ -12,7 +12,7 @@ export default function DataCard(props) {
   setTimeout(() => {
     setCardata(props.title &&
       <Link className="push-container" to={`/sub/${props.id}`} style={{ textDecoration: 'none' }} >
-        <Card sx={{ width: window.innerWidth>390?175:window.innerWidth>340?150:'90vw', height: 116, margin: 0.25, backgroundColor: '#fafafa' }}>
+        <Card sx={{ width: window.innerWidth>390?175:window.innerWidth>340?150:'90vw', height: 116, margin: 0.25, backgroundColor: '#fafafa' }} className='subcard'>
           <CardActionArea>
             <CardContent sx={{ p: 1 }}>
               <Typography sx={{fontSize: 10, padding: "1px 4px 0px 4px", backgroundColor: '#307ada', color: 'white', borderRadius: 2, display: "inline-block" }} color="text.secondary" gutterBottom>
