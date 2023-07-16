@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Check NITH Syllabus, create todo lists and share them with your friends."
+      content="Check National Institute of Technology Hamirpur (NIT-H) Syllabus website, create todo lists and share them with your friends."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -24,9 +24,15 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Serif:opsz@8..144&display=swap"
+      rel="stylesheet"
+    />
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script async src="https://api.countapi.xyz/hit/nithsyllabus.netlify.app/visits?callback=liveViews"></script>
+    <script
+      async
+      src="https://api.countapi.xyz/hit/nithsyllabus.netlify.app/visits?callback=liveViews"
+    ></script>
     <title>nith syllabus</title>
   </head>
   <body>
@@ -42,18 +48,17 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    
   </body>
   <!-- <script language="JavaScript">var fhsh = document.createElement('script');var fhs_id_h = "3372917";
     fhsh.src = "//freehostedscripts.net/ocount.php?site="+fhs_id_h+"&name=&a=1";
     document.head.appendChild(fhsh);document.write("<span id='h_"+fhs_id_h+"' style='font-size: smaller;'></span>");
     </script> -->
-    <script>
-      function liveViews(response) {
-          document.getElementById('visits').innerText = response.value;
-      }
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register("/pwabuilder-sw.js");
-      }
-    </script>
+  <script>
+    function liveViews(response) {
+      document.getElementById("visits").innerText = response.value;
+    }
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/pwabuilder-sw.js");
+    }
+  </script>
 </html>
