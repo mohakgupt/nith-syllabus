@@ -37,10 +37,10 @@
       />
     </noscript>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script
+    <!-- <script
       async
       src="https://api.countapi.xyz/hit/nithsyllabus.netlify.app/visits?callback=liveViews"
-    ></script>
+    ></script> -->
     <title>nith syllabus</title>
   </head>
   <body>
@@ -62,9 +62,9 @@
     document.head.appendChild(fhsh);document.write("<span id='h_"+fhs_id_h+"' style='font-size: smaller;'></span>");
     </script> -->
   <script>
-    function liveViews(response) {
-      document.getElementById("visits").innerText = response.value;
-    }
+    // function liveViews(response) {
+    //   document.getElementById("visits").innerText = response.value;
+    // }
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker.register("/pwabuilder-sw.js");
     }
