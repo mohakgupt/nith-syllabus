@@ -12,30 +12,31 @@ export default function Footer({ visitCount }) {
         fontSize: "10px",
         position: "absolute",
         bottom: 0,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: "1em",
       }}
     >
       <Divider sx={{ mb: 1 }} />
-      <span>All information displayed belongs to NIT Hamirpur</span>
-      <br />
-      <span>
-        Made with ❤️ by{" "}
+      <span>All information displayed belongs to NIT Hamirpur. Made with ❤️ by{" "}
         <a
           href="https://instagram.com/mohak_g22"
           style={{ textDecoration: "none", color: "gray" }}
         >
           Mohak
         </a>
-      </span>
-      <br />
+        .</span>
       <GitHubButton
         href="https://github.com/mohakgupt/nith-syllabus"
         data-icon="octicon-star"
         data-show-count="true"
         aria-label="Star mohakgupt/nith-syllabus on GitHub"
+        data-color-scheme="no-preference: light; light: light; dark: dark;"
       >
         Star
       </GitHubButton>
-      <div id="visits">{visitCount}</div>
+      <div id="visits">Visits: {visitCount}</div>
     </div>
   );
 }

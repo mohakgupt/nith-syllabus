@@ -11,6 +11,7 @@ import Data from "./data.json";
 import ScrollToTop from "./components/scroll-to-top";
 import { useState, useEffect } from "react";
 
+
 export default function App() {
   document.title = "nith syllabus";
   const [query, setQuery] = useState("");
@@ -62,7 +63,12 @@ export default function App() {
     updateVisitCount();
   }, []);
 
+
+
+
+
   return (
+
     <>
       <Header />
       <ScrollToTop />

@@ -25,11 +25,14 @@ export default function DataCard(props) {
                 window.innerWidth > 385
                   ? 175
                   : window.innerWidth > 340
-                  ? 150
-                  : "90vw",
+                    ? 150
+                    : "90vw",
               height: 116,
               margin: 0.25,
-              backgroundColor: "#fafafa",
+              // backgroundColor: "#fafafa",
+              '&:hover #sub-code': {
+                backgroundColor: 'var(--mui-pallete-secondary-main)',
+              }
             }}
             className="subcard"
           >
@@ -39,11 +42,13 @@ export default function DataCard(props) {
                   sx={{
                     fontSize: 10,
                     padding: "1px 4px 0px 4px",
-                    backgroundColor: "#307ada",
+                    backgroundColor: 'var(--mui-pallete-primary-main)',
                     color: "white",
                     borderRadius: 2,
                     display: "inline-block",
+                    transition: 'background-color 0.2s',
                   }}
+                  id="sub-code"
                   color="text.secondary"
                   gutterBottom
                 >
@@ -53,7 +58,7 @@ export default function DataCard(props) {
                   component="div"
                   sx={{
                     fontSize: 16,
-                    color: "#424242",
+                    // color: "#424242",
                     height: "3.9em",
                     overflow: "hidden",
                   }}
@@ -67,7 +72,7 @@ export default function DataCard(props) {
               </CardContent>
             </CardActionArea>
           </Card>
-        </Link>
+        </Link >
       )
     );
   }, props.t);

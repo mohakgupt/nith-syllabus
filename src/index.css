@@ -1,32 +1,37 @@
 html{
-  padding: 1em;
+  /* padding: 1em; */
   padding-bottom: 0;
   -webkit-tap-highlight-color: transparent;
 }
 body{
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
   /* background-image: url('https://img.freepik.com/free-vector/night-ocean-landscape-full-moon-stars-shine_107791-7397.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; */
-  margin: 0 auto;
-  max-width: 992px;
+  /* margin: 0 auto; */
+  /* max-width: 992px; */
+  /* width: 100%; */
+  font-family: "PT Serif", serif;
 }
 #root{
   position: relative;
   min-height: 89vh;
 }
-body::-webkit-scrollbar{
+/* body::-webkit-scrollbar{
   display: none;
-}
+} */
 @media(max-width: 992px){
-  body{
+  /* body{
     max-width: 768px;
-  }
+  } */
 }
 @media(max-width: 768px){
-  body{
+  /* body{
     max-width: 576px;
+  } */
+  .unitListBox{
+    display: flex;
   }
 }
 
@@ -40,6 +45,7 @@ body::-webkit-scrollbar{
 .push-container{
   animation: move 0.25s ease-out;
 }
+
 @keyframes move {
   from{
     opacity: 0;

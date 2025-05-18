@@ -14,19 +14,19 @@ export default function ShareButton(props) {
   const handleClose = () => {
     setOpen(false);
   }
-  const share = async() => {
+  const share = async () => {
     setDisabled(true);
     const encodedParams = new URLSearchParams();
-    const url=`https://nithsyllabus.netlify.app/list/${name.replaceAll(" ", "*!")}/${JSON.stringify(props.keys).replaceAll("[", "b").replaceAll("]", "c").replaceAll('"', "q").replaceAll(",", "e").replaceAll("ceq", "i")}`
+    const url = `https://nithsyllabus.netlify.app/list/${name.replaceAll(" ", "*!")}/${JSON.stringify(props.keys).replaceAll("[", "b").replaceAll("]", "c").replaceAll('"', "q").replaceAll(",", "e").replaceAll("ceq", "i")}`
     encodedParams.append("url", url);
-    if(url.length<69){
+    if (url.length < 69) {
       navigator.share({
         title: "Study with me! Check out my list: ",
         url: url
       })
       handleClose();
       setDisabled(false);
-    }else{
+    } else {
       const options = {
         method: 'POST',
         headers: {
@@ -56,7 +56,7 @@ export default function ShareButton(props) {
           handleClose();
           setDisabled(false);
         });
-      }
+    }
   }
   return (Object.keys(props.keys).length ?
     <>
