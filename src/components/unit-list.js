@@ -1,8 +1,7 @@
 import UnitCard from "./unit-card";
 import { Box } from "@mui/system";
 import { useParams } from "react-router-dom";
-import ListButton from './list-button'
-import { Typography, TableContainer, Table, TableRow, TableCell, Chip } from "@mui/material";
+import { Typography, Chip } from "@mui/material";
 
 export default function UnitList(props) {
     const id = parseInt(useParams().id);

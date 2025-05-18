@@ -4,13 +4,11 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
-import { IconButton, Box, Snackbar, Tooltip, Accordion, AccordionSummary, AccordionDetails, AccordionActions } from '@mui/material';
-import { Divider } from '@mui/material';
+import { IconButton, Box, Snackbar, Tooltip } from '@mui/material';
 import { useState } from 'react';
 import Chip from '@mui/material/Chip';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import Fade from '@mui/material/Fade';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import BookIcon from '@mui/icons-material/Book';
 
 export default function UnitCard(props) {
@@ -82,7 +80,7 @@ export default function UnitCard(props) {
           {/* </AccordionDetails> */}
         </CardContent>
       </Card >)
-    {/* </Accordion>) */ }
+    // {/* </Accordion>) */ }
   }, props.t);
 
   return (<>{c}<Snackbar
