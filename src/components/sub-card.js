@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function DataCard(props) {
-  const [s, l, t, p] = props.credits;
+  const { C, L, T, P } = props.credits;
   const [cardata, setCardata] = useState(
     <div style={{ height: 120, width: 178 }}></div>
   );
@@ -66,8 +66,8 @@ export default function DataCard(props) {
                   {props.title.toUpperCase()}
                 </Typography>
                 <Typography variant="body2" sx={{ fontSize: 10, mt: 1 }}>
-                  {`${s} credits (`}
-                  {p ? `${p}P)` : `${l}L+${t}T)`}
+                  {`${C} credits (`}
+                  {P ? `${P}P)` : `${L}L+${T}T)`}
                 </Typography>
               </CardContent>
             </CardActionArea>

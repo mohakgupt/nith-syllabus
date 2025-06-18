@@ -1,9 +1,14 @@
 [
     {
         "id": 1,
-        "code": "ma-203",
+        "code": "MA-203",
         "title": "engineering mathematics-iii",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -39,9 +44,14 @@
     },
     {
         "id": 2,
-        "code": "ec-221",
+        "code": "EC-221",
         "title": "linear integrated circuits (LIC)",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -80,16 +90,21 @@
             },
             {
                 "id": 0,
-                "title":"Books",
+                "title": "Books",
                 "topics": "OP-AMP and Linear Integrated Circuits Ramakant A Gayakwad PHI Publication._Design with Operation Amplifiers and Analog Integrated circuits Sergei Franco TMH._Integrated Electronics: Analog and Digital Circuits & System Millman & Halkias TMH._Linear Integrated Circuits D Choudhari S Jain New Age International limited"
             }
         ]
     },
     {
         "id": 3,
-        "code": "ec-222",
+        "code": "EC-222",
         "title": "analog communication systems",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -125,9 +140,14 @@
     },
     {
         "id": 4,
-        "code": "ec-212",
+        "code": "EC-212",
         "title": "analog electronics",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -173,9 +193,14 @@
     },
     {
         "id": 5,
-        "code": "ma-111",
+        "code": "MA-111",
         "title": "engineering mathematics-i",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -211,9 +236,14 @@
     },
     {
         "id": 6,
-        "code": "ma-121",
+        "code": "MA-121",
         "title": "engineering mathematics-ii",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -244,9 +274,14 @@
     },
     {
         "id": 7,
-        "code": "cs-101",
+        "code": "CS-101",
         "title": "computer programming",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -282,9 +317,14 @@
     },
     {
         "id": 8,
-        "code": "hs-101",
+        "code": "HS-101",
         "title": "communication skills",
-        "credits": [3,2,1,0],
+        "credits": {
+            "C": 3,
+            "L": 2,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -325,9 +365,14 @@
     },
     {
         "id": 9,
-        "code": "me-101",
+        "code": "ME-101",
         "title": "engineering graphics",
-        "credits": [3,1,0,3],
+        "credits": {
+            "C": 3,
+            "L": 1,
+            "T": 0,
+            "P": 3
+        },
         "units": [
             {
                 "id": 1,
@@ -383,9 +428,14 @@
     },
     {
         "id": 10,
-        "code": "me-102",
+        "code": "ME-102",
         "title": "engineering workshop",
-        "credits": [3,1,0,3],
+        "credits": {
+            "C": 3,
+            "L": 1,
+            "T": 0,
+            "P": 3
+        },
         "units": [
             {
                 "id": 1,
@@ -426,9 +476,14 @@
     },
     {
         "id": 11,
-        "code": "ph-101",
+        "code": "PH-101",
         "title": "engineering physics  ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -469,9 +524,14 @@
     },
     {
         "id": 12,
-        "code": "cy-101",
+        "code": "CY-101",
         "title": "engineering chemistry",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -507,9 +567,14 @@
     },
     {
         "id": 13,
-        "code": "ce-101",
+        "code": "CE-101",
         "title": "applied mechanics ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -550,9 +615,14 @@
     },
     {
         "id": 14,
-        "code": "ms-101",
+        "code": "MS-101",
         "title": "materials science and engineering ",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -588,9 +658,14 @@
     },
     {
         "id": 15,
-        "code": "ec-101",
+        "code": "EC-101",
         "title": "basic electronics engineering",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -631,9 +706,14 @@
     },
     {
         "id": 16,
-        "code": "ee-101",
+        "code": "EE-101",
         "title": "basic electrical engineering ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -662,16 +742,21 @@
             },
             {
                 "id": 0,
-                "title":"Books",
+                "title": "Books",
                 "topics": "Fundamental of Electric Circuits by Charles K Alexander and Matthew N. O. Sadiku, TMH Publication._Electrical Engineering Fundamentals by Vincent Del Toro, PHI Publication._Basic Electrical Engineering by V N Mittal & Arvind Mittal, TMH Publication._Basic Electrical Technology by A.E. Fitzgerald, McGraw Hill Publication.  _Electrical Estimating and Costing by N Alagappan and B Ekambaram, TMH Publication"
             }
         ]
     },
     {
         "id": 17,
-        "code": "cs-102",
+        "code": "CS-102",
         "title": "computer programming lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -682,9 +767,14 @@
     },
     {
         "id": 18,
-        "code": "hs-102",
+        "code": "HS-102",
         "title": "communication skills lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -695,9 +785,14 @@
     },
     {
         "id": 19,
-        "code": "ph-102",
+        "code": "PH-102",
         "title": "engineering physics lab ",
-        "credits": [1, 0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -708,9 +803,14 @@
     },
     {
         "id": 20,
-        "code": "cy-102",
+        "code": "CY-102",
         "title": "engineering chemistry lab ",
-        "credits": [1, 0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -721,9 +821,14 @@
     },
     {
         "id": 21,
-        "code": "ec-102",
+        "code": "EC-102",
         "title": "electronics engineering lab ",
-        "credits": [1, 0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -734,9 +839,14 @@
     },
     {
         "id": 22,
-        "code": "ee-102",
+        "code": "EE-102",
         "title": "electrical engineering lab ",
-        "credits": [1, 0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -747,9 +857,14 @@
     },
     {
         "id": 23,
-        "code": "ec-224",
+        "code": "EC-224",
         "title": "VLSI Technology ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -777,17 +892,22 @@
                 "topics": "Prototype fabrication of Diodes, npn BJT, pnp BJT, MOSFETs (Enhancement and depletion mode), n-MOS, p-MOS, CMOS, Resistors and Capacitors"
             },
             {
-                "id":0,
-                "title":"Books",
-                "topics":"VLSI Technology by S.M. Sze, Tata Mc-Graw Hill_VLSI Fabrication Principles by S.K. Gandhi, John Willey & Sons_Integrated Circuits by K. R. Botkar, Khanna Publishers_Micromachined Transducer by G.T.A. Kovacs, McGraw Hill, 1998_Principles of Microelectronics Technology by D. Nagchoudhary, PHI "
+                "id": 0,
+                "title": "Books",
+                "topics": "VLSI Technology by S.M. Sze, Tata Mc-Graw Hill_VLSI Fabrication Principles by S.K. Gandhi, John Willey & Sons_Integrated Circuits by K. R. Botkar, Khanna Publishers_Micromachined Transducer by G.T.A. Kovacs, McGraw Hill, 1998_Principles of Microelectronics Technology by D. Nagchoudhary, PHI "
             }
         ]
     },
     {
         "id": 24,
-        "code": "ec-223",
+        "code": "EC-223",
         "title": "Electromagnetic Field Theory",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -816,16 +936,21 @@
             },
             {
                 "id": 0,
-                "title":"Books",
-                "topics":"Elements of Engineering Electromagnetics by Matthew N.O. Sadiku, Oxford University Press._Engineering Electromagnetics by William Hayt, TATA McGraw-Hill._Elements of Engineering Electromagnetics by Narayana Rao, N, Pearson Education._Electromagnetic Waves and Radiating Systems by Jordan and Balmain, PHI, Second Ed._Electromagnetics by J.D. Kraus, McGraw-Hill"
+                "title": "Books",
+                "topics": "Elements of Engineering Electromagnetics by Matthew N.O. Sadiku, Oxford University Press._Engineering Electromagnetics by William Hayt, TATA McGraw-Hill._Elements of Engineering Electromagnetics by Narayana Rao, N, Pearson Education._Electromagnetic Waves and Radiating Systems by Jordan and Balmain, PHI, Second Ed._Electromagnetics by J.D. Kraus, McGraw-Hill"
             }
         ]
     },
     {
         "id": 25,
-        "code": "ec-225",
+        "code": "EC-225",
         "title": "Linear Integrated Circuits (LIC) Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -836,9 +961,14 @@
     },
     {
         "id": 26,
-        "code": "ec-226",
+        "code": "EC-226",
         "title": "Analog Communication Lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -849,9 +979,14 @@
     },
     {
         "id": 27,
-        "code": "ec-227",
+        "code": "EC-227",
         "title": "Circuit Design and Simulation Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -862,9 +997,14 @@
     },
     {
         "id": 28,
-        "code": "ec-321",
+        "code": "EC-321",
         "title": "Microcontroller And Embedded Systems",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -892,17 +1032,22 @@
                 "topics": "Syntax, Addressing modes and operands, Memory access instructions, Logical operations, Shift operations, Arithmetic operations, Stack, Functions and control flow, Assembler directives, Thumb and arm instruction differences, Development with Keil and Mbed, Applications like IoT and machine learning with cortex-M"
             },
             {
-                "id":0,
-                "title":"Books",
-                "topics":"The 8051 Microcontroller and Embedded Systems (2nd Ed.) by Mazidi Muhammad Ali, Pearson publications._The Definitive Guide to ARM Cortex-M3 processors (3rd Ed.) by Joseph Yiu, Newnes publication._Introduction to ARM Cortex-M Microcontrollers, Vol. 1 (5th Ed.) by Jonathan W. Valvano, Create Space._Real-Time Interfacing to ARM Cortex-M Microcontrollers, Vol. 2 (4th Ed.) by Jonathan W. Valvano, Create Space._Real-Time Operating Systems for ARM Cortex-M Microcontrollers, Vol. 3 (2nd Ed.) by Jonathan W. Valvano, Create Space."
+                "id": 0,
+                "title": "Books",
+                "topics": "The 8051 Microcontroller and Embedded Systems (2nd Ed.) by Mazidi Muhammad Ali, Pearson publications._The Definitive Guide to ARM Cortex-M3 processors (3rd Ed.) by Joseph Yiu, Newnes publication._Introduction to ARM Cortex-M Microcontrollers, Vol. 1 (5th Ed.) by Jonathan W. Valvano, Create Space._Real-Time Interfacing to ARM Cortex-M Microcontrollers, Vol. 2 (4th Ed.) by Jonathan W. Valvano, Create Space._Real-Time Operating Systems for ARM Cortex-M Microcontrollers, Vol. 3 (2nd Ed.) by Jonathan W. Valvano, Create Space."
             }
         ]
     },
     {
         "id": 29,
-        "code": "ec-322",
+        "code": "EC-322",
         "title": "Wireless Communication",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -930,17 +1075,22 @@
                 "topics": "Introduction to multiple access, Frequency division multiple access, Time division multiple access, Spread spectrum multiple access, Space division multiple access, Packet radio, Orthogonal frequency division multiple access; Introduction to wireless systems and standards"
             },
             {
-                "id":0,
-                "title":"Books",
-                "topics":"Wireless Communications: Principles and Practice by Theodore S. Rappaport, Pearson / PHI Publication_Wireless Communications and Networks: 3G and Beyond by Iti Saha Misra, Tata McGraw Hill Publication_Mobile Cellular Telecommunications: Analog and Digital Systems by William C. Y. Lee, Tata McGraw Hill Publication_Wireless Digital Communications by Kamilo Feher, PHI Publication "
+                "id": 0,
+                "title": "Books",
+                "topics": "Wireless Communications: Principles and Practice by Theodore S. Rappaport, Pearson / PHI Publication_Wireless Communications and Networks: 3G and Beyond by Iti Saha Misra, Tata McGraw Hill Publication_Mobile Cellular Telecommunications: Analog and Digital Systems by William C. Y. Lee, Tata McGraw Hill Publication_Wireless Digital Communications by Kamilo Feher, PHI Publication "
             }
         ]
     },
     {
         "id": 30,
-        "code": "ec-323",
+        "code": "EC-323",
         "title": "VLSI Design Techniques ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -968,7 +1118,7 @@
                 "topics": "MOS memories: ROM design, SRAM Cell design and DRAMs"
             },
             {
-                "id":6,
+                "id": 6,
                 "title": "CMOS Amplifiers",
                 "topics": "Single stage MOS Amplifiers: Common Source amplifier, Common Gate amplifier, Common Drain amplifier "
             },
@@ -981,9 +1131,14 @@
     },
     {
         "id": 31,
-        "code": "ec-324",
+        "code": "EC-324",
         "title": "Antenna and Wave Propagation ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1024,9 +1179,14 @@
     },
     {
         "id": 32,
-        "code": "ec-325",
+        "code": "EC-325",
         "title": "Microprocessor and Microcontroller Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1037,9 +1197,14 @@
     },
     {
         "id": 33,
-        "code": "ec-326",
+        "code": "EC-326",
         "title": "VLSI Design Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1050,9 +1215,14 @@
     },
     {
         "id": 34,
-        "code": "hs-404",
+        "code": "HS-404",
         "title": "Engineering Economics and Accountancy",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1081,12 +1251,12 @@
             },
             {
                 "id": 6,
-                "title" : "Depreciation",
+                "title": "Depreciation",
                 "topics": "Meaning of depreciation, causes, object of providing depreciation, factors affecting depreciation, Methods of Depreciation: Straight line method, Diminishing balance method, Annuity method and Sinking Fund method"
             },
             {
                 "id": 7,
-                "title" : "Financial Accounting",
+                "title": "Financial Accounting",
                 "topics": "Double entry system (concept only), Rules of Double entry system, Journal(Sub-division of Journal) , Ledger, Trial Balance  Preparation of final accounts-Trading Account. Profit and Loss account, Balance Sheet"
             },
             {
@@ -1098,9 +1268,14 @@
     },
     {
         "id": 35,
-        "code": "ec-421",
+        "code": "EC-421",
         "title": "Data Communication & Computer Networks ",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1146,9 +1321,14 @@
     },
     {
         "id": 36,
-        "code": "hs-203",
+        "code": "HS-203",
         "title": "Organizational Behaviour",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1189,9 +1369,14 @@
     },
     {
         "id": 37,
-        "code": "cs-201",
+        "code": "CS-201",
         "title": "Data Structures",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1227,9 +1412,14 @@
     },
     {
         "id": 38,
-        "code": "cs-221",
+        "code": "CS-221",
         "title": "Computer Organization and Architecture ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1265,9 +1455,14 @@
     },
     {
         "id": 39,
-        "code": "cs-222",
+        "code": "CS-222",
         "title": "Operating System",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1308,9 +1503,14 @@
     },
     {
         "id": 40,
-        "code": "cs-223",
+        "code": "CS-223",
         "title": "Theory of Computation ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1351,9 +1551,14 @@
     },
     {
         "id": 41,
-        "code": "cs-202",
+        "code": "CS-202",
         "title": "Data Structures Lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1364,9 +1569,14 @@
     },
     {
         "id": 42,
-        "code": "cs-224",
+        "code": "CS-224",
         "title": "Computer Organization and Architecture Lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1377,9 +1587,14 @@
     },
     {
         "id": 43,
-        "code": "cs-225",
+        "code": "CS-225",
         "title": "",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 1,
@@ -1390,9 +1605,14 @@
     },
     {
         "id": 44,
-        "code": "ma-221",
+        "code": "MA-221",
         "title": "Linear Algebra & Applications",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1428,9 +1648,14 @@
     },
     {
         "id": 45,
-        "code": "ma-222",
+        "code": "MA-222",
         "title": "Statistical Methods",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1466,9 +1691,14 @@
     },
     {
         "id": 46,
-        "code": "ma-223",
+        "code": "MA-223",
         "title": "Data Structure ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1504,9 +1734,14 @@
     },
     {
         "id": 47,
-        "code": "ma-224",
+        "code": "MA-224",
         "title": "Operating System ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1542,9 +1777,14 @@
     },
     {
         "id": 48,
-        "code": "ma-225",
+        "code": "MA-225",
         "title": "Data Structure Lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1555,9 +1795,14 @@
     },
     {
         "id": 49,
-        "code": "ma-226",
+        "code": "MA-226",
         "title": "Statistical Methods Lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1568,9 +1813,14 @@
     },
     {
         "id": 50,
-        "code": "ma-227",
+        "code": "MA-227",
         "title": "Operating System Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1581,9 +1831,14 @@
     },
     {
         "id": 51,
-        "code": "ce-221",
+        "code": "CE-221",
         "title": "Indeterminate Structures",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1614,9 +1869,14 @@
     },
     {
         "id": 52,
-        "code": "ce-222",
+        "code": "CE-222",
         "title": "Water Resources Engineering-I",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1657,9 +1917,14 @@
     },
     {
         "id": 53,
-        "code": "ce-223",
+        "code": "CE-223",
         "title": "Soil Mechanics",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1700,9 +1965,14 @@
     },
     {
         "id": 54,
-        "code": "ce-224",
+        "code": "CE-224",
         "title": "Building Materials and Construction ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1743,9 +2013,14 @@
     },
     {
         "id": 55,
-        "code": "ce-225",
+        "code": "CE-225",
         "title": "Building Materials Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1756,9 +2031,14 @@
     },
     {
         "id": 56,
-        "code": "ce-226",
+        "code": "CE-226",
         "title": "Structural Lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1769,9 +2049,14 @@
     },
     {
         "id": 57,
-        "code": "ce-227",
+        "code": "CE-227",
         "title": "Building Construction Drawing",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1782,9 +2067,14 @@
     },
     {
         "id": 58,
-        "code": "ma-321",
+        "code": "MA-321",
         "title": "Real & Complex Analysis",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1820,9 +2110,14 @@
     },
     {
         "id": 59,
-        "code": "ma-322",
+        "code": "MA-322",
         "title": "Advanced Differential Equations and Applications",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1858,9 +2153,14 @@
     },
     {
         "id": 60,
-        "code": "ma-323",
+        "code": "MA-323",
         "title": "Time Series Analysis & Forecasting",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1896,9 +2196,14 @@
     },
     {
         "id": 61,
-        "code": "ma-324",
+        "code": "MA-324",
         "title": "Soft Computing",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -1934,9 +2239,14 @@
     },
     {
         "id": 62,
-        "code": "ma-325",
+        "code": "MA-325",
         "title": "Numerical Computation Lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1947,9 +2257,14 @@
     },
     {
         "id": 63,
-        "code": "ma-326",
+        "code": "MA-326",
         "title": "Time Series Analysis Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -1960,9 +2275,14 @@
     },
     {
         "id": 64,
-        "code": "ce-321",
+        "code": "CE-321",
         "title": "Steel Structure",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2008,9 +2328,14 @@
     },
     {
         "id": 65,
-        "code": "ce-322",
+        "code": "CE-322",
         "title": "Water Resources Engineering -II",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2051,9 +2376,14 @@
     },
     {
         "id": 66,
-        "code": "ce-323",
+        "code": "CE-323",
         "title": "Railways and Airports",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2084,9 +2414,14 @@
     },
     {
         "id": 67,
-        "code": "ce-324",
+        "code": "CE-324",
         "title": "Waste Water Treatment and Management",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2127,9 +2462,14 @@
     },
     {
         "id": 68,
-        "code": "ce-325",
+        "code": "CE-325",
         "title": "Environmental Engineering Lab ",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -2140,9 +2480,14 @@
     },
     {
         "id": 69,
-        "code": "ce-326",
+        "code": "CE-326",
         "title": "Structural Drawing",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -2153,9 +2498,14 @@
     },
     {
         "id": 70,
-        "code": "cs-321",
+        "code": "CS-321",
         "title": "Distributed Systems",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2191,9 +2541,14 @@
     },
     {
         "id": 71,
-        "code": "cs-322",
+        "code": "CS-322",
         "title": "Software Engineering",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2239,9 +2594,14 @@
     },
     {
         "id": 72,
-        "code": "cs-323",
+        "code": "CS-323",
         "title": "Digital Image Processing ",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2282,9 +2642,14 @@
     },
     {
         "id": 73,
-        "code": "cs-324",
+        "code": "CS-324",
         "title": "Computer Networks",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2325,9 +2690,14 @@
     },
     {
         "id": 74,
-        "code": "cs-325",
+        "code": "CS-325",
         "title": "Digital Image Processing Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -2338,9 +2708,14 @@
     },
     {
         "id": 75,
-        "code": "cs-325",
+        "code": "CS-325",
         "title": "Computer Networks Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -2351,9 +2726,14 @@
     },
     {
         "id": 76,
-        "code": "ee-221",
+        "code": "EE-221",
         "title": "Electrical Machines – I",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2384,9 +2764,14 @@
     },
     {
         "id": 77,
-        "code": "ee-222",
+        "code": "EE-222",
         "title": "Microprocessor Architecture and Interfacing",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2427,9 +2812,14 @@
     },
     {
         "id": 78,
-        "code": "ee-223",
+        "code": "EE-223",
         "title": "Power Electronics",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2465,9 +2855,14 @@
     },
     {
         "id": 79,
-        "code": "ee-224",
+        "code": "EE-224",
         "title": "Power System",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2508,9 +2903,14 @@
     },
     {
         "id": 80,
-        "code": "ee-225",
+        "code": "EE-225",
         "title": "Electrical Machines–I Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -2521,9 +2921,14 @@
     },
     {
         "id": 81,
-        "code": "ee-226",
+        "code": "EE-226",
         "title": "Power Electronics Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -2534,9 +2939,14 @@
     },
     {
         "id": 82,
-        "code": "ee-227",
+        "code": "EE-227",
         "title": "Microprocessor Architecture and Interfacing Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -2547,9 +2957,14 @@
     },
     {
         "id": 83,
-        "code": "ee-321",
+        "code": "EE-321",
         "title": "Control Engineering",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2590,9 +3005,14 @@
     },
     {
         "id": 84,
-        "code": "ee-322",
+        "code": "EE-322",
         "title": "Power System Analysis",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2638,9 +3058,14 @@
     },
     {
         "id": 85,
-        "code": "ee-323",
+        "code": "EE-323",
         "title": "Digital Signal Processing",
-        "credits": [4,3,1,0],
+        "credits": {
+            "C": 4,
+            "L": 3,
+            "T": 1,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2676,9 +3101,14 @@
     },
     {
         "id": 86,
-        "code": "ee-324",
+        "code": "EE-324",
         "title": "Electric Drives",
-        "credits": [3,3,0,0],
+        "credits": {
+            "C": 3,
+            "L": 3,
+            "T": 0,
+            "P": 0
+        },
         "units": [
             {
                 "id": 1,
@@ -2714,9 +3144,14 @@
     },
     {
         "id": 87,
-        "code": "ee-325",
+        "code": "EE-325",
         "title": "Control Engineering Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -2727,9 +3162,14 @@
     },
     {
         "id": 88,
-        "code": "ee-326",
+        "code": "EE-326",
         "title": "Power System Analysis Lab",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,
@@ -2740,9 +3180,14 @@
     },
     {
         "id": 89,
-        "code": "ee-325",
+        "code": "EE-325",
         "title": "",
-        "credits": [1,0,0,2],
+        "credits": {
+            "C": 1,
+            "L": 0,
+            "T": 0,
+            "P": 2
+        },
         "units": [
             {
                 "id": 20,

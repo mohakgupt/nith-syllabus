@@ -42,7 +42,7 @@ export default function UnitCard(props) {
       <Card className="push-container unitCard" sx={{ width: '100%', margin: 0.25, mb: 1, position: 'relative', borderRadius: 4, boxShadow: '0 1px 3px rgba(0,0,0,0.2)', transition: 'transform 0.2s', '&:hover #unit-tag': { backgroundColor: 'var(--mui-pallete-secondary-main)', borderRadius: '20%' } }}>
         <CardContent sx={{ p: 2 }}>
           {/* <AccordionSummary expandIcon={<ExpandMoreIcon />} sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}> */}
-          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
             <Typography component={"span"} id='unit-tag' sx={{ flexShrink: 0, flexGrow: 0, textAlign: 'center', height: '1lh', width: '1lh', fontFamily: "Roboto", fontSize: 24, backgroundColor: '#640f12', color: 'white', borderRadius: '100%', display: "inline-block", ml: 1, my: 'auto', transition: 'background-color 0.2s, border-radius 0.2s' }} color="text.secondary">
               {(num && num !== 20) ? `${num}` : <BookIcon sx={{ mt: '5px' }} />}
             </Typography>
