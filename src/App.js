@@ -7,16 +7,19 @@ import UnitList from "./components/unit-list";
 import TodoList from "./components/todo-list";
 import SharedTodoList from "./components/shared-todo-list";
 import Footer from "./components/footer";
-import Data from "./data.json";
+// import Data from "./data.json";
+import Data from "./datav2.json";
 import ScrollToTop from "./components/scroll-to-top";
 import { useState, useEffect } from "react";
+import NotFound from "./components/404";
 
 
 export default function App() {
   document.title = "nith syllabus";
   const [query, setQuery] = useState("");
   const [branch, setBranch] = useState("al");
-  const [year, setYear] = useState("al");
+  const [semester, setSemester] = useState("al");
+  const [type, setType] = useState('al');
   const [visitCount, setVisitCount] = useState(null);
   let ckeys;
   if (localStorage.getItem("keys")) {
@@ -33,6 +36,7 @@ export default function App() {
     setKeys(initkeys);
   };
   const removeKey = (s, u) => {
+    console.log(s, u);
     let initkeys = JSON.parse(JSON.stringify(keys));
     initkeys[s] = initkeys[s].filter((x) => {
       return u !== x;
@@ -82,14 +86,16 @@ export default function App() {
               setQuery={setQuery}
               branch={branch}
               setBranch={setBranch}
-              year={year}
-              setYear={setYear}
+              semester={semester}
+              setSemester={setSemester}
+              type={type}
+              setType={setType}
               keys={keys}
             />
           }
         ></Route>
         <Route
-          path="/sub/:id"
+          path="/:code"
           element={
             <UnitList
               data={Data}
@@ -114,6 +120,7 @@ export default function App() {
           path="/list/:name/:keys"
           element={<SharedTodoList data={Data} />}
         ></Route>
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <div style={{ height: "1em" }}></div>
       <Footer visitCount={visitCount} />

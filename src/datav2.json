@@ -1,0 +1,1729 @@
+[
+    {
+        "code": "MA-111",
+        "title": "Linear Algebra & Calculus",
+        "credits": {
+            "c": 3,
+            "l": 3,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Linear Algebra",
+                "topics": [
+                    "Matrices",
+                    "Equivalent Matrix",
+                    "Elementary Matrix",
+                    "Normal form of a matrix",
+                    "Gauss-Jordan reduction and inverse of matrices",
+                    "Row-reduced matrix",
+                    "Linear dependence and independence of vectors",
+                    "Rank of a matrix",
+                    "Consistency and Solution of linear system of equations"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Eigenvalues and Eigenvectors",
+                "topics": [
+                    "Characteristic equation",
+                    "Eigen-values",
+                    "Eigen vectors",
+                    "Properties of Eigen-values",
+                    "Orthogonal vectors and its properties",
+                    "Cayley-Hamilton theorem and its applications"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Differential Calculus",
+                "topics": [
+                    "Function of two variables",
+                    "Limit",
+                    "Continuity and Differentiability",
+                    "Partial Differentiation and its geometrical interpretation",
+                    "Homogeneous functions",
+                    "Euler‘s theorem and its extension",
+                    "Total differentials",
+                    "Composite function",
+                    "Jacobian",
+                    "Taylor‘s and Maclaurin‘s series (for one and two variables)",
+                    "Maxima and minima of functions of two variables",
+                    "Method of undetermined multipliers",
+                    "Curve tracing"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Integral Calculus",
+                "topics": [
+                    "Double Integrals (Cartesian and Polar)",
+                    "Change of Order of Integration",
+                    "Change of Variables",
+                    "Applications of Double Integrals",
+                    "Triple integrals",
+                    "Change of variables",
+                    "Applications of Triple Integrals"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Vector Calculus (Differential)",
+                "topics": [
+                    "Point functions",
+                    "Differentiation of vectors",
+                    "General rule of differentiation",
+                    "Space curves",
+                    "Tangent, Principal normal, Binormal",
+                    "Osculating plane, Normal plane, Rectifying plane",
+                    "Curvature and Torsion",
+                    "Radius of curvature",
+                    "Frenet‘s formulae",
+                    "Tangential and Normal Acceleration",
+                    "Relative Velocity and Acceleration",
+                    "Gradient, Divergence and Curl and their Physical Interpretation",
+                    "Directional derivative",
+                    "Del applied twice to point function",
+                    "Del applied to products of point functions"
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Vector Calculus (Integral)",
+                "topics": [
+                    "Line Integral",
+                    "Surface Integral",
+                    "Volume integrals",
+                    "Theorems of Green, Stokes and Gauss (without proofs)",
+                    "Verifications and applications of vector theorems",
+                    "Irrotational fields",
+                    "Solenoidal fields"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Advanced Engineering Mathematics",
+                "authors": "E. Kreyszig"
+            },
+            {
+                "id": 2,
+                "title": "Advanced Engineering Mathematics",
+                "authors": "R.K. Jain and S.R.K. Iyenger"
+            },
+            {
+                "id": 3,
+                "title": "Higher Engineering Mathematics",
+                "authors": "B.V. Ramana"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Thomas' Calculus",
+                "authors": "G.B. Thomas, M.D. Weir, J. Hass"
+            },
+            {
+                "id": 2,
+                "title": "Calculus",
+                "authors": "Gilbert Strang"
+            },
+            {
+                "id": 3,
+                "title": "Higher Engineering Mathematics",
+                "authors": "B.S. Grewal"
+            }
+        ],
+        "outcomes": [
+            "Understand and analyze the theoretical & practical aspects of matrices and calculus.",
+            "Solve systems of linear equations using multiple methods, demonstrate understanding of linear independence, and determine eigenvalues and eigenvectors.",
+            "Understand the various solution techniques and practical aspects of differential and Integral calculus.",
+            "Familiar understanding with the basic concepts of differential geometry and the application of vector differentiation and integration to solve real time surface, area and volume problems.",
+            "Apply the concepts of matrices and calculus in various engineering problems."
+        ]
+    },
+    {
+        "code": "PH-101",
+        "title": "Engineering Physics",
+        "credits": {
+            "c": 3,
+            "l": 3,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Electrodynamics",
+                "topics": [
+                    "Gauss’s Law and applications",
+                    "Ampere’s Law and its application",
+                    "Faraday’s law",
+                    "Displacement current",
+                    "Maxwell’s equations",
+                    "Poynting vector"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Interference & Diffraction",
+                "topics": [
+                    "Interference by division of amplitude and wavefront",
+                    "Michelson’s interferometer",
+                    "Fresnel and Fraunhofer diffraction",
+                    "Single slit and double slit diffraction",
+                    "Diffraction grating"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Fiber Optics and Photonics",
+                "topics": [
+                    "Optical Fiber: physical structure and basic theory",
+                    "Modes in optical fibers",
+                    "Step index and graded index fibers",
+                    "Losses in optical fibers",
+                    "Sources and sensors",
+                    "Applications in communication"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Quantum Mechanics",
+                "topics": [
+                    "Compton effect",
+                    "Wave function",
+                    "Operators, expectation values",
+                    "Time-independent and dependent Schrodinger equation",
+                    "Particle in 1D potential well"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Introduction to Solids",
+                "topics": [
+                    "Free electron theory",
+                    "Fermi level",
+                    "Bloch’s theorem",
+                    "Kronig–Penny model",
+                    "Energy bands",
+                    "Semiconductors and insulators"
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Superconductivity",
+                "topics": [
+                    "Discovery and properties",
+                    "Type I and II superconductors",
+                    "Meissner effect",
+                    "BCS theory overview"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "A Textbook of Engineering Physics",
+                "authors": "M.N. Avadhanulu and P.G. Kshirsagar"
+            },
+            {
+                "id": 2,
+                "title": "Textbook of Engineering Physics",
+                "authors": "P.S. Aithal and H.J. Ravindra"
+            },
+            {
+                "id": 3,
+                "title": "State Physics",
+                "authors": "C. Kittel"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Lasers: Fundamentals and Applications",
+                "authors": "A.K. Ghatak and K. Thyagarajan"
+            },
+            {
+                "id": 2,
+                "title": "Solid State Electronic Devices",
+                "authors": "B.G. Streetman"
+            },
+            {
+                "id": 3,
+                "title": "Modern Engineering Physics",
+                "authors": "A.S. Vasudeva"
+            }
+        ],
+        "outcomes": [
+            "Describe the optical devices and their applications.",
+            "Apply Maxwell’s equations to electrodynamic systems.",
+            "Understand semiconductor physics for electronic systems.",
+            "Use quantum mechanics to solve nanoscale problems.",
+            "Interpret equipment and results based on physical phenomena."
+        ]
+    },
+    {
+        "code": "PH-102",
+        "title": "Physics Lab",
+        "credits": {
+            "c": 1,
+            "l": 0,
+            "t": 0,
+            "p": 2
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Experiments",
+                "topics": [
+                    "Specific resistance using post office box",
+                    "Sextant: inaccessible height measurement",
+                    "Convert galvanometer to ammeter/voltmeter",
+                    "Magnetic field variation via circular coil",
+                    "Newton’s rings: wavelength measurement",
+                    "Laser diffraction",
+                    "Optical fiber transmission",
+                    "Refractive index using spectrometer",
+                    "Young’s modulus (bending method)",
+                    "Telescope magnifying power",
+                    "Intensity inverse square law",
+                    "Additional experiments"
+                ]
+            }
+        ],
+        "textbooks": [],
+        "refbooks": [],
+        "outcomes": [
+            "Handle equipment and record measurements accurately.",
+            "Understand physical principles experimentally.",
+            "Use systems and instruments for precise measurement.",
+            "Work in teams and communicate results effectively."
+        ]
+    },
+    {
+        "code": "CS-111",
+        "title": "Introduction to Computer and C Programming",
+        "credits": {
+            "c": 3,
+            "l": 2,
+            "t": 0,
+            "p": 2
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Programming Fundamentals",
+                "topics": [
+                    "Introduction to computer",
+                    "Block diagram and organization",
+                    "Number system and binary arithmetic",
+                    "Processing data",
+                    "Hardware, software, firmware"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Programming Languages",
+                "topics": [
+                    "Machine language",
+                    "Assembly language",
+                    "High-level languages",
+                    "Source and object files",
+                    "Assembler, compiler, interpreter",
+                    "Evolution and classification of languages"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Programming Techniques",
+                "topics": [
+                    "Program development steps",
+                    "Algorithms",
+                    "Flowcharts",
+                    "Pseudo-code"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "C Language Basics",
+                "topics": [
+                    "C character set",
+                    "Literals, keywords, identifiers",
+                    "Data types and size",
+                    "Variables, expressions",
+                    "Statements and control structures",
+                    "Formatted I/O",
+                    "Operators and conversions"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Control Structures and Derived Types",
+                "topics": [
+                    "Loops and control statements",
+                    "Arrays and strings",
+                    "Pointers",
+                    "Structures and unions"
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Functions and File Handling",
+                "topics": [
+                    "Function basics and recursion",
+                    "Library functions",
+                    "File operations",
+                    "Preprocessors and macros",
+                    "Command-line arguments"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "C Programming Language",
+                "authors": "Brian W. Kernighan and Dennis Ritchie"
+            },
+            {
+                "id": 2,
+                "title": "Programming with C",
+                "authors": "Byron Gottfried"
+            },
+            {
+                "id": 3,
+                "title": "The Complete Reference C",
+                "authors": "Herbert Schildt"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Let Us C",
+                "authors": "Yashwant Kanetkar"
+            },
+            {
+                "id": 2,
+                "title": "A Structured Programming Approach in C",
+                "authors": "Behrouz A. Forouzan and Richard F. Gilberg"
+            },
+            {
+                "id": 3,
+                "title": "C In Depth",
+                "authors": "S.K. Srivastava and Deepali Srivastava"
+            }
+        ],
+        "outcomes": [
+            "Understand components and functioning of computers.",
+            "Design algorithms and flowcharts.",
+            "Write and debug C programs.",
+            "Use data structures and control structures in C."
+        ]
+    },
+    {
+        "code": "ME-101",
+        "title": "Basics of Mechanical Engineering",
+        "credits": {
+            "c": 3,
+            "l": 3,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Thermodynamics",
+                "topics": [
+                    "Heat and temperature",
+                    "Zeroth and First Laws",
+                    "Second Law and heat engines",
+                    "Steam properties",
+                    "Steam tables and calorimeters"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Thermodynamic Cycles and IC Engines",
+                "topics": [
+                    "Carnot, Otto, Diesel cycles",
+                    "IC engine types and efficiencies",
+                    "CRDI, MPFI, Hybrid engines"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Engineering Materials",
+                "topics": [
+                    "Types and properties of materials",
+                    "Ferrous and non-ferrous metals",
+                    "Polymers, ceramics, composites"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Manufacturing Processes",
+                "topics": [
+                    "Casting, forging, rolling, extrusion",
+                    "Welding, soldering, brazing",
+                    "Machining: turning, drilling, milling",
+                    "CAD/CAM, additive manufacturing"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Force and Structural Analysis",
+                "topics": [
+                    "Equilibrium and force diagrams",
+                    "SFD and BMD for beams",
+                    "Simple trusses"
+                ]
+            },
+            {
+                "id": 6,
+                "title": "Stress and Strain",
+                "topics": [
+                    "Stress-strain basics",
+                    "Elastic constants",
+                    "Bending and torsion of beams and shafts"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Basic Mechanical Engineering",
+                "authors": "J. Benjamin"
+            },
+            {
+                "id": 2,
+                "title": "Basics of Mechanical Engineering",
+                "authors": "R.K. Singal, M. Singal, R. Singal"
+            },
+            {
+                "id": 3,
+                "title": "Fundamentals of Mechanical Engineering",
+                "authors": "G.S. Sawhney"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Engineering Thermodynamics",
+                "authors": "P.K. Nag"
+            },
+            {
+                "id": 2,
+                "title": "Introduction to Engineering Materials",
+                "authors": "B.K. Agrawal"
+            },
+            {
+                "id": 3,
+                "title": "Manufacturing Processes and Engineering Materials",
+                "authors": "S. Kalpakjian and S.R. Schmid"
+            }
+        ],
+        "outcomes": [
+            "Understand thermodynamics and energy systems.",
+            "Understand IC engine types and cycles.",
+            "Identify suitable materials for applications.",
+            "Understand machining and manufacturing processes.",
+            "Analyze mechanical structures for stress and strain."
+        ]
+    },
+    {
+        "code": "HS-101",
+        "title": "Communication Skills",
+        "credits": {
+            "c": 2,
+            "l": 2,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Communication",
+                "topics": [
+                    "Communication process",
+                    "Types and modes",
+                    "Barriers to effective communication",
+                    "Verbal and non-verbal communication"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Listening and Speaking",
+                "topics": [
+                    "Types of listening",
+                    "Barriers and strategies",
+                    "Interview and GD preparation",
+                    "Public speaking and extempore",
+                    "SWOT analysis"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Reading Skills",
+                "topics": [
+                    "Note-making and referencing",
+                    "Comprehension and summarizing",
+                    "Reading fiction and poetry"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Writing Skills",
+                "topics": [
+                    "Paragraph writing",
+                    "Formal/informal letters and emails",
+                    "Statement of Purpose (SoP)",
+                    "Cover letter and resume",
+                    "Technical report writing"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Technical Communication: Principles and Practice",
+                "authors": "Meenakshi Raman & Sangeeta Sharma"
+            },
+            {
+                "id": 2,
+                "title": "English for Jobseekers",
+                "authors": "Lina Mukhopadhyay"
+            },
+            {
+                "id": 3,
+                "title": "Practical English Usage",
+                "authors": "Michael Swan"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Strengthen Your Communication Skills",
+                "authors": "Salivendra Jayaraju"
+            },
+            {
+                "id": 2,
+                "title": "The Definitive Book of Body Language",
+                "authors": "Allan and Barbara Pease"
+            },
+            {
+                "id": 3,
+                "title": "Language Through Literature: An Introduction",
+                "authors": "Paul Simpson"
+            }
+        ],
+        "outcomes": [
+            "Understand and apply communication theory in English.",
+            "Listen, read, and speak effectively in academic/professional contexts.",
+            "Analyze verbal and non-verbal communication.",
+            "Write clear and concise technical and formal documents."
+        ]
+    },
+    {
+        "code": "HS-103",
+        "title": "Human Values and Ethical Mindfulness",
+        "credits": {
+            "c": 2,
+            "l": 2,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Value Education",
+                "topics": [
+                    "Purpose and motivation for value education",
+                    "Need, content and process of value education",
+                    "Basic human aspirations"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Understanding Harmony at Various Levels",
+                "topics": [
+                    "Individual, family, society and nature",
+                    "Harmony in the human being",
+                    "Physical needs and right understanding"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Ethical Human Conduct",
+                "topics": [
+                    "Basis for ethical human conduct",
+                    "Trust and respect",
+                    "Competence and honesty"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Professional Ethics",
+                "topics": [
+                    "Definition and types of ethics",
+                    "Corporate and professional ethics",
+                    "Ethical codes of conduct"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "A Foundation Course in Human Values and Professional Ethics",
+                "authors": "R.R. Gaur, R. Sangal and G.P. Bagaria"
+            }
+        ],
+        "refbooks": [],
+        "outcomes": [
+            "Understand human aspirations and their fulfillment through right understanding.",
+            "Develop sensitivity and competence for effective participation in society.",
+            "Apply value-based living in personal and professional domains."
+        ]
+    },
+    {
+        "code": "MA-121",
+        "title": "Differential Equations",
+        "credits": {
+            "c": 3,
+            "l": 3,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "First Order Differential Equations",
+                "topics": [
+                    "Separable variables",
+                    "Homogeneous equations",
+                    "Linear equations",
+                    "Exact equations"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Higher Order Differential Equations",
+                "topics": [
+                    "Linear differential equations",
+                    "Method of undetermined coefficients",
+                    "Variation of parameters"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Laplace Transforms",
+                "topics": [
+                    "Definition and properties",
+                    "Inverse Laplace transforms",
+                    "Applications to differential equations"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Systems of Differential Equations",
+                "topics": [
+                    "Simultaneous differential equations",
+                    "Matrix methods",
+                    "Eigenvalue methods"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Advanced Engineering Mathematics",
+                "authors": "E. Kreyszig"
+            },
+            {
+                "id": 2,
+                "title": "Advanced Engineering Mathematics",
+                "authors": "R.K. Jain and S.R.K. Iyenger"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Higher Engineering Mathematics",
+                "authors": "B.S. Grewal"
+            }
+        ],
+        "outcomes": [
+            "Solve first-order and higher-order differential equations.",
+            "Apply Laplace transform techniques to solve differential equations.",
+            "Analyze systems of linear differential equations using matrix methods."
+        ]
+    },
+    {
+        "code": "CS-121",
+        "title": "Introduction to Python and Data Structures",
+        "credits": {
+            "c": 3,
+            "l": 2,
+            "t": 0,
+            "p": 2
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Python Basics",
+                "topics": [
+                    "Syntax, variables and data types",
+                    "Operators and expressions",
+                    "Input/output functions"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Control Structures and Functions",
+                "topics": [
+                    "Conditional statements",
+                    "Loops",
+                    "Defining and calling functions"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Data Structures in Python",
+                "topics": [
+                    "Lists, tuples, sets, dictionaries",
+                    "Operations on collections"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Advanced Topics and File Handling",
+                "topics": [
+                    "Recursion",
+                    "Modules and packages",
+                    "File I/O"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Think Python",
+                "authors": "Allen B. Downey"
+            },
+            {
+                "id": 2,
+                "title": "Python Programming",
+                "authors": "Reema Thareja"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Learning Python",
+                "authors": "Mark Lutz"
+            }
+        ],
+        "outcomes": [
+            "Write basic programs using Python.",
+            "Use control structures and functions effectively.",
+            "Work with built-in data structures.",
+            "Implement file handling and recursion in programs."
+        ]
+    },
+    {
+        "code": "EE-101",
+        "title": "Basic Electrical Engineering",
+        "credits": {
+            "c": 2,
+            "l": 2,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "DC Circuits and Network Theorems",
+                "topics": [
+                    "Ohm’s Law and Kirchhoff’s Laws",
+                    "Superposition Theorem",
+                    "Thevenin’s and Norton’s Theorem"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "AC Circuits",
+                "topics": [
+                    "Phasor analysis",
+                    "Series and parallel RLC circuits",
+                    "Power and power factor"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Transformers and Machines",
+                "topics": [
+                    "Construction and working of single-phase transformer",
+                    "DC machines: types and characteristics",
+                    "Induction motors: principle and applications"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Basic Electrical Engineering",
+                "authors": "D.P. Kothari and I.J. Nagrath"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Fundamentals of Electrical Engineering",
+                "authors": "Rajendra Prasad"
+            },
+            {
+                "id": 2,
+                "title": "Basic Electrical Engineering",
+                "authors": "V.N. Mittle and Arvind Mittal"
+            }
+        ],
+        "outcomes": [
+            "Understand the fundamentals of electrical circuits.",
+            "Analyze DC and AC circuits using network theorems.",
+            "Comprehend working principles of electrical machines and transformers."
+        ]
+    },
+    {
+        "code": "EC-101",
+        "title": "Basic Electronics Engineering",
+        "credits": {
+            "c": 2,
+            "l": 2,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Semiconductor Physics and Devices",
+                "topics": [
+                    "PN junction diode characteristics",
+                    "Zener diode",
+                    "Bipolar junction transistor (BJT)",
+                    "Field effect transistor (FET)"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Electronic Circuits",
+                "topics": [
+                    "Rectifiers and power supplies",
+                    "Clipping and clamping circuits",
+                    "Amplifiers: common emitter and common source configurations"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Digital Electronics",
+                "topics": [
+                    "Number systems and codes",
+                    "Logic gates and Boolean algebra",
+                    "Combinational logic circuits"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Basic Electronics",
+                "authors": "B.L. Theraja"
+            },
+            {
+                "id": 2,
+                "title": "Electronic Devices and Circuits",
+                "authors": "Boylestad and Nashelsky"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Fundamentals of Electronics",
+                "authors": "J.B. Gupta"
+            }
+        ],
+        "outcomes": [
+            "Understand the behavior of semiconductor devices.",
+            "Analyze basic analog and digital circuits.",
+            "Apply electronics knowledge in electrical and computer applications."
+        ]
+    },
+    {
+        "code": "EN-101",
+        "title": "Energy, Environment and Life Science",
+        "credits": {
+            "c": 2,
+            "l": 2,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Environment",
+                "topics": [
+                    "Multidisciplinary nature of environmental studies",
+                    "Scope and importance",
+                    "Ecosystem structure and function",
+                    "Food chains and ecological pyramids"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Natural Resources and Biodiversity",
+                "topics": [
+                    "Forest, water, mineral and energy resources",
+                    "Biodiversity levels and conservation strategies"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Environmental Pollution",
+                "topics": [
+                    "Air, water, soil and noise pollution",
+                    "Nuclear hazards and solid waste management"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Sustainable Development and Climate Change",
+                "topics": [
+                    "Sustainability concepts",
+                    "Climate change causes and impacts",
+                    "Carbon footprint and global efforts"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Environmental Studies",
+                "authors": "Erach Bharucha"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Principles of Environmental Science and Engineering",
+                "authors": "P. Venugopala Rao"
+            }
+        ],
+        "outcomes": [
+            "Understand ecosystem dynamics and biodiversity.",
+            "Assess resource utilization and pollution impact.",
+            "Apply sustainable practices for environment protection."
+        ]
+    },
+    {
+        "code": "MB-101",
+        "title": "Entrepreneurship and Marketing Dynamics",
+        "credits": {
+            "c": 1,
+            "l": 1,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Entrepreneurial Mindset",
+                "topics": [
+                    "Traits of entrepreneurs",
+                    "Design thinking",
+                    "Idea validation"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Business Models and Planning",
+                "topics": [
+                    "Lean startup methodology",
+                    "Revenue models",
+                    "Pitch decks"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Marketing Fundamentals",
+                "topics": [
+                    "4 Ps of marketing",
+                    "Consumer behavior",
+                    "Digital marketing basics"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Startup Ecosystem",
+                "topics": [
+                    "Incubators and accelerators",
+                    "IPR and funding",
+                    "Government schemes"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Entrepreneurship",
+                "authors": "Robert D. Hisrich"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Marketing Management",
+                "authors": "Philip Kotler"
+            }
+        ],
+        "outcomes": [
+            "Develop entrepreneurial skills and business acumen.",
+            "Understand marketing strategies and customer engagement.",
+            "Gain exposure to the startup ecosystem."
+        ]
+    },
+    {
+        "code": "EE-102",
+        "title": "Electrical & Electronics Engineering Lab",
+        "credits": {
+            "c": 1,
+            "l": 0,
+            "t": 0,
+            "p": 2
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Experiments",
+                "topics": [
+                    "Verification of Ohm's Law and Kirchhoff's Laws",
+                    "RLC series and parallel circuits",
+                    "Operation of single-phase transformer",
+                    "PN junction diode characteristics",
+                    "Half-wave and full-wave rectifiers",
+                    "BJT characteristics and biasing",
+                    "Logic gate verification and combinational circuits"
+                ]
+            }
+        ],
+        "textbooks": [],
+        "refbooks": [],
+        "outcomes": [
+            "Perform basic electrical and electronics experiments.",
+            "Interpret results using standard methods.",
+            "Understand the characteristics of electrical/electronic components."
+        ]
+    },
+    {
+        "code": "CY-101",
+        "title": "Engineering Chemistry",
+        "credits": {
+            "c": 3,
+            "l": 3,
+            "t": 0,
+            "p": 0
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Atomic and Molecular Structure",
+                "topics": [
+                    "Schrodinger equation for hydrogen atom",
+                    "Atomic orbitals, quantum numbers",
+                    "Molecular orbitals of homonuclear diatomic molecules"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Intermolecular Forces and Potential Energy Surfaces",
+                "topics": [
+                    "Ionic, dipolar and van der Waals interactions",
+                    "Hydrogen bonding",
+                    "Potential energy surfaces"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Stereochemistry and Reaction Mechanisms",
+                "topics": [
+                    "Isomerism types",
+                    "Reaction intermediates",
+                    "SN1, SN2, E1, E2 mechanisms"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Phase Rule and Spectroscopy",
+                "topics": [
+                    "Phase rule and phase diagrams",
+                    "Beer–Lambert’s law",
+                    "UV-visible, IR, and NMR spectroscopy"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Polymers and Corrosion",
+                "topics": [
+                    "Types of polymers",
+                    "Polymerization methods",
+                    "Corrosion types and prevention"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Engineering Chemistry",
+                "authors": "P.C. Jain and Monica Jain"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Organic Chemistry",
+                "authors": "Morrison and Boyd"
+            },
+            {
+                "id": 2,
+                "title": "Physical Chemistry",
+                "authors": "Atkins and Paula"
+            }
+        ],
+        "outcomes": [
+            "Understand atomic structure and chemical bonding.",
+            "Interpret molecular interactions and spectroscopy data.",
+            "Apply principles of stereochemistry and phase equilibria.",
+            "Analyze polymer chemistry and corrosion mechanisms."
+        ]
+    },
+    {
+        "code": "CY-102",
+        "title": "Engineering Chemistry Lab",
+        "credits": {
+            "c": 1,
+            "l": 0,
+            "t": 0,
+            "p": 2
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Experiments",
+                "topics": [
+                    "Determination of water hardness",
+                    "Conductometric titrations",
+                    "pH-metric acid-base titrations",
+                    "Viscosity and surface tension measurements",
+                    "Spectrophotometric analysis",
+                    "Synthesis of polymers",
+                    "Estimation of metals via complexometry"
+                ]
+            }
+        ],
+        "textbooks": [],
+        "refbooks": [],
+        "outcomes": [
+            "Develop experimental skills in basic chemistry.",
+            "Analyze and interpret chemical data.",
+            "Perform accurate and safe laboratory practices."
+        ]
+    },
+    {
+        "code": "CE-101",
+        "title": "Engineering Graphics",
+        "credits": {
+            "c": 2,
+            "l": 1,
+            "t": 0,
+            "p": 2
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Introduction to Engineering Drawing",
+                "topics": [
+                    "Drawing instruments and their uses",
+                    "Lettering and dimensioning",
+                    "Geometric constructions"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Orthographic Projections",
+                "topics": [
+                    "Principles of orthographic projection",
+                    "Projections of points and lines",
+                    "Projections of planes and solids"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Isometric and Perspective Projections",
+                "topics": [
+                    "Isometric scale and views",
+                    "Isometric projections of simple solids",
+                    "Perspective views"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Sectioning and Development",
+                "topics": [
+                    "Sectional views of solids",
+                    "True shape of section",
+                    "Development of lateral surfaces"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Engineering Drawing",
+                "authors": "N.D. Bhatt"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Engineering Drawing and Graphics",
+                "authors": "K.L. Narayana and P. Kanniah"
+            }
+        ],
+        "outcomes": [
+            "Understand basic principles of engineering graphics.",
+            "Draw orthographic and isometric views of objects.",
+            "Visualize objects in 2D and 3D projections.",
+            "Interpret and create technical drawings for engineering use."
+        ]
+    },
+    {
+        "code": "ME-102",
+        "title": "Engineering Workshop Practice",
+        "credits": {
+            "c": 2,
+            "l": 1,
+            "t": 0,
+            "p": 2
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Fitting Shop",
+                "topics": [
+                    "Introduction to hand tools",
+                    "Filing, sawing, marking and fitting practice"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Carpentry Shop",
+                "topics": [
+                    "Use of carpentry tools",
+                    "Making joints like dovetail, lap and mortise-tenon"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Welding Shop",
+                "topics": [
+                    "Gas and arc welding processes",
+                    "Simple weld joints and bead formation"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Sheet Metal and Smithy",
+                "topics": [
+                    "Sheet cutting and bending",
+                    "Simple shapes using mallets and stakes",
+                    "Smithy operations using hammering and forming"
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Machine Shop Introduction",
+                "topics": [
+                    "Demonstration of lathe, drilling, shaping machines",
+                    "Basic turning operation demonstration"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "Workshop Technology Vol. 1",
+                "authors": "S.K. Hajra Choudhury"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Elements of Workshop Technology Vol. 1",
+                "authors": "R.S. Khurmi and J.K. Gupta"
+            }
+        ],
+        "outcomes": [
+            "Identify and use various workshop tools and machines.",
+            "Perform fitting, carpentry, welding, and sheet metal operations.",
+            "Understand the basic manufacturing processes through hands-on practice."
+        ]
+    },
+    {
+        "code": "HS-102",
+        "title": "Communication Skills Lab",
+        "credits": {
+            "c": 1,
+            "l": 0,
+            "t": 0,
+            "p": 2
+        },
+        "semesters": [
+            1,
+            2
+        ],
+        "branches": [
+            "cs",
+            "ma",
+            "ec",
+            "ee",
+            "me",
+            "ce",
+            "ch",
+            "ms",
+            "ph"
+        ],
+        "units": [
+            {
+                "id": 1,
+                "title": "Listening and Speaking Practice",
+                "topics": [
+                    "Listening to audio and video materials for comprehension",
+                    "Phonetics and pronunciation practice",
+                    "Oral presentations",
+                    "Group discussions and debates",
+                    "Interview practice sessions"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Reading and Writing Activities",
+                "topics": [
+                    "Reading comprehension exercises",
+                    "Summarizing and paraphrasing",
+                    "Writing emails and short messages",
+                    "Note-taking and report writing"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Language Lab Activities",
+                "topics": [
+                    "Pronunciation drills using software tools",
+                    "Accent neutralization exercises",
+                    "Listening to model conversations",
+                    "Role-plays and situational dialogues"
+                ]
+            }
+        ],
+        "textbooks": [
+            {
+                "id": 1,
+                "title": "English Language Communication Skills Lab Manual",
+                "authors": "Board of Editors, Pearson Education"
+            }
+        ],
+        "refbooks": [
+            {
+                "id": 1,
+                "title": "Cambridge English Pronouncing Dictionary",
+                "authors": "Daniel Jones"
+            }
+        ],
+        "outcomes": [
+            "Improve English pronunciation, fluency, and clarity.",
+            "Participate effectively in group discussions and interviews.",
+            "Enhance reading and writing skills in a professional context.",
+            "Use language lab tools to develop communication competence."
+        ]
+    }
+]

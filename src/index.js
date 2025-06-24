@@ -39,7 +39,19 @@ const theme = createTheme({
   shape: {
     borderRadius: 8,
   },
-
+  transitions: {
+    easing: {
+      easeOut: 'cubic-bezier(0.190, 1.000, 0.220, 1.000)',
+      // easeIn: 'cubic-bezier(0.950, 0.050, 0.795, 0.035)',
+      // easeInOut: 'cubic-bezier(1.000, 0.000, 0.000, 1.000)',
+    },
+    // duration: {
+    //   standard: 1000,
+    //   shortest: 300,
+    //   shorter: 400,
+    //   short: 500,
+    // }
+  },
 
 });
 

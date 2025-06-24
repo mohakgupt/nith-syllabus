@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function DataCard(props) {
-  const { C, L, T, P } = props.credits;
+  const { c } = props.credits;
   const [cardata, setCardata] = useState(
     <div style={{ height: 120, width: 178 }}></div>
   );
@@ -16,7 +16,7 @@ export default function DataCard(props) {
       props.title && (
         <Link
           className="push-container"
-          to={`/sub/${props.id}`}
+          to={`/${props.code.toLowerCase()}`}
           style={{ textDecoration: "none" }}
         >
           <Card
@@ -39,6 +39,18 @@ export default function DataCard(props) {
             <CardActionArea>
               <CardContent sx={{ p: 1 }}>
                 <Typography
+                  component="div"
+                  sx={{
+                    fontSize: 16,
+                    // color: "#424242",
+                    height: "5em",
+                    overflow: "hidden",
+                    fontFamily: '"PT Serif", serif'
+                  }}
+                >
+                  {props.title}
+                </Typography>
+                <Typography
                   sx={{
                     fontSize: 10,
                     padding: "1px 4px 0px 4px",
@@ -54,20 +66,10 @@ export default function DataCard(props) {
                 >
                   {props.code.toUpperCase()}
                 </Typography>
-                <Typography
-                  component="div"
-                  sx={{
-                    fontSize: 16,
-                    // color: "#424242",
-                    height: "3.9em",
-                    overflow: "hidden",
-                  }}
-                >
-                  {props.title.toUpperCase()}
-                </Typography>
-                <Typography variant="body2" sx={{ fontSize: 10, mt: 1 }}>
-                  {`${C} credits (`}
-                  {P ? `${P}P)` : `${L}L+${T}T)`}
+                <Typography variant="body2" sx={{ fontSize: 10, mx: 1, mt: 1, display: 'inline-block', color: 'gray' }}>•</Typography>
+                <Typography variant="body2" sx={{ fontSize: 10, mt: 1, display: 'inline-block' }}>
+                  {`${c} credits`}
+                  {/* {p ? `${p}P)` : `${l}L+${t}T)`} */}
                 </Typography>
               </CardContent>
             </CardActionArea>
