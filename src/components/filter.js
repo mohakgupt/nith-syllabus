@@ -5,17 +5,17 @@ import { TextField, Typography } from '@mui/material';
 
 const branches = [
   {
-    name: "All Branches",
+    name: "All",
     code: "al"
   },
   {
     name: "Civil",
     code: "ce"
   },
-  // {
-  //     name: "Chemical",
-  //     code: "ch"
-  // },
+  {
+    name: "Chemical",
+    code: "ch"
+  },
   {
     name: "Computer Science",
     code: "cs"
@@ -28,45 +28,60 @@ const branches = [
     name: "Electronics and Communication",
     code: "ec"
   },
-  // {
-  //     name: "Engineering Physics",
-  //     code: "ph"
-  // },
-  // {
-  //     name: "Material Science",
-  //     code: "ms"
-  // },
+  {
+    name: "Engineering Physics",
+    code: "ph"
+  },
+  {
+    name: "Material Science",
+    code: "ms"
+  },
   {
     name: "Mathematics and Computing",
     code: "ma"
   },
-  // {
-  //     name: "Mechanical",
-  //     code: "me"
-  // }
+  {
+    name: "Mechanical",
+    code: "me"
+  }
 ];
 
-const years = [
+const semesters = [
   {
-    name: "All Years",
+    name: "All",
     code: 'al'
   },
   {
-    name: "I Year",
-    code: "1"
+    name: "1",
+    code: 1
   },
   {
-    name: "II Year",
-    code: "2"
-  },
-  {
-    name: "III Year",
-    code: "3"
+    name: "2",
+    code: 2
   },
   // {
-  //     name: "IV Year",
+  //   name: "3",
+  //   code: "3"
+  // },
+  // {
+  //     name: "IV Semester",
   //     code: "4"
   // },
+]
+
+const type = [
+  {
+    name: 'All',
+    code: 'al'
+  },
+  {
+    name: 'Theory',
+    code: 'th'
+  },
+  {
+    name: 'Lab',
+    code: 'lb'
+  }
 ]
 
 
@@ -75,18 +90,22 @@ export default function Filter(props) {
   const branchChange = (event) => {
     props.setBranch(event.target.value);
   };
-  const yearChange = (event) => {
-    props.setYear(event.target.value);
+  const semesterChange = (event) => {
+    props.setSemester(event.target.value);
   };
+  const typeChange = (event) => {
+    props.setType(event.target.value);
+  }
 
   return (
     <div style={{ margin: "1em auto", textAlign: 'center' }}>
-      <Typography sx={{ fontSize: 12, display: 'inline-block', mt: 0.5, mr: 1 }}>Filter by:</Typography>
+      {/* <Typography sx={{ fontSize: 12, display: 'inline-block', mt: 0.5, mr: 2, fontWeight: 'bold', color: 'gray' }}>Filters</Typography> */}
+      <Typography sx={{ fontSize: 12, display: 'inline-block', mt: 0.5, mr: 1, color: 'gray' }}>Branch:</Typography>
       {/* <FormControl sx={{ m: 1, width: 300, mt: 3 }} size="small"> */}
       <TextField
         sx={{
           "& .MuiInputBase-root": {
-            height: 25, fontSize: 12, width: 115, mr: 1
+            height: 25, fontSize: 12, mr: 2
           }
         }}
         select
@@ -104,25 +123,49 @@ export default function Filter(props) {
           </MenuItem>
         ))}
       </TextField>
+      <Typography sx={{ fontSize: 12, display: 'inline-block', mt: 0.5, mr: 1, color: 'gray' }}>Semester:</Typography>
       <TextField
         style={{ padding: 0 }}
         sx={{
           "& .MuiInputBase-root": {
-            height: 25, fontSize: 12, width: 95
+            height: 25, fontSize: 12, mr: 2
           }
         }}
         select
         // size='small'
-        value={props.year}
-        onChange={yearChange}
+        value={props.semester}
+        onChange={semesterChange}
       >
-        {years.map((yr) => (
+        {semesters.map((yr) => (
           <MenuItem
             key={yr.code}
             value={yr.code}
             style={{ fontWeight: 'regular' }}
           >
             {yr.name}
+          </MenuItem>
+        ))}
+      </TextField>
+      <Typography sx={{ fontSize: 12, display: 'inline-block', mt: 0.5, mr: 1, color: 'gray' }}>Type:</Typography>
+      <TextField
+        style={{ padding: 0 }}
+        sx={{
+          "& .MuiInputBase-root": {
+            height: 25, fontSize: 12
+          }
+        }}
+        select
+        // size='small'
+        value={props.type}
+        onChange={typeChange}
+      >
+        {type.map((ty) => (
+          <MenuItem
+            key={ty.code}
+            value={ty.code}
+            style={{ fontWeight: 'regular' }}
+          >
+            {ty.name}
           </MenuItem>
         ))}
       </TextField>

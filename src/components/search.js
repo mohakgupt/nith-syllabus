@@ -9,7 +9,7 @@ import { Box } from '@mui/material';
 export default function SearchBox(props) {
 
   return (
-    <Box sx={{ width: '100%', mt: 4 }}>
+    <Box sx={{ width: '100%', mt: 4 }} >
       <Paper
         component="form"
         sx={{ m: '0 auto', p: '2px 4px', display: 'flex', alignItems: 'center', minWidth: 300, width: '50%', borderRadius: 10, pl: 2, pr: 2, zIndex: 4 }}

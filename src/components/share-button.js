@@ -8,7 +8,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 
 export default function ShareButton(props) {
-  const [name, setName] = useState("Shared Todo List");
+  const [name, setName] = useState("My Todo List");
   const [open, setOpen] = useState(false);
   const [disabled, setDisabled] = useState(false);
   const handleClose = () => {
@@ -66,6 +66,7 @@ export default function ShareButton(props) {
           aria-label="todo-list"
           sx={{ position: 'fixed', right: '2em', bottom: '2em' }}
           onClick={() => { setOpen(true) }}
+          className='push-container'
         >
           <ShareIcon />
         </Fab></Zoom>
@@ -76,7 +77,7 @@ export default function ShareButton(props) {
         aria-describedby="alert-dialog-description"
       >
         <DialogTitle id="alert-dialog-title">
-          {"Name your list"}
+          {"Share"}
         </DialogTitle>
         <DialogContent>
           <TextField value={name} onChange={(e) => { setName(e.target.value) }} sx={{ mt: 1 }} id="outlined-basic" label="Enter a name" variant="outlined" />

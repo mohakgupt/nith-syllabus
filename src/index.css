@@ -16,7 +16,7 @@ body{
 }
 #root{
   position: relative;
-  min-height: 89vh;
+  min-height: 100vh;
 }
 /* body::-webkit-scrollbar{
   display: none;
@@ -43,12 +43,12 @@ body{
   /* backdrop-filter: blur(3px); */
 /* } */
 .push-container{
-  animation: move 0.25s ease-out;
+  animation: move 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
 }
 
 @keyframes move {
   from{
     opacity: 0;
-    transform: translateY(1em);
+    transform: translateY(5em);
   }
 }
