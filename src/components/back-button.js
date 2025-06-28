@@ -1,5 +1,5 @@
 import HomeIcon from '@mui/icons-material/Home';
-import { Fab, Zoom } from '@mui/material';
+import { Fab } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 export default function HomeButton() {
