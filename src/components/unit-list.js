@@ -56,7 +56,7 @@ export default function UnitList(props) {
                     <Typography sx={{ textAlign: 'center', mt: '30vh', color: 'gray' }}>Add subjects here by clicking the "+" icon and share it with your friends!</Typography>
                     : */}
                 <Typography sx={{ m: 1, fontSize: 'larger', textAlign: 'center', width: '100%' }} className='push-container'>
-                    📑UNITS
+                    📑Units
                 </Typography>
                 <Alert severity="info" sx={{ width: '100%', my: 2 }} className='push-container'>
                     Before an exam, always confirm the final syllabus with your professor.
@@ -77,7 +77,7 @@ export default function UnitList(props) {
                     <Typography sx={{ textAlign: 'center', mt: '30vh', color: 'gray' }}>Add subjects here by clicking the "+" icon and share it with your friends!</Typography>
                     : */}
                 <Typography sx={{ m: 1, fontSize: 'larger', textAlign: 'center', width: '100%' }}>
-                    📔TEXTBOOKS
+                    📔Textbooks
                 </Typography>
                 <List sx={{ p: 0, width: '100%' }}>
                     {subject.textbooks.map((book, i) => {
@@ -103,7 +103,7 @@ export default function UnitList(props) {
                     <Typography sx={{ textAlign: 'center', mt: '30vh', color: 'gray' }}>Add subjects here by clicking the "+" icon and share it with your friends!</Typography>
                     : */}
                 <Typography sx={{ m: 1, fontSize: 'larger', textAlign: 'center', width: '100%' }}>
-                    📚 REFERENCE BOOKS
+                    📚 Reference Books
                 </Typography>
                 <List sx={{ p: 0, width: '100%' }}>
                     {subject.refbooks.map((book, i) => {

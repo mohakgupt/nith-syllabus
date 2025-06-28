@@ -47,7 +47,7 @@ export default function UnitCard(props) {
             {(num && num !== 20) ? `${num}` : <BookIcon sx={{ mt: '5px' }} />}
           </Typography>
 
-          <Typography component={"span"} sx={{ flexGrow: 1, fontFamily: '"PT Serif", serif', ml: 2, my: 'auto', fontWeight: 'bold', fontSize: 'large' }}  >
+          <Typography component={"span"} sx={{ flexGrow: 1, ml: 2, my: 'auto', fontWeight: 'bold', fontSize: 'large' }}  >
             {title}
           </Typography>
 

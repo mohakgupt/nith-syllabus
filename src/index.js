@@ -28,9 +28,9 @@ const theme = createTheme({
     }
   },
   typography: {
-    // fontFamily: ['"PT Serif"', 'serif'].join(","),
+    fontFamily: ['"Funnel Display"', 'sans-serif'].join(","),
     h2: {
-      fontFamily: ['"Roboto"', 'serif'].join(","),
+      // fontFamily: ['"Roboto"', 'serif'].join(","),
       // fontWeight: 700,
       // fontSize: "2rem",
       // lineHeight: 1.5,
@@ -52,7 +52,16 @@ const theme = createTheme({
     //   short: 500,
     // }
   },
-
+  components: {
+    MuiListItemText: {
+      styleOverrides: {
+        primary: {
+          fontFamily: ['"PT Serif"', 'serif'].join(', '),
+          fontSize: 16
+        }
+      }
+    }
+  }
 });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

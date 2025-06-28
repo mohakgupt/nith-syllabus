@@ -45,7 +45,6 @@ export default function DataCard(props) {
                     // color: "#424242",
                     height: "5em",
                     overflow: "hidden",
-                    fontFamily: '"PT Serif", serif'
                   }}
                 >
                   {props.title}

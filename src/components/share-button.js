@@ -9,6 +9,8 @@ import DialogTitle from '@mui/material/DialogTitle';
 
 export default function ShareButton(props) {
   const [name, setName] = useState("My Todo List");
+  const [curator, setCurator] = useState("");
+  const [description, setDescription] = useState("");
   const [open, setOpen] = useState(false);
   const [disabled, setDisabled] = useState(false);
   const handleClose = () => {
@@ -17,7 +19,19 @@ export default function ShareButton(props) {
   const share = async () => {
     setDisabled(true);
     const encodedParams = new URLSearchParams();
-    const url = `https://nithsyllabus.netlify.app/list/${name.replaceAll(" ", "*!")}/${JSON.stringify(props.keys).replaceAll("[", "b").replaceAll("]", "c").replaceAll('"', "q").replaceAll(",", "e").replaceAll("ceq", "i")}`
+    // const url = `https://nithsyllabus.netlify.app/list/${name.replaceAll(" ", "*!")}/${JSON.stringify(props.keys).replaceAll("[", "b").replaceAll("]", "c").replaceAll('"', "q").replaceAll(",", "e").replaceAll("ceq", "i")}`
+    const url = new URL("https://nithsyllabus.netlify.app/list");
+    url.searchParams.append("keys", JSON.stringify(props.keys).replaceAll("[", "ab").replaceAll("]", "cd").replaceAll('"', "ef").replaceAll(",", "gh").replaceAll("ceq", "ij"))
+    if (name) {
+      url.searchParams.append("name", name);
+    }
+    if (curator) {
+      url.searchParams.append("curator", curator);
+    }
+    if (description) {
+      url.searchParams.append("description", description);
+    }
+
     encodedParams.append("url", url);
     if (url.length < 69) {
       navigator.share({
@@ -60,16 +74,17 @@ export default function ShareButton(props) {
   }
   return (Object.keys(props.keys).length ?
     <>
-      <Zoom in={true} timeout={100} unmountOnExit>
-        <Fab
-          color="primary"
-          aria-label="todo-list"
-          sx={{ position: 'fixed', right: '2em', bottom: '2em' }}
-          onClick={() => { setOpen(true) }}
-          className='push-container'
-        >
-          <ShareIcon />
-        </Fab></Zoom>
+      {/* <Zoom in={true} timeout={100} unmountOnExit> */}
+      <Fab
+        color="primary"
+        aria-label="todo-list"
+        sx={{ position: 'fixed', right: '2em', bottom: '2em' }}
+        onClick={() => { setOpen(true) }}
+        className='push-container'
+      >
+        <ShareIcon />
+      </Fab>
+      {/* </Zoom> */}
       <Dialog
         open={open}
         onClose={handleClose}
@@ -80,7 +95,9 @@ export default function ShareButton(props) {
           {"Share"}
         </DialogTitle>
         <DialogContent>
-          <TextField value={name} onChange={(e) => { setName(e.target.value) }} sx={{ mt: 1 }} id="outlined-basic" label="Enter a name" variant="outlined" />
+          <TextField fullWidth value={name} onChange={(e) => { setName(e.target.value) }} sx={{ my: 1 }} id="outlined-basic" label="Title" variant="outlined" required />
+          <TextField fullWidth value={curator} onChange={(e) => { setCurator(e.target.value) }} sx={{ my: 1 }} id="outlined-basic" label="Curator Name" variant="outlined" />
+          <TextField multiline fullWidth rows={4} value={description} onChange={(e) => { setDescription(e.target.value) }} sx={{ my: 1 }} id="outlined-basic" label="Description" variant="outlined" />
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>

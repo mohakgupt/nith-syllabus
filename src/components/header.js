@@ -39,7 +39,7 @@ export default function Header() {
                     SYLLABUS
                 </Typography>
             </Box>
-            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" sx={{ ml: 'auto', mr: { xs: 'auto', sm: '10%' } }} role="navigation">
+            <Tabs value={value} onChange={handleChange} aria-label="navigation" sx={{ ml: 'auto', mr: { xs: 'auto', sm: '10%' } }} role="navigation">
                 <LinkTab label="Home" icon={<HomeIcon />} to="/" />
                 <LinkTab label="ToDo" icon={<ChecklistIcon />} to="/todolist" />
             </Tabs>

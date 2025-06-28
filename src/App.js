@@ -117,7 +117,7 @@ export default function App() {
           }
         ></Route>
         <Route
-          path="/list/:name/:keys"
+          path="/list"
           element={<SharedTodoList data={Data} />}
         ></Route>
         <Route path='*' element={<NotFound />} />

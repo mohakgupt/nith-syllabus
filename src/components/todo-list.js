@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function TodoList(props) {
     const keys = props.keys;
-    document.title = "Todo List"
+    document.title = "Todo List - NIT Hamirpur Syllabus"
     const subjects = props.data.filter((val) => {
         return Object.keys(keys).includes(val.code.toLowerCase());
     })
